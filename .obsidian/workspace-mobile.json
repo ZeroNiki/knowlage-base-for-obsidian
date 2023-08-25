@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "52997a29f671074a",
+    "type": "split",
+    "children": [
+      {
+        "id": "97349fcaf767099f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b342a367474ef1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ООП/ООП в python.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0944c06ee3219ba",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "89b80c18f4b95964",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "6df3165c95648b18",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "3f0d4ddcf6826277",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "1edab28948fee159",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "1eb7179c878d80b3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2e61be6889c63bdf",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "ООП/ООП в python.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e49cae51615d3d9f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "ООП/ООП в python.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e77380b500e9ad4a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "ООП/ООП в python.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "89b80c18f4b95964",
+  "lastOpenFiles": [
+    "Методы/Простые методы/Рекурсия.md",
+    "ООП/ООП в python.md"
+  ]
+}
