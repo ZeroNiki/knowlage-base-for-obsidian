@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ef76579f974fc58f",
+        "id": "afd7dc6ae03f0cbd",
         "type": "tabs",
         "children": [
           {
-            "id": "0b9477901f1dd02f",
+            "id": "5d50b23e5c91ebfc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ToDo/ToDo computer science.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ToDo/ToDo computer science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ToDo/ToDo computer science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ToDo/ToDo computer science.md"
+              }
             }
           }
         ]
@@ -138,12 +146,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b9477901f1dd02f",
+  "active": "5d50b23e5c91ebfc",
   "lastOpenFiles": [
+    "ToDo/ToDo junior backend dev.md",
+    "ToDo/ToDo computer science.md",
+    "Сети/WEB сайт И WEB приложение.md",
+    "Сети/TCP IP сети.md",
+    "Сети/MAC адрес.md",
+    "Сети/Сетивые стандарты и документация.md",
+    "Сети/OSI model.md",
+    "IMG/Pasted image 20231109150445.png",
+    "Сети/Протокол передачи данных.md",
+    "Сети/Сетевое обрудование.md",
+    "Сети/IPv4 IPv6.md",
+    "ЯП/ООП/ООП в python.md",
+    "IMG/Pasted image 20231107125114.png",
+    "Сети",
+    "ToDo/ToDo system programmer.md",
+    "ToDo/Rust ToDo.md",
+    "ToDo",
     "README.md",
-    "ToDo computer science.md",
-    "ToDo junior backend dev.md",
-    "ToDo system programmer.md",
     "Симантика.md",
     "OC (Unix Linux)/Файловая система Linux.md",
     "OC (Unix Linux)/Упровление процессами.md",
@@ -156,7 +178,6 @@
     "Структуры данных/АТД.md",
     "IMG/Pasted image 20231017143033.png",
     "ЯП/Процедурное программирование/Процедурное программирования.md",
-    "ЯП/ООП/ООП в python.md",
     "ЯП/Парадигмы.md",
     "ЯП/ООП/ООП.md",
     "OC (Unix Linux)/Права суперпользователя.md",
@@ -164,27 +185,14 @@
     "IMG/Pasted image 20231010140917.png",
     "IMG/Pasted image 20231010140639.png",
     "Структуры данных/Хэш-Таблицы и Хэш-функции.md",
-    "IMG/Pasted image 20231007144739.png",
     "Трансляторы/Интерпретаторы.md",
-    "Трансляторы/Компиляторы.md",
-    "Трансляторы/Гибридная трансляция.md",
-    "Шпаргалки.md",
     "OC (Unix Linux)",
-    "ЯП/Теория языко п.md",
-    "ЯП/Типизация.md",
-    "ЯП/Получение программы.md",
-    "ЯП/Синтаксис.md",
-    "ЯП/высокоуровневые и низкоуровневые языки.md",
-    "ЯП/Функциональное программирование/Функциональное программирование.md",
     "ЯП/Функциональное программирование",
     "ЯП/Процедурное программирование",
     "Трансляторы",
     "ЯП",
     "БАЗА/ЯП",
     "БАЗА",
-    "IMG/image.UJ3T91.png",
-    "IMG",
-    "big(O)/Сложности",
-    "Алгоритмы/Задачи"
+    "IMG"
   ]
 }
