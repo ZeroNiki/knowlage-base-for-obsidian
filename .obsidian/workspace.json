@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "afd7dc6ae03f0cbd",
+        "id": "c4d12d50feafedaa",
         "type": "tabs",
         "children": [
           {
-            "id": "5d50b23e5c91ebfc",
+            "id": "5daebfc8df9ccddf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToDo/ToDo computer science.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToDo/ToDo computer science.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ToDo/ToDo computer science.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToDo/ToDo computer science.md"
+                "file": "Home.md"
               }
             }
           }
@@ -138,61 +138,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "homepage:Open homepage": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d50b23e5c91ebfc",
+  "active": "5daebfc8df9ccddf",
   "lastOpenFiles": [
-    "ToDo/ToDo junior backend dev.md",
-    "ToDo/ToDo computer science.md",
-    "Сети/WEB сайт И WEB приложение.md",
-    "Сети/TCP IP сети.md",
-    "Сети/MAC адрес.md",
-    "Сети/Сетивые стандарты и документация.md",
-    "Сети/OSI model.md",
+    "Симантика.md",
+    "Home.md",
+    "Полезно знать/Как устроен Torrent.md",
+    "My Computer Since canvas.canvas",
+    "Сети/DHCP.md",
+    "ЯП/Функциональное программирование/Функциональное программирование.md",
+    "Полезно знать/Теория вероятности.md",
+    "Docker/Untitled 3.md",
+    "Операционные системы/Файловые системы/F2FS(Flash).md",
+    "Операционные системы/Файловые системы/btrfs(Linux).md",
+    "Операционные системы/Файловые системы/Сравнение.md",
+    "Операционные системы/Файловые системы/Файловая система.md",
+    "Операционные системы/Файловые системы/ZFS(Linux).md",
+    "Операционные системы/Файловые системы/XFS(Linux).md",
+    "Операционные системы/Файловые системы/NTFS(Windows).md",
+    "Операционные системы/Файловые системы/FAT32.md",
+    "Операционные системы/Файловые системы/ext-4(Linux).md",
+    "Операционные системы/Linux/Файловые системы",
+    "Операционные системы/Linux/Untitled.md",
+    "Операционные системы/Файловые системы",
+    "Операционные системы/Untitled.md",
+    "2023-12-14.md",
+    "Структура компьютера/Как работать с битами.sync-conflict-20231212-160855-ZCXXYNL.md",
+    "IMG/Pasted image 20231212160822.png",
+    "Полезно знать",
+    "Структура компьютера/ОЗУ.md",
+    "Структура компьютера/Процессор.md",
+    "Структура компьютера/Кадировка.md",
+    "Структура компьютера/Система счисления.md",
+    "Структура компьютера/Числа с плавающей точкой.md",
+    "Структура компьютера/Кэш процессора.md",
+    "Структура компьютера",
+    "Операционные системы/Linux/Эксплуатация",
+    "Операционные системы/Linux",
+    "Docker",
+    "IMG/home.jpg",
+    "robert-nelson-9H3WouBtk0U-unsplash.jpg",
+    "1610798215732.jpg",
+    "Untitled.canvas",
+    "ЯП/Rust",
+    "Untitled 1.canvas",
+    "IMG/Pasted image 20231116143852.png",
+    "IMG/Pasted image 20231116143456.png",
     "IMG/Pasted image 20231109150445.png",
-    "Сети/Протокол передачи данных.md",
-    "Сети/Сетевое обрудование.md",
-    "Сети/IPv4 IPv6.md",
-    "ЯП/ООП/ООП в python.md",
     "IMG/Pasted image 20231107125114.png",
     "Сети",
-    "ToDo/ToDo system programmer.md",
-    "ToDo/Rust ToDo.md",
     "ToDo",
-    "README.md",
-    "Симантика.md",
-    "OC (Unix Linux)/Файловая система Linux.md",
-    "OC (Unix Linux)/Упровление процессами.md",
-    "OC (Unix Linux)/Загрузка, системные демоны.md",
-    "OC (Unix Linux)/Основы администрирования.md",
     "IMG/Pasted image 20231019135304.png",
-    "IMG/Pasted image 20231019133931.png",
-    "IMG/Pasted image 20231019134034.png",
-    "IMG/Pasted image 20231019134008.png",
-    "Структуры данных/АТД.md",
-    "IMG/Pasted image 20231017143033.png",
-    "ЯП/Процедурное программирование/Процедурное программирования.md",
-    "ЯП/Парадигмы.md",
-    "ЯП/ООП/ООП.md",
-    "OC (Unix Linux)/Права суперпользователя.md",
-    "IMG/Pasted image 20231010143010.png",
-    "IMG/Pasted image 20231010140917.png",
-    "IMG/Pasted image 20231010140639.png",
-    "Структуры данных/Хэш-Таблицы и Хэш-функции.md",
-    "Трансляторы/Интерпретаторы.md",
-    "OC (Unix Linux)",
-    "ЯП/Функциональное программирование",
-    "ЯП/Процедурное программирование",
-    "Трансляторы",
-    "ЯП",
-    "БАЗА/ЯП",
-    "БАЗА",
-    "IMG"
+    "IMG/Pasted image 20231019133931.png"
   ]
 }

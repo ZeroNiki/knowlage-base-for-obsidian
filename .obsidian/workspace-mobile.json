@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "97349fcaf767099f",
+        "id": "2fdd05fbe76e03c2",
         "type": "tabs",
         "children": [
           {
-            "id": "5b342a367474ef1d",
+            "id": "85e1f7e590c2640e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ООП/ООП в python.md",
+                "file": "Операционные системы/Linux/Устоновка ARCH Linux.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ООП/ООП в python.md",
+            "file": "Операционные системы/Linux/Устоновка ARCH Linux.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "ООП/ООП в python.md",
+            "file": "Операционные системы/Linux/Устоновка ARCH Linux.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "ООП/ООП в python.md"
+            "file": "Операционные системы/Linux/Устоновка ARCH Linux.md"
           }
         }
       }
@@ -123,17 +123,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "homepage:Open homepage": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "89b80c18f4b95964",
+  "active": "85e1f7e590c2640e",
   "lastOpenFiles": [
-    "Методы/Простые методы/Рекурсия.md",
-    "ООП/ООП в python.md"
+    "Home.md",
+    "Структура компьютера/Как работать с битами.md",
+    "Структура компьютера/Отрицательные числа.md",
+    "Структура компьютера/Числа с плавающей точкой.md",
+    "Структура компьютера/Система счисления.md",
+    "Структура компьютера/Кадировка.md",
+    "Структура компьютера/Виды компьютерной памяти.md",
+    "ЯП/ООП/ООП.md",
+    "ЯП/Парадигмы.md",
+    "ЯП/Процедурное программирование/Процедурное программирования.md",
+    "My Computer Since canvas.canvas",
+    "Сети/Сетевое обрудование.md",
+    "Сети/Протокол передачи данных.md",
+    "Сети/WEB сайт И WEB приложение.md",
+    "Сети/TLS.md",
+    "Сети/TCP IP сети.md",
+    "Сети/SSL.md",
+    "Сети/Proxy server.md",
+    "Сети/OSI model.md",
+    "Сети/NAT (Network Address Translation).md",
+    "Сети/MAC адрес.md",
+    "Сети/LAN и WLAN VLAN.md",
+    "Сети/IPv4 IPv6.md",
+    "Сети/IP Маршрутизация.md",
+    "Сети/IP.md",
+    "Сети/HTTP И HTTPS.md",
+    "Сети/Ethernet.md"
   ]
 }
