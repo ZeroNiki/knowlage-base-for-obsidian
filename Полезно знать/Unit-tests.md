@@ -1,0 +1,3 @@
+- [Юнит-тестирование для чайников](https://habr.com/ru/articles/169381/)
+- [Про unit-тесты кратко](https://habr.com/ru/articles/760828/)
+- [Юнит-тесты на Python: Быстрый старт](https://habr.com/ru/companies/otus/articles/481806/)

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c4d12d50feafedaa",
+        "id": "e29f1949f49676b1",
         "type": "tabs",
         "children": [
           {
-            "id": "5daebfc8df9ccddf",
+            "id": "a82237473e21279b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "ToDo/Собес.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "f",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "53d17784c2aae329",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "ToDo/Собес.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "ToDo/Собес.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "ToDo/Собес.md"
               }
             }
           }
@@ -138,65 +139,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "5daebfc8df9ccddf",
+  "active": "a82237473e21279b",
   "lastOpenFiles": [
-    "Симантика.md",
     "Home.md",
-    "Полезно знать/Как устроен Torrent.md",
-    "My Computer Since canvas.canvas",
-    "Сети/DHCP.md",
-    "ЯП/Функциональное программирование/Функциональное программирование.md",
-    "Полезно знать/Теория вероятности.md",
-    "Docker/Untitled 3.md",
-    "Операционные системы/Файловые системы/F2FS(Flash).md",
-    "Операционные системы/Файловые системы/btrfs(Linux).md",
-    "Операционные системы/Файловые системы/Сравнение.md",
-    "Операционные системы/Файловые системы/Файловая система.md",
-    "Операционные системы/Файловые системы/ZFS(Linux).md",
-    "Операционные системы/Файловые системы/XFS(Linux).md",
-    "Операционные системы/Файловые системы/NTFS(Windows).md",
-    "Операционные системы/Файловые системы/FAT32.md",
-    "Операционные системы/Файловые системы/ext-4(Linux).md",
-    "Операционные системы/Linux/Файловые системы",
-    "Операционные системы/Linux/Untitled.md",
-    "Операционные системы/Файловые системы",
-    "Операционные системы/Untitled.md",
-    "2023-12-14.md",
-    "Структура компьютера/Как работать с битами.sync-conflict-20231212-160855-ZCXXYNL.md",
-    "IMG/Pasted image 20231212160822.png",
-    "Полезно знать",
-    "Структура компьютера/ОЗУ.md",
-    "Структура компьютера/Процессор.md",
-    "Структура компьютера/Кадировка.md",
-    "Структура компьютера/Система счисления.md",
-    "Структура компьютера/Числа с плавающей точкой.md",
+    "ToDo/Собес.md",
+    "Сети/Rest API.md",
+    "ЯП/С/Адресная арифметика.md",
+    "ToDo/Программирование.md",
+    "ЯП/С/Именованные константы.md",
+    "Структура компьютера/Как работать с битами.md",
     "Структура компьютера/Кэш процессора.md",
-    "Структура компьютера",
-    "Операционные системы/Linux/Эксплуатация",
-    "Операционные системы/Linux",
-    "Docker",
+    "Структура компьютера/ОЗУ.md",
+    "Структура компьютера/Отрицательные числа.md",
+    "Структура компьютера/Процессор.md",
+    "Структура компьютера/Система счисления.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Структура компьютера/Цифровая машина.md",
+    "Структура компьютера/Числа с плавающей точкой.md",
+    "Структура компьютера/Виды компьютерной памяти.md",
+    "Структура компьютера/Кадировка.md",
+    "Структура компьютера/Еденицы измерения.md",
+    "Структура компьютера/Как работать с битами.sync-conflict-20231212-160855-ZCXXYNL.md",
+    "Структура компьютера/Многоуровневые цифровые машины.md",
+    "Методы/Sliding window.md",
+    "ЯП/ООП/ООП в python.md",
+    "ЯП/ООП/ООП.md",
+    "ЯП/Cpp/Побитовые операции.md",
+    "Полезно знать/Теория вероятности.md",
+    "Pasted image 20240829115512.png",
+    "EasyOffer",
+    "IMG/Pasted image 20240816130159.png",
+    "IMG/gruv-material-texture.png",
+    "IMG/Pasted image 20240810134717.png",
+    "IMG/Pasted image 20240805121304.png",
+    "IMG/Pasted image 20240803150232.png",
+    "Операционные системы/Linux/Bash",
+    "IMG/Pasted image 20240730111929.png",
+    "Сети/Web сервера",
+    "Сети/Web сервера/Apache",
+    "Сети/Web сервера/Nginx",
+    "IMG/Pasted image 20240729122035.png",
+    "IMG/Pasted image 20240726132232.png",
+    "Kubernetes",
+    "Сценарии",
+    "ToDo/Tasks",
+    "Habits",
+    "ЯП/С",
+    "My Computer Since canvas.canvas",
     "IMG/home.jpg",
-    "robert-nelson-9H3WouBtk0U-unsplash.jpg",
-    "1610798215732.jpg",
     "Untitled.canvas",
-    "ЯП/Rust",
-    "Untitled 1.canvas",
-    "IMG/Pasted image 20231116143852.png",
-    "IMG/Pasted image 20231116143456.png",
-    "IMG/Pasted image 20231109150445.png",
-    "IMG/Pasted image 20231107125114.png",
-    "Сети",
-    "ToDo",
-    "IMG/Pasted image 20231019135304.png",
-    "IMG/Pasted image 20231019133931.png"
+    "Untitled 1.canvas"
   ]
 }

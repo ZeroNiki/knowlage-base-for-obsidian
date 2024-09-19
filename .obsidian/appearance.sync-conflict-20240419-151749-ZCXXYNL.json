@@ -1,0 +1,10 @@
+{
+  "accentColor": "#35c219",
+  "cssTheme": "Everforest Enchanted",
+  "baseFontSize": 17,
+  "nativeMenus": true,
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength"
+  ]
+}

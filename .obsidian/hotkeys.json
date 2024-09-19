@@ -15,5 +15,13 @@
       ],
       "key": "-"
     }
+  ],
+  "vimium:show-markers": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
   ]
 }

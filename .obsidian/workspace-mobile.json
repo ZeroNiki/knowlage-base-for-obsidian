@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2fdd05fbe76e03c2",
+        "id": "2d5d358e9f2de8ff",
         "type": "tabs",
         "children": [
           {
-            "id": "85e1f7e590c2640e",
+            "id": "926086956b0bc7db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Операционные системы/Linux/Устоновка ARCH Linux.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Операционные системы/Linux/Устоновка ARCH Linux.md",
+            "file": "Home.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Операционные системы/Linux/Устоновка ARCH Linux.md",
+            "file": "Home.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Операционные системы/Linux/Устоновка ARCH Linux.md"
+            "file": "Home.md"
           }
         }
       }
@@ -132,34 +132,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85e1f7e590c2640e",
+  "active": "89b80c18f4b95964",
   "lastOpenFiles": [
     "Home.md",
-    "Структура компьютера/Как работать с битами.md",
-    "Структура компьютера/Отрицательные числа.md",
-    "Структура компьютера/Числа с плавающей точкой.md",
-    "Структура компьютера/Система счисления.md",
-    "Структура компьютера/Кадировка.md",
-    "Структура компьютера/Виды компьютерной памяти.md",
+    "big(O)/Сложности/О(1) Простая сложность.md",
+    "ToDo/Программирование.md",
+    "Операционные системы/Linux/Устоновка ARCH Linux.md",
+    "ToDo/План развития.md",
+    "Операционные системы/Linux/Файловая система Linux.md",
+    "Операционные системы/Файловые системы/btrfs(Linux).md",
+    "Структуры данных/Куча.md",
+    "Структуры данных/Массив.md",
+    "Структуры данных/Очередь.md",
+    "Структуры данных/Стек.md",
+    "Структуры данных/Связные списки.md",
+    "Симантика.md",
+    "Структуры данных/АТД.md",
+    "big(O)/Сложности/Логарифмически линейный.md",
+    "big(O)/Сложности/Логарифмическая сложность - O(log n).md",
+    "Алгоритмы/Двоичный поиск.md",
+    "Алгоритмы/Бинарный поиск.md",
+    "big(O)/Сложности/Квадратичная сложность.md",
+    "big(O)/Сложности/O(n) Линейная сложность.md",
+    "big(O)/BIG(O).md",
+    "Docker/Docker archlinux install.md",
+    "Books/2024/c++ Базовый курс.md",
+    "Tags.md",
     "ЯП/ООП/ООП.md",
-    "ЯП/Парадигмы.md",
-    "ЯП/Процедурное программирование/Процедурное программирования.md",
-    "My Computer Since canvas.canvas",
-    "Сети/Сетевое обрудование.md",
-    "Сети/Протокол передачи данных.md",
-    "Сети/WEB сайт И WEB приложение.md",
-    "Сети/TLS.md",
-    "Сети/TCP IP сети.md",
-    "Сети/SSL.md",
-    "Сети/Proxy server.md",
-    "Сети/OSI model.md",
-    "Сети/NAT (Network Address Translation).md",
-    "Сети/MAC адрес.md",
-    "Сети/LAN и WLAN VLAN.md",
-    "Сети/IPv4 IPv6.md",
-    "Сети/IP Маршрутизация.md",
-    "Сети/IP.md",
-    "Сети/HTTP И HTTPS.md",
-    "Сети/Ethernet.md"
+    "ЯП/Rust/Enums.md",
+    "My Computer Since canvas.canvas"
   ]
 }

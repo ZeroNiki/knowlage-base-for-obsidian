@@ -1,10 +1,12 @@
 {
-  "accentColor": "#35c219",
-  "cssTheme": "Everforest Enchanted",
+  "accentColor": "",
+  "cssTheme": "Obsidian gruvbox",
   "baseFontSize": 17,
   "nativeMenus": true,
   "enabledCssSnippets": [
     "dashboard",
     "dashboard-ReadLineLength"
-  ]
+  ],
+  "textFontFamily": "FreeMono",
+  "interfaceFontFamily": "Nimbus Mono PS"
 }

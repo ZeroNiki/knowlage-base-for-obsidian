@@ -2,5 +2,7 @@
   "livePreview": false,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "vimMode": true,
+  "defaultViewMode": "preview"
 }

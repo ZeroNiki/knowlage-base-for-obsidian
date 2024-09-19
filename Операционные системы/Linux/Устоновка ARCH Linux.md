@@ -136,6 +136,10 @@ git clone https://github.com/ZeroNiki/dwm-dotfiles.git
 
 перед запуском заменим `st` на `alacritty`
 
+#### awesome wm
+```bash
+sudo pacman -S awesome awesome-extra awesome-doc
+```
 
 #### Xorg server
 Добавить в .xinitrc:
@@ -144,7 +148,7 @@ numlockx &
 slstatus &
 setxkbmap -layout us,ru -option "grp:win_space_toggle" &
 nitrogen --set-zoom-fill --random ~/Pictures/Wallpaper/ &
-picom -b --animations --animation-window-mass 0.5 --animation-for-open-window zoom --animation-stiffnes 400 --corner-radius 0 &
+picom --experimental-backends -b --config .config/picom/config.conf &
 exec dwm 
 ```
 

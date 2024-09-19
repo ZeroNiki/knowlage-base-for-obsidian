@@ -21,19 +21,19 @@
 
 ### Исходный код для сортировки выбором:
 ```python
-def selection_sort(alist):
-	for i in range(0, len(alist) - 1):
-		smallest = i
-		
-		for j in range(i + 1, len(alist)):
-			if alist[j] < alist[smallest]:
-				smallest = j
-				
-		alist[i], alist[smallest] = alist[smallest], alist[i]
-			
-alist = input('Enter the list of numbers: ').split()
-alist = [int(x) for x in alist]
-selection_sort(alist)
-print('Sorted list: ', end='')
-print(alist)
+def selection_sort(arr):
+    for i in range(len(arr)):
+        min_ind = i
+        for j in range(i+1, len(arr)):
+            if arr[j] < arr[min_ind]:
+                min_ind = j
+
+            arr[i], arr[min_ind] = arr[min_ind], arr[i]
+
+    return arr
+
+
+
+arr = [2, 5, 4, 3, 1]
+print("Отсортированный массив:", selection_sort(arr))
 ```

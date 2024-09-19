@@ -1,5 +1,5 @@
-- [ ] [Easy Rust book](https://dhghomon.github.io/easy_rust/Chapter_1.html)
-- [ ] [Rust lang book](https://doc.rust-lang.org/book/)
-- [ ] [Exp Rust book](https://rust-book.cs.brown.edu/)
-- [ ] [Rust Language Cheat Sheet](https://cheats.rs/)
-- [ ] [awesome-rust](https://github.com/rust-unofficial/awesome-rust)
+- [x] [Easy Rust book](https://dhghomon.github.io/easy_rust/Chapter_1.html) ✅ 2024-06-20
+- [x] [Rust lang book](https://doc.rust-lang.org/book/) ✅ 2024-06-20
+- [x] [Exp Rust book](https://rust-book.cs.brown.edu/) ✅ 2024-06-20
+- [x] [Rust Language Cheat Sheet](https://cheats.rs/) ✅ 2024-06-20
+- [x] [awesome-rust](https://github.com/rust-unofficial/awesome-rust) ✅ 2024-06-20
