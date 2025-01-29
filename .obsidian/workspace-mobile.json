@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2d5d358e9f2de8ff",
+        "id": "fbb95a5214fbe959",
         "type": "tabs",
         "children": [
           {
-            "id": "926086956b0bc7db",
+            "id": "603569c4552ad32c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,7 +16,9 @@
                 "file": "Home.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -35,7 +37,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
         }
       },
       {
@@ -50,7 +54,9 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "Search"
         }
       },
       {
@@ -61,7 +67,9 @@
           "state": {
             "sortOrder": "frequency",
             "useHierarchy": true
-          }
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
         }
       },
       {
@@ -69,7 +77,9 @@
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
         }
       }
     ],
@@ -85,7 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Home.md",
+            "file": "Kubernetes/K8s это.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -93,7 +103,9 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
         }
       },
       {
@@ -105,7 +117,9 @@
             "file": "Home.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
         }
       },
       {
@@ -115,7 +129,9 @@
           "type": "outline",
           "state": {
             "file": "Home.md"
-          }
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
         }
       }
     ],
@@ -132,12 +148,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89b80c18f4b95964",
+  "active": "603569c4552ad32c",
   "lastOpenFiles": [
+    "Операционные системы/Linux/Устоновка ARCH Linux.md",
     "Home.md",
+    "Операционные системы/Linux/Эксплуатация/CICD.md",
+    "Операционные системы/Linux/Эксплуатация/DevOps.md",
+    "Docker/Иструкция по использованию Docker.md",
+    "Docker/Docker-compose.md",
+    "Docker/Docker это.md",
+    "Docker/Docker using.md",
+    "Kubernetes/Ресурсы для изучения.md",
+    "Kubernetes/Docker-compose vs kubernetes.md",
+    "Kubernetes/K8s это.md",
+    "21-school/MAKEFILEREADME.md",
+    "21-school/MAKEFILE.md",
+    "Алгоритмы/Все алгоритмы сортировки.md",
+    "Home.sync-conflict-20241021-132529-ZCXXYNL.md",
+    "21-school/T04.md",
+    "Полезно знать/Vim motions.md",
     "big(O)/Сложности/О(1) Простая сложность.md",
     "ToDo/Программирование.md",
-    "Операционные системы/Linux/Устоновка ARCH Linux.md",
     "ToDo/План развития.md",
     "Операционные системы/Linux/Файловая система Linux.md",
     "Операционные системы/Файловые системы/btrfs(Linux).md",
@@ -145,21 +176,6 @@
     "Структуры данных/Массив.md",
     "Структуры данных/Очередь.md",
     "Структуры данных/Стек.md",
-    "Структуры данных/Связные списки.md",
-    "Симантика.md",
-    "Структуры данных/АТД.md",
-    "big(O)/Сложности/Логарифмически линейный.md",
-    "big(O)/Сложности/Логарифмическая сложность - O(log n).md",
-    "Алгоритмы/Двоичный поиск.md",
-    "Алгоритмы/Бинарный поиск.md",
-    "big(O)/Сложности/Квадратичная сложность.md",
-    "big(O)/Сложности/O(n) Линейная сложность.md",
-    "big(O)/BIG(O).md",
-    "Docker/Docker archlinux install.md",
-    "Books/2024/c++ Базовый курс.md",
-    "Tags.md",
-    "ЯП/ООП/ООП.md",
-    "ЯП/Rust/Enums.md",
     "My Computer Since canvas.canvas"
   ]
 }

@@ -4,6 +4,5 @@
   "alwaysUpdateLinks": true,
   "readableLineLength": true,
   "vimMode": true,
-  "defaultViewMode": "preview",
-  "propertiesInDocument": "hidden"
+  "defaultViewMode": "preview"
 }

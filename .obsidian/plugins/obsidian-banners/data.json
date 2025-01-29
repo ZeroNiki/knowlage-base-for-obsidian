@@ -1,10 +1,10 @@
 {
   "height": 250,
   "style": "gradient",
-  "showInInternalEmbed": false,
-  "internalEmbedHeight": null,
-  "showInPreviewEmbed": false,
-  "previewEmbedHeight": null,
+  "showInInternalEmbed": true,
+  "internalEmbedHeight": 120,
+  "showInPreviewEmbed": true,
+  "previewEmbedHeight": 80,
   "frontmatterField": null,
   "bannerDragModifier": "none",
   "iconHorizontalAlignment": "left",
@@ -12,8 +12,8 @@
   "iconVerticalAlignment": "center",
   "iconVerticalTransform": null,
   "useTwemoji": true,
-  "showPreviewInLocalModal": true,
-  "localSuggestionsLimit": null,
+  "showPreviewInLocalModal": false,
+  "localSuggestionsLimit": 20,
   "bannersFolder": null,
-  "allowMobileDrag": false
+  "allowMobileDrag": true
 }

@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e29f1949f49676b1",
+        "id": "3b0fc786b551fdf4",
         "type": "tabs",
         "children": [
           {
-            "id": "a82237473e21279b",
+            "id": "26080209c57ca058",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ToDo/Собес.md",
-                "mode": "source",
+                "file": "Сети/Rest API.md",
+                "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Rest API"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "f",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,15 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "53d17784c2aae329",
@@ -86,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToDo/Собес.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -103,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ToDo/Собес.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Home"
             }
           },
           {
@@ -117,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToDo/Собес.md"
-              }
+                "file": "Home.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Home"
             }
           }
         ]
@@ -145,38 +160,40 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "a82237473e21279b",
+  "active": "26080209c57ca058",
   "lastOpenFiles": [
     "Home.md",
-    "ToDo/Собес.md",
-    "Сети/Rest API.md",
-    "ЯП/С/Адресная арифметика.md",
-    "ToDo/Программирование.md",
-    "ЯП/С/Именованные константы.md",
-    "Структура компьютера/Как работать с битами.md",
-    "Структура компьютера/Кэш процессора.md",
-    "Структура компьютера/ОЗУ.md",
-    "Структура компьютера/Отрицательные числа.md",
-    "Структура компьютера/Процессор.md",
-    "Структура компьютера/Система счисления.md",
-    "Untitled.md",
+    "advanced.html.md",
+    "Полезно знать/Jira.md",
+    "Полезно знать/Agile.md",
     "Untitled 1.md",
-    "Структура компьютера/Цифровая машина.md",
-    "Структура компьютера/Числа с плавающей точкой.md",
-    "Структура компьютера/Виды компьютерной памяти.md",
-    "Структура компьютера/Кадировка.md",
-    "Структура компьютера/Еденицы измерения.md",
-    "Структура компьютера/Как работать с битами.sync-conflict-20231212-160855-ZCXXYNL.md",
-    "Структура компьютера/Многоуровневые цифровые машины.md",
-    "Методы/Sliding window.md",
+    "EasyOffer/PythonDev/Что такое SOLID.md",
     "ЯП/ООП/ООП в python.md",
-    "ЯП/ООП/ООП.md",
-    "ЯП/Cpp/Побитовые операции.md",
-    "Полезно знать/Теория вероятности.md",
-    "Pasted image 20240829115512.png",
+    "Алгоритмы/Все алгоритмы сортировки.md",
+    "Симантика.md",
+    "Untitled.md",
+    "Tags.md",
+    "Banners.md",
+    "IMG/Pasted image 20240829115512.png",
+    "HTTP И HTTPS.md",
+    "EasyOffer/PythonDev/Что такое декораторы.md",
+    "Home.sync-conflict-20241021-132529-ZCXXYNL.md",
+    "Home.sync-conflict-20241203-122301-FNJIBXK.md",
+    "EasyOffer/PythonDev/Что делает декоратор property.md",
+    "EasyOffer/PythonDev/Какие есть типы данных в Python.md",
+    "21-school/C base.md",
+    "21-school/T04.md",
+    "21-school",
+    "big(O)/BIG(O).md",
+    "Полезно знать/Методы ТВ.md",
+    "Полезно знать/Git fetch and git pull.md",
+    "Полезно знать/Modern unix.md",
+    "Полезно знать/Vim motions.md",
+    "Алгоритмы/Сортировка вставками.md",
     "EasyOffer",
     "IMG/Pasted image 20240816130159.png",
     "IMG/gruv-material-texture.png",
@@ -194,7 +211,6 @@
     "Сценарии",
     "ToDo/Tasks",
     "Habits",
-    "ЯП/С",
     "My Computer Since canvas.canvas",
     "IMG/home.jpg",
     "Untitled.canvas",
