@@ -240,8 +240,12 @@ banner_x: 0.49427
 	- [[Usage]]
 	- [[Docker-compose vs kubernetes]]
 
-- **PostgreSQL**
-	- [[Install in Arch Linux]]
+- **БД**
+	- **Postgresql**
+		- [[Install in Arch Linux]]
+	- [[Как устроена База Данных]]
+	- [[Транзакция]]
+	- [[ACID]]
 
 -  **Полезно знать**
 	- [[Теория вероятности]]
@@ -256,6 +260,7 @@ banner_x: 0.49427
 	- [[Modern unix]]
 	- [[Jira]]
 	- [[Agile]]
+	- [[Clean Architecture]]
 
 - **Книги**
 	- **2023**
