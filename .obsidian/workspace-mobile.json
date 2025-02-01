@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "167e98ff325ae64f",
+        "id": "7e67004982c62c7a",
         "type": "tabs",
         "children": [
           {
-            "id": "82dfb5b7d41d9df1",
+            "id": "50ce9fced3fbe0b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Полезно знать/Clean Architecture.md",
+                "file": "ЯП/С/ASAN.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Clean Architecture"
+              "title": "ASAN"
             }
           }
         ]
@@ -149,13 +149,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82dfb5b7d41d9df1",
+  "active": "50ce9fced3fbe0b4",
   "lastOpenFiles": [
     "Home.md",
-    "БД/ACID.md",
+    "БД/Как устроена База Данных.md",
     "Полезно знать/Clean Architecture.md",
     "БД/Транзакция.md",
-    "БД/Как устроена База Данных.md",
+    "БД/ACID.md",
     "Полезно знать/Unit-tests.md",
     "Полезно знать/Jira.md",
     "Полезно знать/Agile.md",

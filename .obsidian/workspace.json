@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6008acc60c3e1d58",
+            "id": "c980d9bbab8b3d9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -164,11 +165,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6008acc60c3e1d58",
+  "active": "c980d9bbab8b3d9f",
   "lastOpenFiles": [
+    "ЯП/С/Дебаггинг кода на C.md",
+    "ЯП/С/ASAN.md",
+    "ЯП/С/Arenas.md",
+    "Home.md",
+    "ЯП/С/Segmentation Fault.md",
+    "ЯП/С/Unity Build.md",
+    "ЯП/С/Языковая стандартизация C.md",
     "Полезно знать/Clean Architecture.md",
     "БД/ACID.md",
-    "Home.md",
     "Books/2023/UNIX AND LINUX system administration handbook.md",
     "Books/2024/c++ Базовый курс.md",
     "БД/Транзакция.md",
@@ -188,12 +195,6 @@
     "Banners.md",
     "IMG/Pasted image 20240829115512.png",
     "HTTP И HTTPS.md",
-    "EasyOffer/PythonDev/Что такое декораторы.md",
-    "Home.sync-conflict-20241021-132529-ZCXXYNL.md",
-    "Home.sync-conflict-20241203-122301-FNJIBXK.md",
-    "EasyOffer/PythonDev/Что делает декоратор property.md",
-    "EasyOffer/PythonDev/Какие есть типы данных в Python.md",
-    "21-school/C base.md",
     "21-school",
     "EasyOffer",
     "IMG/Pasted image 20240816130159.png",
