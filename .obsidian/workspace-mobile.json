@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7e67004982c62c7a",
+        "id": "63f6b698c7b21861",
         "type": "tabs",
         "children": [
           {
-            "id": "50ce9fced3fbe0b4",
+            "id": "f1e6a284a638c12e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ЯП/С/ASAN.md",
+                "file": "ЯП/С/Arenas.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ASAN"
+              "title": "Arenas"
             }
           }
         ]
@@ -149,9 +149,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50ce9fced3fbe0b4",
+  "active": "f1e6a284a638c12e",
   "lastOpenFiles": [
     "Home.md",
+    "Структуры данных/Множества.md",
+    "Структура компьютера/Числа с плавающей точкой.md",
+    "ЯП/С/ASAN.md",
     "БД/Как устроена База Данных.md",
     "Полезно знать/Clean Architecture.md",
     "БД/Транзакция.md",
@@ -174,9 +177,6 @@
     "Алгоритмы/Все алгоритмы сортировки.md",
     "Home.sync-conflict-20241021-132529-ZCXXYNL.md",
     "21-school/T04.md",
-    "Полезно знать/Vim motions.md",
-    "big(O)/Сложности/О(1) Простая сложность.md",
-    "ToDo/Программирование.md",
     "My Computer Since canvas.canvas"
   ]
 }

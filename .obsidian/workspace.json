@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "926429d54f579bef",
+        "id": "1b668d6bf705c19f",
         "type": "tabs",
         "children": [
           {
-            "id": "c980d9bbab8b3d9f",
+            "id": "082192e14724380d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ЯП/С/Побитовые операции.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Побитовые операции"
+            }
+          },
+          {
+            "id": "f570863570873ea8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "Home"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,36 +180,43 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c980d9bbab8b3d9f",
+  "active": "f570863570873ea8",
   "lastOpenFiles": [
+    "ЯП/С/Побитовые операции.md",
+    "Untitled 1.md",
+    "Home.md",
+    "QA/SQL для QA.md",
+    "QA/Тест-кейс.md",
+    "QA/Чек-лист.md",
+    "IMG/Образец_тест-кейсы.png",
+    "IMG/Образец_чек-лист.png",
+    "QA/Баги и баг-репорты.md",
+    "IMG/Pasted image 20250327212219.png",
+    "IMG/Образец_баг-репорт.png",
+    "QA/Классификация видов тестирования.md",
+    "QA/Введение в тестирование.md",
+    "QA",
+    "Структура компьютера/Процессор.md",
+    "English/План.md",
+    "ЯП/Go Lang/Materials.md",
+    "English",
+    "Untitled.md",
+    "ЯП/Go Lang",
+    "Полезно знать/Clean Architecture.md",
+    "Симантика.md",
+    "21-school/MAKEFILEREADME.md",
+    "21-school/MAKEFILE.md",
+    "БД/ACID.md",
+    "БД/Транзакция.md",
+    "EasyOffer/PythonDev/Что такое Acid в SQL.md",
+    "ЯП/С/Unity Build.md",
+    "ЯП/С/Arenas.md",
+    "ЯП/С/Segmentation Fault.md",
+    "Операционные системы/Linux/Эксплуатация/CICD.md",
     "ЯП/С/Дебаггинг кода на C.md",
     "ЯП/С/ASAN.md",
-    "ЯП/С/Arenas.md",
-    "Home.md",
-    "ЯП/С/Segmentation Fault.md",
-    "ЯП/С/Unity Build.md",
-    "ЯП/С/Языковая стандартизация C.md",
-    "Полезно знать/Clean Architecture.md",
-    "БД/ACID.md",
-    "Books/2023/UNIX AND LINUX system administration handbook.md",
-    "Books/2024/c++ Базовый курс.md",
-    "БД/Транзакция.md",
-    "БД/Как устроена База Данных.md",
     "БД",
-    "Сети/Rest API.md",
-    "advanced.html.md",
-    "Полезно знать/Jira.md",
-    "Полезно знать/Agile.md",
-    "Untitled 1.md",
-    "EasyOffer/PythonDev/Что такое SOLID.md",
-    "ЯП/ООП/ООП в python.md",
-    "Алгоритмы/Все алгоритмы сортировки.md",
-    "Симантика.md",
-    "Untitled.md",
-    "Tags.md",
-    "Banners.md",
     "IMG/Pasted image 20240829115512.png",
-    "HTTP И HTTPS.md",
     "21-school",
     "EasyOffer",
     "IMG/Pasted image 20240816130159.png",
@@ -203,17 +225,10 @@
     "IMG/Pasted image 20240805121304.png",
     "IMG/Pasted image 20240803150232.png",
     "Операционные системы/Linux/Bash",
-    "IMG/Pasted image 20240730111929.png",
     "Сети/Web сервера",
     "Сети/Web сервера/Apache",
     "Сети/Web сервера/Nginx",
-    "IMG/Pasted image 20240729122035.png",
-    "IMG/Pasted image 20240726132232.png",
-    "Kubernetes",
-    "Сценарии",
-    "ToDo/Tasks",
     "My Computer Since canvas.canvas",
-    "IMG/home.jpg",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
