@@ -8,5 +8,6 @@
     "dashboard-ReadLineLength"
   ],
   "textFontFamily": "FreeMono",
-  "interfaceFontFamily": "Nimbus Mono PS"
+  "interfaceFontFamily": "Nimbus Mono PS",
+  "theme": "obsidian"
 }
