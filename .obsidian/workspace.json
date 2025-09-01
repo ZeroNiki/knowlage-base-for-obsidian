@@ -22,35 +22,20 @@
             }
           },
           {
-            "id": "46c6c1043fed1f41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Usage.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Usage"
-            }
-          },
-          {
             "id": "b61ea44f5eb22278",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "БД/SQL/SQL.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "SQL"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,17 +180,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b61ea44f5eb22278",
+  "active": "f570863570873ea8",
   "lastOpenFiles": [
-    "Tags.md",
-    "Симантика.md",
+    "БД/SQL/SQL.md",
     "Home.md",
-    "Untitled 1.md",
-    "Untitled.md",
     "БД/SQL/JOIN.md",
     "Kubernetes/Usage.md",
+    "Tags.md",
+    "Симантика.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "Kubernetes/K8s это.md",
-    "БД/SQL/SQL.md",
     "БД/SQL",
     "ЯП/С/Побитовые операции.md",
     "QA/SQL для QA.md",
