@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1b668d6bf705c19f",
+        "id": "3c496fd0d23eb873",
         "type": "tabs",
         "children": [
           {
-            "id": "f570863570873ea8",
+            "id": "91afa821bfdd321d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "БД/SQL/JOIN.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "JOIN"
-            }
-          },
-          {
-            "id": "b61ea44f5eb22278",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "БД/SQL/SQL.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Home"
             }
           }
         ]
@@ -180,11 +166,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f570863570873ea8",
+  "active": "91afa821bfdd321d",
   "lastOpenFiles": [
-    "БД/SQL/SQL.md",
+    "Операционные системы/Vagrant/Практика.md",
     "Home.md",
+    "Операционные системы/Vagrant/Vagrantfile.md",
+    "Операционные системы/Vagrant/База.md",
+    "Операционные системы/Vagrant",
     "БД/SQL/JOIN.md",
+    "БД/SQL/SQL.md",
     "Kubernetes/Usage.md",
     "Tags.md",
     "Симантика.md",
@@ -213,9 +203,6 @@
     "21-school/MAKEFILEREADME.md",
     "21-school/MAKEFILE.md",
     "БД/ACID.md",
-    "БД/Транзакция.md",
-    "EasyOffer/PythonDev/Что такое Acid в SQL.md",
-    "ЯП/С/Unity Build.md",
     "БД",
     "IMG/Pasted image 20240829115512.png",
     "21-school",
@@ -227,7 +214,6 @@
     "IMG/Pasted image 20240803150232.png",
     "Операционные системы/Linux/Bash",
     "Сети/Web сервера",
-    "Сети/Web сервера/Apache",
     "My Computer Since canvas.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
