@@ -4,63 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "da1036277e9691b5",
+        "id": "6eb5bc39a67dcf6c",
         "type": "tabs",
         "children": [
           {
-            "id": "2bdc40ef1825a8d2",
+            "id": "b50ccf2d59262a07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
+                "file": "Алгоритмы/Бинарный поиск.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "4288172c08827b48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Операционные системы/Vagrant/Практика.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Практика"
-            }
-          },
-          {
-            "id": "3528e2b79938fc8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Операционные системы/Vagrant/Сетевые ражимы кратко.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Сетевые ражимы кратко"
-            }
-          },
-          {
-            "id": "9e90b869c411aa16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Операционные системы/Vagrant/Под копотом.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Под копотом"
+              "title": "Бинарный поиск"
             }
           }
         ]
@@ -208,13 +166,29 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2bdc40ef1825a8d2",
+  "active": "b50ccf2d59262a07",
   "lastOpenFiles": [
+    "Home.md",
+    "ЯП/Python/cls static property.md",
+    "ЯП/Python/if __name__ == \"__main__\".md",
+    "ЯП/ООП/ООП.md",
+    "ЯП/Python/ООП в python.md",
+    "ЯП/Python/Функции высшего порядка в Python.md",
+    "ЯП/Типизация.md",
+    "ЯП/Теория языков программирования.md",
+    "ЯП/Синтаксис.md",
+    "ЯП/Получение программы.md",
+    "ЯП/высокоуровневые и низкоуровневые языки.md",
+    "ЯП/Парадигмы.md",
+    "ЯП/Python/Дикораторы и дискрипторы.md",
+    "ЯП/Процедурное программирование/Процедурное программирования.md",
+    "ЯП/Python",
+    "ЯП/Функциональное программирование/Функциональное программирование.md",
+    "ЯП/Untitled.md",
+    "Операционные системы/Vagrant/Vagrantfile.md",
     "Операционные системы/Vagrant/Практика.md",
     "Операционные системы/Vagrant/Сетевые ражимы кратко.md",
     "Операционные системы/Vagrant/Под копотом.md",
-    "Home.md",
-    "Операционные системы/Vagrant/Vagrantfile.md",
     "Операционные системы/Vagrant/База в краце.md",
     "Операционные системы/Vagrant",
     "БД/SQL/JOIN.md",
@@ -222,29 +196,14 @@
     "Kubernetes/Usage.md",
     "Tags.md",
     "Симантика.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Kubernetes/K8s это.md",
     "БД/SQL",
-    "ЯП/С/Побитовые операции.md",
-    "QA/SQL для QA.md",
-    "QA/Тест-кейс.md",
-    "QA/Чек-лист.md",
     "IMG/Образец_тест-кейсы.png",
     "IMG/Образец_чек-лист.png",
-    "QA/Баги и баг-репорты.md",
     "IMG/Pasted image 20250327212219.png",
     "IMG/Образец_баг-репорт.png",
-    "QA/Классификация видов тестирования.md",
-    "QA/Введение в тестирование.md",
     "QA",
-    "Структура компьютера/Процессор.md",
-    "English/План.md",
-    "ЯП/Go Lang/Materials.md",
     "English",
     "ЯП/Go Lang",
-    "Полезно знать/Clean Architecture.md",
-    "21-school/MAKEFILEREADME.md",
     "БД",
     "IMG/Pasted image 20240829115512.png",
     "21-school",
@@ -255,7 +214,6 @@
     "IMG/Pasted image 20240805121304.png",
     "IMG/Pasted image 20240803150232.png",
     "Операционные системы/Linux/Bash",
-    "Сети/Web сервера",
     "My Computer Since canvas.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
