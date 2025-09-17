@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6eb5bc39a67dcf6c",
+        "id": "bc2f8f88d04cf456",
         "type": "tabs",
         "children": [
           {
-            "id": "b50ccf2d59262a07",
+            "id": "1f123ab31c5e17d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Алгоритмы/Бинарный поиск.md",
+                "file": "Docker/Docker-swarm.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Docker-swarm"
+            }
+          },
+          {
+            "id": "0d74fa4cb6bc15f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Операционные системы/Vagrant/Vagrantfile.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Бинарный поиск"
+              "title": "Vagrantfile"
             }
           }
         ]
@@ -166,9 +180,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b50ccf2d59262a07",
+  "active": "1f123ab31c5e17d5",
   "lastOpenFiles": [
+    "Операционные системы/Vagrant/Vagrantfile.md",
+    "Операционные системы/Vagrant/Шпора.md",
     "Home.md",
+    "Docker/Docker-swarm.md",
+    "Atlasian",
+    "Docker/Docker-compose.md",
+    "Брокеры сообщений/RabbitMQ/RabbitMQ.md",
+    "Брокеры сообщений/Kafka/Kafka.md",
+    "Брокеры сообщений",
+    "Брокеры сообщений/RabbitMQ",
+    "Брокеры сообщений/Kafka",
+    "English/План.md",
+    "Kubernetes/Ресурсы для изучения.md",
+    "Kubernetes/Usage.md",
+    "Kubernetes/Installation in Arch Linux.md",
+    "Kubernetes/K8s это.md",
+    "Docker/Docker это.md",
+    "Алгоритмы/Бинарный поиск.md",
     "ЯП/Python/cls static property.md",
     "ЯП/Python/if __name__ == \"__main__\".md",
     "ЯП/ООП/ООП.md",
@@ -181,21 +212,8 @@
     "ЯП/высокоуровневые и низкоуровневые языки.md",
     "ЯП/Парадигмы.md",
     "ЯП/Python/Дикораторы и дискрипторы.md",
-    "ЯП/Процедурное программирование/Процедурное программирования.md",
     "ЯП/Python",
-    "ЯП/Функциональное программирование/Функциональное программирование.md",
-    "ЯП/Untitled.md",
-    "Операционные системы/Vagrant/Vagrantfile.md",
-    "Операционные системы/Vagrant/Практика.md",
-    "Операционные системы/Vagrant/Сетевые ражимы кратко.md",
-    "Операционные системы/Vagrant/Под копотом.md",
-    "Операционные системы/Vagrant/База в краце.md",
     "Операционные системы/Vagrant",
-    "БД/SQL/JOIN.md",
-    "БД/SQL/SQL.md",
-    "Kubernetes/Usage.md",
-    "Tags.md",
-    "Симантика.md",
     "БД/SQL",
     "IMG/Образец_тест-кейсы.png",
     "IMG/Образец_чек-лист.png",
@@ -204,16 +222,12 @@
     "QA",
     "English",
     "ЯП/Go Lang",
-    "БД",
     "IMG/Pasted image 20240829115512.png",
-    "21-school",
-    "EasyOffer",
     "IMG/Pasted image 20240816130159.png",
     "IMG/gruv-material-texture.png",
     "IMG/Pasted image 20240810134717.png",
     "IMG/Pasted image 20240805121304.png",
     "IMG/Pasted image 20240803150232.png",
-    "Операционные системы/Linux/Bash",
     "My Computer Since canvas.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"

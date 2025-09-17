@@ -32,4 +32,43 @@ Vagrant.configure("2") do |config|
 end
 ```
 
-### Примеры практического провижининга
+### Пример с несколькими машинами
+
+```ruby
+Vagrant.configure("2") do |config|
+  # Общие настройки для всех ВМ
+  config.vm.box = "ubuntu/focal64"
+
+  # Машина 1: веб-сервер
+  config.vm.define "web" do |web|
+    web.vm.hostname = "web.local"
+    web.vm.network "private_network", ip: "192.168.56.10"
+    web.vm.provider "virtualbox" do |vb|
+      vb.name = "web_vm"
+      vb.memory = 1024
+      vb.cpus = 1
+    end
+    web.vm.provision "shell", inline: <<-SHELL
+      apt-get update
+      apt-get install -y nginx
+      systemctl enable nginx
+    SHELL
+  end
+
+  # Машина 2: база данных
+  config.vm.define "db" do |db|
+    db.vm.hostname = "db.local"
+    db.vm.network "private_network", ip: "192.168.56.11"
+    db.vm.provider "virtualbox" do |vb|
+      vb.name = "db_vm"
+      vb.memory = 1024
+      vb.cpus = 1
+    end
+    db.vm.provision "shell", inline: <<-SHELL
+      apt-get update
+      apt-get install -y mysql-server
+      systemctl enable mysql
+    SHELL
+  end
+end
+```

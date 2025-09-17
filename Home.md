@@ -96,6 +96,7 @@ banner_x: 0.49427
 		 - [[Практика]]
 		 - [[Под копотом]]
 		 - [[Сетевые ражимы кратко]]
+		 - [[Шпора]]
 
 - **Структура компьютера**
 	- [[Цифровая машина]]
@@ -240,11 +241,10 @@ banner_x: 0.49427
 	- [[Синтаксис]]
 	- [[Теория языков программирования]]
 
-# *Всякое*
-- **?**
-	- [[Симантика]]
+# *DevOPS*
 
 - **Docker**
+	- [[Docker-swarm]]
 	- [[Docker это]]
 	- [[Docker using]]
 	- [[Docker archlinux install]]
@@ -256,6 +256,16 @@ banner_x: 0.49427
 	- [[Installation in Arch Linux]]
 	- [[Usage]]
 	- [[Docker-compose vs kubernetes]]
+
+# *Всякое*
+- **?**
+	- [[Симантика]]
+
+- **Брокеры**
+	- **RabbitMQ**
+		- [[RabbitMQ]]
+	- **Kafka**
+		- [[Kafka]]
 
 - **БД**
 	- **Postgresql**
