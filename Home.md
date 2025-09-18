@@ -243,6 +243,8 @@ banner_x: 0.49427
 
 # *DevOPS*
 
+- [[Оркестрация]]
+
 - **Docker**
 	- [[Docker-swarm]]
 	- [[Docker это]]
