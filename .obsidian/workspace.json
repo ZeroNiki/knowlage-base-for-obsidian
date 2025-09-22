@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9cf4f95d409c5bbe",
+        "id": "0a739843540a3cef",
         "type": "tabs",
         "children": [
           {
-            "id": "4557c5d53ed9500b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Оркестрация.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Оркестрация"
-            }
-          },
-          {
-            "id": "63eaa1ee65b676be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker-swarm.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Docker-swarm"
-            }
-          },
-          {
-            "id": "acbaa390ffd618aa",
+            "id": "89328c5f11d62227",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,8 +21,7 @@
               "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,20 +167,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "63eaa1ee65b676be",
+  "active": "88594b4968fa01b1",
   "lastOpenFiles": [
     "Home.md",
-    "Excalidraw/Drawing 2025-09-18 22.03.20.excalidraw.md",
+    "Брокеры сообщений/Rabbitmq vs Kafka.md",
+    "Брокеры сообщений/RabbitMQ/RabbitMQ.md",
+    "Брокеры сообщений/Kafka/Kafka.md",
+    "Excalidraw/Drawing 2025-09-20 22.05.38.excalidraw.md",
+    "IMG/kafka.png",
+    "Сети/Rest API.md",
+    "Docker/Кластер.md",
+    "IMG/Pasted image 20250918224625.png",
+    "Docker/Stack.md",
     "Docker/Docker-swarm.md",
-    "Pasted image 20250918224625.png",
+    "Excalidraw/Drawing 2025-09-18 22.03.20.excalidraw.md",
     "Docker/Оркестрация.md",
     "Excalidraw",
     "Операционные системы/Vagrant/Vagrantfile.md",
     "Операционные системы/Vagrant/Шпора.md",
     "Atlasian",
     "Docker/Docker-compose.md",
-    "Брокеры сообщений/RabbitMQ/RabbitMQ.md",
-    "Брокеры сообщений/Kafka/Kafka.md",
     "Брокеры сообщений",
     "Брокеры сообщений/RabbitMQ",
     "Брокеры сообщений/Kafka",
@@ -221,14 +198,10 @@
     "Docker/Docker это.md",
     "Алгоритмы/Бинарный поиск.md",
     "ЯП/Python/cls static property.md",
-    "ЯП/Python/if __name__ == \"__main__\".md",
+    "ЯП/Python/ifname Statement.md",
     "ЯП/ООП/ООП.md",
     "ЯП/Python/ООП в python.md",
     "ЯП/Python/Функции высшего порядка в Python.md",
-    "ЯП/Типизация.md",
-    "ЯП/Теория языков программирования.md",
-    "ЯП/Синтаксис.md",
-    "ЯП/Получение программы.md",
     "ЯП/Python",
     "Операционные системы/Vagrant",
     "БД/SQL",
@@ -242,7 +215,6 @@
     "IMG/Pasted image 20240816130159.png",
     "IMG/gruv-material-texture.png",
     "IMG/Pasted image 20240810134717.png",
-    "IMG/Pasted image 20240805121304.png",
     "My Computer Since canvas.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"

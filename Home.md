@@ -2,7 +2,7 @@
 cssclasses:
   - dashboard
 banner: "![[gruv-material-texture.png]]"
-banner_y: 0.432
+banner_y: 0.5
 banner_x: 0.49427
 ---
 # *Алгоритмы*
@@ -173,7 +173,7 @@ banner_x: 0.49427
 	
 - **Python**
 	- [[cls static property]]
-	- [[if __name__ == "__main__"]]
+	- [[ifname Statement]]
 	- [[Lambda in python]]
 	- [[typing in python]]
 	- [[Дикораторы и дискрипторы]]
@@ -243,7 +243,9 @@ banner_x: 0.49427
 
 # *DevOPS*
 
-- [[Оркестрация]]
+- **Общее**
+	- [[Оркестрация]]
+	- [[Кластер]]
 
 - **Docker**
 	- [[Docker-swarm]]
@@ -252,6 +254,7 @@ banner_x: 0.49427
 	- [[Docker archlinux install]]
 	- [[Иструкция по использованию Docker]]
 	- [[Docker-compose]]
+	- [[Stack]]
 
 - **Kubernetes**
 	- [[K8s это]]
@@ -268,6 +271,7 @@ banner_x: 0.49427
 		- [[RabbitMQ]]
 	- **Kafka**
 		- [[Kafka]]
+	 - [[Rabbitmq vs Kafka]]
 
 - **БД**
 	- **Postgresql**
