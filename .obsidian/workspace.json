@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Операционные системы/Linux/База.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "База"
+            }
+          },
+          {
+            "id": "4300584d66f1da1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Stack.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Stack"
+            }
+          },
+          {
+            "id": "b68e9184a2aa1d34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker-swarm.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Docker-swarm"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 243.5
   },
   "right": {
     "id": "53d17784c2aae329",
@@ -167,41 +196,42 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "88594b4968fa01b1",
+  "active": "4300584d66f1da1d",
   "lastOpenFiles": [
-    "Home.md",
-    "Брокеры сообщений/Rabbitmq vs Kafka.md",
-    "Брокеры сообщений/RabbitMQ/RabbitMQ.md",
-    "Брокеры сообщений/Kafka/Kafka.md",
-    "Excalidraw/Drawing 2025-09-20 22.05.38.excalidraw.md",
-    "IMG/kafka.png",
-    "Сети/Rest API.md",
-    "Docker/Кластер.md",
-    "IMG/Pasted image 20250918224625.png",
-    "Docker/Stack.md",
     "Docker/Docker-swarm.md",
-    "Excalidraw/Drawing 2025-09-18 22.03.20.excalidraw.md",
     "Docker/Оркестрация.md",
+    "Docker/Иструкция по использованию Docker.md",
+    "Docker/Кластер.md",
+    "Kubernetes/K8s это.md",
+    "Kubernetes/Installation in Arch Linux.md",
+    "Kubernetes/Usage.md",
+    "Kubernetes/Ресурсы для изучения.md",
+    "Kubernetes/Docker-compose vs kubernetes.md",
+    "advanced.html.md",
+    "Операционные системы/Linux/История.md",
+    "Home.md",
+    "Операционные системы/Linux/База.md",
+    "Операционные системы/Linux/Modern-Unix.md",
+    "Excalidraw/Drawing 2025-09-22 22.23.11.excalidraw.md",
+    "IMG/LinuxL.png",
+    "Операционные системы/Linux/Эксплуатация/ANSIBLE.md",
+    "Операционные системы/Linux/Эксплуатация/Упровление конфигурации.md",
+    "Операционные системы/Linux/Эксплуатация/DevOps.md",
+    "Операционные системы/Linux/Эксплуатация/CICD.md",
+    "Операционные системы/Linux/Command line tips and tricks.md",
+    "Операционные системы/Linux/Загрузка, системные демоны.md",
+    "Операционные системы/Linux/Основы администрирования.md",
+    "Операционные системы/Linux/Пакеты в Linux.md",
+    "Операционные системы/Linux/Упровление процессами.md",
+    "Операционные системы/Linux/Файловая система Linux.md",
+    "Операционные системы/Linux/Устоновка ARCH Linux.md",
+    "IMG/kafka.png",
+    "IMG/Pasted image 20250918224625.png",
     "Excalidraw",
-    "Операционные системы/Vagrant/Vagrantfile.md",
-    "Операционные системы/Vagrant/Шпора.md",
     "Atlasian",
-    "Docker/Docker-compose.md",
     "Брокеры сообщений",
     "Брокеры сообщений/RabbitMQ",
     "Брокеры сообщений/Kafka",
-    "English/План.md",
-    "Kubernetes/Ресурсы для изучения.md",
-    "Kubernetes/Usage.md",
-    "Kubernetes/Installation in Arch Linux.md",
-    "Kubernetes/K8s это.md",
-    "Docker/Docker это.md",
-    "Алгоритмы/Бинарный поиск.md",
-    "ЯП/Python/cls static property.md",
-    "ЯП/Python/ifname Statement.md",
-    "ЯП/ООП/ООП.md",
-    "ЯП/Python/ООП в python.md",
-    "ЯП/Python/Функции высшего порядка в Python.md",
     "ЯП/Python",
     "Операционные системы/Vagrant",
     "БД/SQL",
@@ -214,7 +244,6 @@
     "IMG/Pasted image 20240829115512.png",
     "IMG/Pasted image 20240816130159.png",
     "IMG/gruv-material-texture.png",
-    "IMG/Pasted image 20240810134717.png",
     "My Computer Since canvas.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
