@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0a739843540a3cef",
+        "id": "85c643fe1ff7f26a",
         "type": "tabs",
         "children": [
           {
-            "id": "89328c5f11d62227",
+            "id": "e7c7edb15ff1b6bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Операционные системы/Linux/База.md",
+                "file": "БД/SQL/JOIN.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "База"
-            }
-          },
-          {
-            "id": "4300584d66f1da1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Stack.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Stack"
-            }
-          },
-          {
-            "id": "b68e9184a2aa1d34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker-swarm.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Docker-swarm"
+              "title": "JOIN"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,8 +167,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4300584d66f1da1d",
+  "active": "e7c7edb15ff1b6bb",
   "lastOpenFiles": [
+    "Home.md",
+    "БД/SQL/CTE.md",
+    "Docker/Stack.md",
     "Docker/Docker-swarm.md",
     "Docker/Оркестрация.md",
     "Docker/Иструкция по использованию Docker.md",
@@ -209,7 +183,6 @@
     "Kubernetes/Docker-compose vs kubernetes.md",
     "advanced.html.md",
     "Операционные системы/Linux/История.md",
-    "Home.md",
     "Операционные системы/Linux/База.md",
     "Операционные системы/Linux/Modern-Unix.md",
     "Excalidraw/Drawing 2025-09-22 22.23.11.excalidraw.md",
@@ -223,8 +196,6 @@
     "Операционные системы/Linux/Основы администрирования.md",
     "Операционные системы/Linux/Пакеты в Linux.md",
     "Операционные системы/Linux/Упровление процессами.md",
-    "Операционные системы/Linux/Файловая система Linux.md",
-    "Операционные системы/Linux/Устоновка ARCH Linux.md",
     "IMG/kafka.png",
     "IMG/Pasted image 20250918224625.png",
     "Excalidraw",
