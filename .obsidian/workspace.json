@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "85c643fe1ff7f26a",
+        "id": "8b7440cfa07b6f0b",
         "type": "tabs",
         "children": [
           {
-            "id": "e7c7edb15ff1b6bb",
+            "id": "588a3cf62f150b53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "БД/SQL/JOIN.md",
+                "file": "Сети/Гайд по настройке CISCO.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "JOIN"
+              "title": "Гайд по настройке CISCO"
             }
           }
         ]
@@ -167,10 +167,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7c7edb15ff1b6bb",
+  "active": "588a3cf62f150b53",
   "lastOpenFiles": [
+    "Сети/OSI model.md",
+    "Сети/Гайд по настройке CISCO.md",
     "Home.md",
+    "Сети/SSH.md",
     "БД/SQL/CTE.md",
+    "БД/SQL/JOIN.md",
     "Docker/Stack.md",
     "Docker/Docker-swarm.md",
     "Docker/Оркестрация.md",
@@ -192,10 +196,6 @@
     "Операционные системы/Linux/Эксплуатация/DevOps.md",
     "Операционные системы/Linux/Эксплуатация/CICD.md",
     "Операционные системы/Linux/Command line tips and tricks.md",
-    "Операционные системы/Linux/Загрузка, системные демоны.md",
-    "Операционные системы/Linux/Основы администрирования.md",
-    "Операционные системы/Linux/Пакеты в Linux.md",
-    "Операционные системы/Linux/Упровление процессами.md",
     "IMG/kafka.png",
     "IMG/Pasted image 20250918224625.png",
     "Excalidraw",
