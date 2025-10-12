@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8b7440cfa07b6f0b",
+        "id": "01d813ac92343c44",
         "type": "tabs",
         "children": [
           {
-            "id": "588a3cf62f150b53",
+            "id": "57252d09f3adb78f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Сети/Гайд по настройке CISCO.md",
+                "file": "ЯП/Python/Асинхронное и параллельное программирование.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Гайд по настройке CISCO"
+              "title": "Асинхронное и параллельное программирование"
             }
           }
         ]
@@ -167,35 +167,35 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "588a3cf62f150b53",
+  "active": "57252d09f3adb78f",
   "lastOpenFiles": [
-    "Сети/OSI model.md",
-    "Сети/Гайд по настройке CISCO.md",
+    "ЯП/Python/Мультипарадигмальный подход.md",
+    "ЯП/Python/Асинхронное и параллельное программирование.md",
+    "ЯП/Python/Функциональная парадигма.md",
+    "ЯП/Python/Процедурный подход.md",
+    "ЯП/Python/OOP school_21.md",
     "Home.md",
-    "Сети/SSH.md",
-    "БД/SQL/CTE.md",
-    "БД/SQL/JOIN.md",
-    "Docker/Stack.md",
+    "ЯП/Python/cls static property.md",
+    "ЯП/Python/ifname Statement.md",
+    "ЯП/Python/Lambda in python.md",
+    "ЯП/Python/typing in python.md",
+    "ЯП/Python/Дикораторы и дискрипторы.md",
+    "ЯП/Python/Замыкание в Python.md",
+    "ЯП/Python/Компиляция в Python.md",
+    "ЯП/Python/Контекстные мэнеджеры.md",
+    "ЯП/Python/Модули и пакеты в Python.md",
+    "ЯП/Python/ООП в python.md",
+    "ЯП/Python/Функции высшего порядка в Python.md",
+    "Методы/Сложные методы/Динамическое программирование.md",
+    "Docker/Балансировщик нагрузки.md",
     "Docker/Docker-swarm.md",
     "Docker/Оркестрация.md",
-    "Docker/Иструкция по использованию Docker.md",
+    "Методы/Простые методы/Рекурсия.md",
+    "Excalidraw/Drawing 2025-10-11 11.26.31.excalidraw.md",
+    "Docker/Stack.md",
+    "Excalidraw/Drawing 2025-10-05 16.11.37.excalidraw.md",
     "Docker/Кластер.md",
-    "Kubernetes/K8s это.md",
-    "Kubernetes/Installation in Arch Linux.md",
-    "Kubernetes/Usage.md",
-    "Kubernetes/Ресурсы для изучения.md",
-    "Kubernetes/Docker-compose vs kubernetes.md",
-    "advanced.html.md",
-    "Операционные системы/Linux/История.md",
-    "Операционные системы/Linux/База.md",
-    "Операционные системы/Linux/Modern-Unix.md",
-    "Excalidraw/Drawing 2025-09-22 22.23.11.excalidraw.md",
     "IMG/LinuxL.png",
-    "Операционные системы/Linux/Эксплуатация/ANSIBLE.md",
-    "Операционные системы/Linux/Эксплуатация/Упровление конфигурации.md",
-    "Операционные системы/Linux/Эксплуатация/DevOps.md",
-    "Операционные системы/Linux/Эксплуатация/CICD.md",
-    "Операционные системы/Linux/Command line tips and tricks.md",
     "IMG/kafka.png",
     "IMG/Pasted image 20250918224625.png",
     "Excalidraw",
