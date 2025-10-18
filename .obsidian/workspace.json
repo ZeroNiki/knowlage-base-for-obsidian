@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "4f8d9908b5513581",
+        "id": "8f7682aa2a1d1960",
         "type": "tabs",
         "children": [
           {
-            "id": "1af3acc9e6c9870e",
+            "id": "9b5ac793ce9ff118",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "02706538b03a654f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +35,8 @@
               "title": "T02"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,23 +163,14 @@
               "icon": "lucide-list",
               "title": "Outline of T02"
             }
-          },
-          {
-            "id": "273a0a6a39da7b79",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,8 +187,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1af3acc9e6c9870e",
+  "active": "02706538b03a654f",
   "lastOpenFiles": [
+    "HowTo.md",
     "Home.md",
     "ЯП/Python/Bootcamp/T02.md",
     "ЯП/Python/Bootcamp",
@@ -209,7 +216,6 @@
     "Методы/Простые методы/Рекурсия.md",
     "Excalidraw/Drawing 2025-10-11 11.26.31.excalidraw.md",
     "Docker/Stack.md",
-    "Excalidraw/Drawing 2025-10-05 16.11.37.excalidraw.md",
     "IMG/LinuxL.png",
     "IMG/kafka.png",
     "IMG/Pasted image 20250918224625.png",
