@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "01d813ac92343c44",
+        "id": "4f8d9908b5513581",
         "type": "tabs",
         "children": [
           {
-            "id": "57252d09f3adb78f",
+            "id": "1af3acc9e6c9870e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ЯП/Python/Асинхронное и параллельное программирование.md",
+                "file": "ЯП/Python/Bootcamp/T02.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Асинхронное и параллельное программирование"
+              "title": "T02"
             }
           }
         ]
@@ -140,18 +140,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "ЯП/Python/Bootcamp/T02.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of T02"
+            }
+          },
+          {
+            "id": "273a0a6a39da7b79",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 461.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,17 +177,20 @@
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "57252d09f3adb78f",
+  "active": "1af3acc9e6c9870e",
   "lastOpenFiles": [
-    "ЯП/Python/Мультипарадигмальный подход.md",
+    "Home.md",
+    "ЯП/Python/Bootcamp/T02.md",
+    "ЯП/Python/Bootcamp",
     "ЯП/Python/Асинхронное и параллельное программирование.md",
+    "ЯП/Python/Мультипарадигмальный подход.md",
     "ЯП/Python/Функциональная парадигма.md",
     "ЯП/Python/Процедурный подход.md",
     "ЯП/Python/OOP school_21.md",
-    "Home.md",
     "ЯП/Python/cls static property.md",
     "ЯП/Python/ifname Statement.md",
     "ЯП/Python/Lambda in python.md",
@@ -194,7 +210,6 @@
     "Excalidraw/Drawing 2025-10-11 11.26.31.excalidraw.md",
     "Docker/Stack.md",
     "Excalidraw/Drawing 2025-10-05 16.11.37.excalidraw.md",
-    "Docker/Кластер.md",
     "IMG/LinuxL.png",
     "IMG/kafka.png",
     "IMG/Pasted image 20250918224625.png",
@@ -211,7 +226,6 @@
     "IMG/Pasted image 20250327212219.png",
     "IMG/Образец_баг-репорт.png",
     "QA",
-    "English",
     "IMG/Pasted image 20240829115512.png",
     "IMG/Pasted image 20240816130159.png",
     "IMG/gruv-material-texture.png",
