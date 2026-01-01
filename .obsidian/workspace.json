@@ -8,20 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c549852351241601",
+            "id": "7543764d73501d44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Kubernetes/Аттрибуты из манифеста на примере.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Аттрибуты из манифеста на примере"
+            }
+          },
+          {
+            "id": "91f33f791e72c6c9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-01 17.05.02.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-01 17.05.02.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,10 +195,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c549852351241601",
+  "active": "91f33f791e72c6c9",
   "lastOpenFiles": [
-    "БД/SQL/JOIN.md",
+    "Kubernetes/Аттрибуты из манифеста на примере.md",
+    "Kubernetes/ДопИнфа по k8s.md",
+    "Excalidraw/Drawing 2026-01-01 17.05.02.excalidraw.md",
+    "Kubernetes/K8s это.md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "IMG/k9s.png",
+    "IMG/k9s.png.crdownload",
     "Home.md",
+    "IMG/Shturval-golanskiy.png",
+    "IMG/Shturval-golanskiy.png.crdownload",
+    "Kubernetes/Стратегии развертывания.md",
+    "БД/SQL/JOIN.md",
     "ЯП/Python/Процедурный подход.md",
     "ЯП/Python/ООП в python.md",
     "ЯП/Python/Функции высшего порядка в Python.md",
@@ -204,12 +228,6 @@
     "ЯП/Python/ifname Statement.md",
     "ЯП/Python/cls static property.md",
     "ЯП/Python/Bootcamp/T02.md",
-    "ЯП/Go Lang/Materials.md",
-    "ЯП/Cpp/Функции.md",
-    "ЯП/Cpp/Термины.md",
-    "ЯП/Cpp/Преобразование типов.md",
-    "ЯП/Cpp/Массив и многомерный массив.md",
-    "ЯП/Cpp/КЛЮЧЕВАЯ КОНЦЕПЦИЯ. Типы.md",
     "ЯП/Python/Bootcamp",
     "IMG/LinuxL.png",
     "IMG/kafka.png",
@@ -219,17 +237,11 @@
     "Брокеры сообщений",
     "Брокеры сообщений/RabbitMQ",
     "Брокеры сообщений/Kafka",
-    "ЯП/Python",
-    "Операционные системы/Vagrant",
-    "БД/SQL",
     "IMG/Образец_тест-кейсы.png",
     "IMG/Образец_чек-лист.png",
     "IMG/Pasted image 20250327212219.png",
     "IMG/Образец_баг-репорт.png",
-    "QA",
     "IMG/Pasted image 20240829115512.png",
-    "IMG/Pasted image 20240816130159.png",
-    "IMG/gruv-material-texture.png",
     "My Computer Since canvas.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
