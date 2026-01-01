@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f7682aa2a1d1960",
+        "id": "c248fbb656c1bb1b",
         "type": "tabs",
         "children": [
           {
-            "id": "9b5ac793ce9ff118",
+            "id": "c549852351241601",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Home"
             }
-          },
-          {
-            "id": "02706538b03a654f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ЯП/Python/Bootcamp/T02.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "T02"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,17 +140,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ЯП/Python/Bootcamp/T02.md",
+                "file": "ЯП/Python/Процедурный подход.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of T02"
+              "title": "Outline of Процедурный подход"
+            }
+          },
+          {
+            "id": "f6ce86b6731bd370",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -187,35 +182,35 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "02706538b03a654f",
+  "active": "c549852351241601",
   "lastOpenFiles": [
-    "HowTo.md",
+    "БД/SQL/JOIN.md",
     "Home.md",
-    "ЯП/Python/Bootcamp/T02.md",
-    "ЯП/Python/Bootcamp",
-    "ЯП/Python/Асинхронное и параллельное программирование.md",
-    "ЯП/Python/Мультипарадигмальный подход.md",
-    "ЯП/Python/Функциональная парадигма.md",
     "ЯП/Python/Процедурный подход.md",
-    "ЯП/Python/OOP school_21.md",
-    "ЯП/Python/cls static property.md",
-    "ЯП/Python/ifname Statement.md",
-    "ЯП/Python/Lambda in python.md",
-    "ЯП/Python/typing in python.md",
-    "ЯП/Python/Дикораторы и дискрипторы.md",
-    "ЯП/Python/Замыкание в Python.md",
-    "ЯП/Python/Компиляция в Python.md",
-    "ЯП/Python/Контекстные мэнеджеры.md",
-    "ЯП/Python/Модули и пакеты в Python.md",
     "ЯП/Python/ООП в python.md",
     "ЯП/Python/Функции высшего порядка в Python.md",
-    "Методы/Сложные методы/Динамическое программирование.md",
-    "Docker/Балансировщик нагрузки.md",
-    "Docker/Docker-swarm.md",
-    "Docker/Оркестрация.md",
-    "Методы/Простые методы/Рекурсия.md",
-    "Excalidraw/Drawing 2025-10-11 11.26.31.excalidraw.md",
-    "Docker/Stack.md",
+    "ЯП/Python/Функциональная парадигма.md",
+    "ЯП/Python/Мультипарадигмальный подход.md",
+    "ЯП/Python/Контекстные мэнеджеры.md",
+    "ЯП/Python/Модули и пакеты в Python.md",
+    "ЯП/Python/Компиляция в Python.md",
+    "ЯП/Python/Замыкание в Python.md",
+    "ЯП/Python/Дикораторы и дискрипторы.md",
+    "ЯП/Python/Асинхронное и параллельное программирование.md",
+    "ЯП/Python/typing in python.md",
+    "ЯП/Python/Queue multiprocessing.md",
+    "ЯП/Python/OOP school_21.md",
+    "ЯП/Python/Lambda in python.md",
+    "ЯП/Python/ifname Statement.md",
+    "ЯП/Python/cls static property.md",
+    "ЯП/Python/Bootcamp/T02.md",
+    "ЯП/Go Lang/Materials.md",
+    "ЯП/Cpp/Функции.md",
+    "ЯП/Cpp/Термины.md",
+    "ЯП/Cpp/Преобразование типов.md",
+    "ЯП/Cpp/Массив и многомерный массив.md",
+    "ЯП/Cpp/КЛЮЧЕВАЯ КОНЦЕПЦИЯ. Типы.md",
+    "ЯП/Python/Bootcamp",
     "IMG/LinuxL.png",
     "IMG/kafka.png",
     "IMG/Pasted image 20250918224625.png",
