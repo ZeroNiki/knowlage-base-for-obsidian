@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "af93e1b4ed6ef1e8",
+        "id": "dcdeffa3df17968b",
         "type": "tabs",
         "children": [
           {
-            "id": "a294bd364dd4dab0",
+            "id": "79f32dd5814ebf3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
+                "file": "Kubernetes/AdvKuberK3s/FinalSettingUP.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s)"
+              "title": "FinalSettingUP"
             }
           }
         ]
@@ -182,16 +182,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a294bd364dd4dab0",
+  "active": "79f32dd5814ebf3a",
   "lastOpenFiles": [
-    "IMG/NotebookLM Mind Map(1).png",
+    "Kubernetes/AdvKuberK3s/CheetSheet.md",
+    "Kubernetes/AdvKuberK3s/FinalSettingUP.md",
+    "Kubernetes/AdvKuberK3s/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
+    "Kubernetes/AdvKuberK3s/K3s learning manifest.md",
+    "Kubernetes/Аттрибуты из манифеста на примере.md",
+    "Kubernetes/ДопИнфа по k8s.md",
+    "Kubernetes/Ресурсы для изучения.md",
+    "Kubernetes/Installation in Arch Linux.md",
+    "Kubernetes/Docker-compose vs kubernetes.md",
+    "Kubernetes/Стратегии развертывания.md",
+    "Kubernetes/AdvKuberK3s",
     "Home.md",
-    "Kubernetes/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
+    "IMG/NotebookLM Mind Map(1).png",
     "БД/SQL/JOIN.md",
     "big(O)/BIG(O).md",
     "Excalidraw/Drawing 2026-01-01 17.05.02.excalidraw.md",
-    "Kubernetes/Аттрибуты из манифеста на примере.md",
-    "Kubernetes/ДопИнфа по k8s.md",
     "Kubernetes/K8s это.md",
     "Untitled 1.base",
     "Untitled.base",
@@ -199,7 +207,6 @@
     "IMG/k9s.png.crdownload",
     "IMG/Shturval-golanskiy.png",
     "IMG/Shturval-golanskiy.png.crdownload",
-    "Kubernetes/Стратегии развертывания.md",
     "ЯП/Python/Процедурный подход.md",
     "ЯП/Python/ООП в python.md",
     "ЯП/Python/Функции высшего порядка в Python.md",
@@ -211,11 +218,6 @@
     "ЯП/Python/Замыкание в Python.md",
     "ЯП/Python/Дикораторы и дискрипторы.md",
     "ЯП/Python/Асинхронное и параллельное программирование.md",
-    "ЯП/Python/typing in python.md",
-    "ЯП/Python/Queue multiprocessing.md",
-    "ЯП/Python/OOP school_21.md",
-    "ЯП/Python/Lambda in python.md",
-    "ЯП/Python/ifname Statement.md",
     "ЯП/Python/Bootcamp",
     "IMG/LinuxL.png",
     "IMG/kafka.png",
@@ -224,12 +226,10 @@
     "Atlasian",
     "Брокеры сообщений",
     "Брокеры сообщений/RabbitMQ",
-    "Брокеры сообщений/Kafka",
     "IMG/Образец_тест-кейсы.png",
     "IMG/Образец_чек-лист.png",
     "IMG/Pasted image 20250327212219.png",
     "IMG/Образец_баг-репорт.png",
-    "IMG/Pasted image 20240829115512.png",
     "My Computer Since canvas.canvas",
     "Untitled.canvas",
     "Untitled 1.canvas"
