@@ -4,21 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dcdeffa3df17968b",
+        "id": "c08d401fff319c53",
         "type": "tabs",
         "children": [
           {
-            "id": "79f32dd5814ebf3a",
+            "id": "c6a0a504dc352f56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Kubernetes/AdvKuberK3s/FinalSettingUP.md",
-                "mode": "preview",
-                "source": true
+                "file": "DevOpsMentalmap.canvas",
+                "viewState": {
+                  "x": -696.7157183252339,
+                  "y": 718.4300469799005,
+                  "zoom": -3.1999999999999997
+                }
               },
-              "icon": "lucide-file",
-              "title": "FinalSettingUP"
+              "icon": "lucide-layout-dashboard",
+              "title": "DevOpsMentalmap"
             }
           }
         ]
@@ -44,7 +47,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -169,25 +172,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "79f32dd5814ebf3a",
+  "active": "c6a0a504dc352f56",
   "lastOpenFiles": [
-    "Kubernetes/AdvKuberK3s/CheetSheet.md",
-    "Kubernetes/AdvKuberK3s/FinalSettingUP.md",
+    "DevOpsMentalmap.canvas",
+    "Kubernetes/Infrastructure as code/Стратегии тестирования в CI-CD.md",
+    "Kubernetes/Infrastructure as code/Непрерывная поставка и культура DevOps.md",
+    "Kubernetes/Infrastructure as code/Методологии и инструменты Infrastructure as Code.md",
+    "Kubernetes/Infrastructure as code/Инфраструктура микросервисов.md",
+    "Kubernetes/Infrastructure as code/Глубокий технический гайд по контейнеризации.md",
     "Kubernetes/AdvKuberK3s/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
     "Kubernetes/AdvKuberK3s/K3s learning manifest.md",
+    "Kubernetes/AdvKuberK3s/FinalSettingUP.md",
+    "Kubernetes/AdvKuberK3s/scripts/install_k3s_worker.sh",
+    "Kubernetes/AdvKuberK3s/scripts/install_k3s_master.sh",
+    "Kubernetes/AdvKuberK3s/scripts",
+    "Kubernetes/AdvKuberK3s/install_k3s_worker.sh",
+    "Kubernetes/AdvKuberK3s/install_k3s_master.sh",
+    "ЯП/Python/Queue multiprocessing.md",
+    "Docker/Stack.md",
+    "Docker/Docker-swarm.md",
+    "Операционные системы/Linux/Шпаргалки и Общая информация/Полное руководство по командам и дебаггингу.md",
+    "Операционные системы/Linux/Шпаргалки и Общая информация/Linux Deep Dive Исчерпывающее руководство.md",
+    "Операционные системы/Linux/Шпаргалки и Общая информация/FHS.md",
+    "Home.md",
+    "Kubernetes/Infrastructure as code/Эксплуатация Мониторинг и Безопасность.md",
+    "Kubernetes/Infrastructure as code",
+    "Операционные системы/Linux/Untitled.md",
+    "Операционные системы/Linux/Шпаргалки и Общая информация",
+    "Kubernetes/AdvKuberK3s/CheetSheet.md",
     "Kubernetes/Аттрибуты из манифеста на примере.md",
     "Kubernetes/ДопИнфа по k8s.md",
     "Kubernetes/Ресурсы для изучения.md",
@@ -195,43 +220,20 @@
     "Kubernetes/Docker-compose vs kubernetes.md",
     "Kubernetes/Стратегии развертывания.md",
     "Kubernetes/AdvKuberK3s",
-    "Home.md",
     "IMG/NotebookLM Mind Map(1).png",
     "БД/SQL/JOIN.md",
-    "big(O)/BIG(O).md",
-    "Excalidraw/Drawing 2026-01-01 17.05.02.excalidraw.md",
-    "Kubernetes/K8s это.md",
     "Untitled 1.base",
     "Untitled.base",
     "IMG/k9s.png",
-    "IMG/k9s.png.crdownload",
     "IMG/Shturval-golanskiy.png",
-    "IMG/Shturval-golanskiy.png.crdownload",
-    "ЯП/Python/Процедурный подход.md",
-    "ЯП/Python/ООП в python.md",
-    "ЯП/Python/Функции высшего порядка в Python.md",
-    "ЯП/Python/Функциональная парадигма.md",
-    "ЯП/Python/Мультипарадигмальный подход.md",
-    "ЯП/Python/Контекстные мэнеджеры.md",
-    "ЯП/Python/Модули и пакеты в Python.md",
-    "ЯП/Python/Компиляция в Python.md",
-    "ЯП/Python/Замыкание в Python.md",
-    "ЯП/Python/Дикораторы и дискрипторы.md",
-    "ЯП/Python/Асинхронное и параллельное программирование.md",
-    "ЯП/Python/Bootcamp",
     "IMG/LinuxL.png",
     "IMG/kafka.png",
     "IMG/Pasted image 20250918224625.png",
-    "Excalidraw",
-    "Atlasian",
-    "Брокеры сообщений",
-    "Брокеры сообщений/RabbitMQ",
     "IMG/Образец_тест-кейсы.png",
     "IMG/Образец_чек-лист.png",
     "IMG/Pasted image 20250327212219.png",
     "IMG/Образец_баг-репорт.png",
     "My Computer Since canvas.canvas",
-    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }
