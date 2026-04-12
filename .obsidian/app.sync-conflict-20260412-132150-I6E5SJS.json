@@ -1,0 +1,9 @@
+{
+  "livePreview": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "vimMode": true,
+  "defaultViewMode": "preview",
+  "propertiesInDocument": "hidden"
+}

@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "840c0a55743e2f73",
+        "id": "b306b5b9f9cebc47",
         "type": "tabs",
         "children": [
           {
-            "id": "b72c1f8c2ab15df4",
+            "id": "08bc96703b381ccc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DevOpsMentalmap.canvas",
-                "viewState": {
-                  "x": -1002.8918666952522,
-                  "y": -663.2041553343141,
-                  "zoom": -2.89950182759538
-                }
+                "file": "Операционные системы/Linux/Устоновка ARCH Linux.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "DevOpsMentalmap"
+              "icon": "lucide-file",
+              "title": "Устоновка ARCH Linux"
             }
           }
         ]
@@ -43,7 +40,7 @@
             "autoReveal": false
           },
           "icon": "lucide-folder-closed",
-          "title": "Файловый менеджер"
+          "title": "Files"
         }
       },
       {
@@ -150,15 +147,17 @@
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "omnisearch:Omnisearch": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "b72c1f8c2ab15df4",
+  "active": "08bc96703b381ccc",
   "lastOpenFiles": [
+    "Сети/OSI model.md",
+    "Сети/JWT.md",
     "Home.md",
+    "Docker/Оркестрация.md",
     "ЯП/С/Arenas.md",
     "Структуры данных/Множества.md",
     "Структура компьютера/Числа с плавающей точкой.md",
@@ -181,9 +180,6 @@
     "Kubernetes/Docker-compose vs kubernetes.md",
     "Kubernetes/K8s это.md",
     "21-school/MAKEFILEREADME.md",
-    "21-school/MAKEFILE.md",
-    "Алгоритмы/Все алгоритмы сортировки.md",
-    "Home.sync-conflict-20241021-132529-ZCXXYNL.md",
     "My Computer Since canvas.canvas"
   ]
 }

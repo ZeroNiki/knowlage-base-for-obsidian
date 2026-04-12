@@ -4,38 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "e6db267d370940c5",
+        "id": "9cf4f95d409c5bbe",
         "type": "tabs",
         "children": [
           {
-            "id": "7b39912c33e6b4de",
+            "id": "4557c5d53ed9500b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Infrastructure as code/Terraform And Ansible/ANSIBLE.md",
+                "file": "Docker/Оркестрация.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ANSIBLE"
+              "title": "Оркестрация"
             }
           },
           {
-            "id": "a9cd7d889b0e752a",
+            "id": "63eaa1ee65b676be",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DevOpsMentalmap.canvas",
-                "viewState": {
-                  "x": -2359.828150877882,
-                  "y": 3083.363841217418,
-                  "zoom": -2.621041472204374
-                }
+                "file": "Docker/Docker-swarm.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "DevOpsMentalmap"
+              "icon": "lucide-file",
+              "title": "Docker-swarm"
+            }
+          },
+          {
+            "id": "acbaa390ffd618aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ],
@@ -96,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 244.5
   },
   "right": {
     "id": "53d17784c2aae329",
@@ -158,97 +169,82 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ЯП/Python/Процедурный подход.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "Home.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Процедурный подход"
-            }
-          },
-          {
-            "id": "f6ce86b6731bd370",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "title": "Outline of Home"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "bases:Create new base": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a9cd7d889b0e752a",
+  "active": "63eaa1ee65b676be",
   "lastOpenFiles": [
-    "Git/Архитектурный разбор контентно-адресуемой системы.md",
-    "DevOpsMentalmap.canvas",
-    "Git/GIT Глубокое погружение в архитектуру и процессы.md",
-    "Git/Git fetch and git pull.md",
-    "Git/Git Expert Cheat Sheet.md",
-    "Git/Untitled 3.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Terraform cheatsheet small.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Ansible cheetSheet.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/ANSIBLE.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Жизненный цикл и Масштабирование.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Архитектурная битва и синергия Terraform & Ansible.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Ansible Стратегия масштабируемой автоматизации.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible",
     "Home.md",
-    "HowTo.md",
-    "Kubernetes/AdvKuberK3s/Kustomize Cheet Sheet.md",
-    "Books/2026/DevOps with Kubernetes.azw3",
-    "Books/2026/progit-en.1084.pdf",
-    "Books/2026/Git для профессионального программиста.pdf",
-    "Books/2026/devops.pdf",
-    "Kubernetes/AdvKuberK3s/Kustomize.md",
-    "Kubernetes/AdvKuberK3s/HELM Cheet Sheet.md",
-    "Kubernetes/AdvKuberK3s/HELM.md",
-    "Books/2026/A Practical Guide to Continuous Delivery.epub",
-    "Books/2026/thelinuxcommandline.pdf",
-    "Books/2026/Infrastructure as Code (IAC) Cookbook.pdf",
-    "Books/2026/howtolinuxworks.pdf",
-    "Books/2026/DevOps - Puppet, Docker, and Kubernetes.pdf",
-    "Kubernetes/Infrastructure as code/Эксплуатация Мониторинг и Безопасность.md",
-    "Kubernetes/Infrastructure as code/Стратегии тестирования в CI-CD.md",
-    "Kubernetes/Infrastructure as code/Непрерывная поставка и культура DevOps.md",
-    "Kubernetes/Infrastructure as code/Методологии и инструменты Infrastructure as Code.md",
-    "Kubernetes/Infrastructure as code/Инфраструктура микросервисов.md",
-    "Kubernetes/Infrastructure as code/Глубокий технический гайд по контейнеризации.md",
-    "Kubernetes/AdvKuberK3s/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
-    "Kubernetes/AdvKuberK3s/K3s learning manifest.md",
-    "IMG/NotebookLM Mind Map(1).png",
-    "IMG/k9s.png",
-    "IMG/Shturval-golanskiy.png",
-    "IMG/LinuxL.png",
-    "IMG/kafka.png",
-    "IMG/Pasted image 20250918224625.png",
+    "Excalidraw/Drawing 2025-09-18 22.03.20.excalidraw.md",
+    "Docker/Docker-swarm.md",
+    "Pasted image 20250918224625.png",
+    "Docker/Оркестрация.md",
+    "Excalidraw",
+    "Операционные системы/Vagrant/Vagrantfile.md",
+    "Операционные системы/Vagrant/Шпора.md",
+    "Atlasian",
+    "Docker/Docker-compose.md",
+    "Брокеры сообщений/RabbitMQ/RabbitMQ.md",
+    "Брокеры сообщений/Kafka/Kafka.md",
+    "Брокеры сообщений",
+    "Брокеры сообщений/RabbitMQ",
+    "Брокеры сообщений/Kafka",
+    "English/План.md",
+    "Kubernetes/Ресурсы для изучения.md",
+    "Kubernetes/Usage.md",
+    "Kubernetes/Installation in Arch Linux.md",
+    "Kubernetes/K8s это.md",
+    "Docker/Docker это.md",
+    "Алгоритмы/Бинарный поиск.md",
+    "ЯП/Python/cls static property.md",
+    "ЯП/Python/if __name__ == \"__main__\".md",
+    "ЯП/ООП/ООП.md",
+    "ЯП/Python/ООП в python.md",
+    "ЯП/Python/Функции высшего порядка в Python.md",
+    "ЯП/Типизация.md",
+    "ЯП/Теория языков программирования.md",
+    "ЯП/Синтаксис.md",
+    "ЯП/Получение программы.md",
+    "ЯП/Python",
+    "Операционные системы/Vagrant",
+    "БД/SQL",
     "IMG/Образец_тест-кейсы.png",
     "IMG/Образец_чек-лист.png",
     "IMG/Pasted image 20250327212219.png",
     "IMG/Образец_баг-репорт.png",
+    "QA",
+    "English",
+    "IMG/Pasted image 20240829115512.png",
+    "IMG/Pasted image 20240816130159.png",
+    "IMG/gruv-material-texture.png",
+    "IMG/Pasted image 20240810134717.png",
+    "IMG/Pasted image 20240805121304.png",
     "My Computer Since canvas.canvas",
+    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }
