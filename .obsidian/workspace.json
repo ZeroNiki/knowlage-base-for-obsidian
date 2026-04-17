@@ -4,34 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "e6db267d370940c5",
+        "id": "b4ad4ca7cefa765c",
         "type": "tabs",
         "children": [
           {
-            "id": "7b39912c33e6b4de",
+            "id": "eb4eb8a36d07ceb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Infrastructure as code/Terraform And Ansible/ANSIBLE.md",
+                "file": "Операционные системы/Linux/Cgroups.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ANSIBLE"
+              "title": "Cgroups"
             }
           },
           {
-            "id": "a9cd7d889b0e752a",
+            "id": "92ce06617bc2f66a",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "DevOpsMentalmap.canvas",
                 "viewState": {
-                  "x": -2359.828150877882,
-                  "y": 3083.363841217418,
-                  "zoom": -2.621041472204374
+                  "x": 1111.1703139659232,
+                  "y": 778.3087575319985,
+                  "zoom": -4
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -200,44 +200,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a9cd7d889b0e752a",
+  "active": "92ce06617bc2f66a",
   "lastOpenFiles": [
-    "Git/Архитектурный разбор контентно-адресуемой системы.md",
     "DevOpsMentalmap.canvas",
-    "Git/GIT Глубокое погружение в архитектуру и процессы.md",
-    "Git/Git fetch and git pull.md",
-    "Git/Git Expert Cheat Sheet.md",
-    "Git/Untitled 3.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Terraform cheatsheet small.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Ansible cheetSheet.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/ANSIBLE.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Жизненный цикл и Масштабирование.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Архитектурная битва и синергия Terraform & Ansible.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible/Ansible Стратегия масштабируемой автоматизации.md",
+    "Операционные системы/Linux/Cgroups.md",
+    "Docker/Docker deep dive.md",
+    "Docker/Балансировщик нагрузки.md",
+    "Docker/Кластер.md",
+    "Docker/Оркестрация.md",
+    "Docker/Иструкция по использованию Docker.md",
+    "Docker/Stack.md",
+    "ЯП/Python/Auth_Module.md",
+    "ЯП/Python/Функциональная парадигма.md",
+    "ЯП/Python/Функции высшего порядка в Python.md",
+    "ЯП/Python/Рантайм и Безопасность.md",
+    "ЯП/Python/Процедурный подход.md",
+    "ЯП/Python/ООП в python.md",
+    "ЯП/Python/Мультипарадигмальный подход.md",
+    "ЯП/Python/Модули и пакеты в Python.md",
+    "ЯП/Python/Контекстные мэнеджеры.md",
+    "ЯП/Python/Компиляция в Python.md",
+    "ЯП/Python/Замыкание в Python.md",
+    "ЯП/Python/Дикораторы и дискрипторы.md",
+    "ЯП/Python/Асинхронное и параллельное программирование.md",
+    "ЯП/Python/typing in python.md",
+    "ЯП/Python/Queue multiprocessing.md",
+    "ЯП/Python/OOP school_21.md",
+    "ЯП/Python/Lambda in python.md",
+    "ЯП/Python/ifname Statement.md",
     "Kubernetes/Infrastructure as code/Terraform And Ansible",
-    "Home.md",
-    "HowTo.md",
-    "Kubernetes/AdvKuberK3s/Kustomize Cheet Sheet.md",
     "Books/2026/DevOps with Kubernetes.azw3",
     "Books/2026/progit-en.1084.pdf",
     "Books/2026/Git для профессионального программиста.pdf",
     "Books/2026/devops.pdf",
-    "Kubernetes/AdvKuberK3s/Kustomize.md",
-    "Kubernetes/AdvKuberK3s/HELM Cheet Sheet.md",
-    "Kubernetes/AdvKuberK3s/HELM.md",
     "Books/2026/A Practical Guide to Continuous Delivery.epub",
     "Books/2026/thelinuxcommandline.pdf",
     "Books/2026/Infrastructure as Code (IAC) Cookbook.pdf",
     "Books/2026/howtolinuxworks.pdf",
     "Books/2026/DevOps - Puppet, Docker, and Kubernetes.pdf",
-    "Kubernetes/Infrastructure as code/Эксплуатация Мониторинг и Безопасность.md",
-    "Kubernetes/Infrastructure as code/Стратегии тестирования в CI-CD.md",
-    "Kubernetes/Infrastructure as code/Непрерывная поставка и культура DevOps.md",
-    "Kubernetes/Infrastructure as code/Методологии и инструменты Infrastructure as Code.md",
-    "Kubernetes/Infrastructure as code/Инфраструктура микросервисов.md",
-    "Kubernetes/Infrastructure as code/Глубокий технический гайд по контейнеризации.md",
-    "Kubernetes/AdvKuberK3s/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
-    "Kubernetes/AdvKuberK3s/K3s learning manifest.md",
     "IMG/NotebookLM Mind Map(1).png",
     "IMG/k9s.png",
     "IMG/Shturval-golanskiy.png",
