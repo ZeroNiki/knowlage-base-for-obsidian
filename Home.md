@@ -79,7 +79,7 @@ banner_x: 0.49427
 		- [[Пакеты в Linux]]
 		- **Эксплуатация**
 			- [[Упровление конфигурации]]
-			- [[ANSIBLE]]
+			- [[20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/ANSIBLE]]
 			- [[CICD]]
 			- [[DevOps]]
 	- **Файловые системы**

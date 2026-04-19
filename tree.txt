@@ -11,6 +11,20 @@
 │   │   │       ├── Логарифмическая сложность - O(log n).md
 │   │   │       ├── Логарифмически линейный.md
 │   │   │       └── О(1) Простая сложность.md
+│   │   ├── Networking
+│   │   │   ├── Protocols
+│   │   │   │   ├── DNS.md
+│   │   │   │   └── HTTP И HTTPS расширенный.md
+│   │   │   ├── Security
+│   │   │   │   └── Безопасность.md
+│   │   │   └── Services
+│   │   │       ├── Apache
+│   │   │       │   └── Что это.md
+│   │   │       └── Nginx
+│   │   │           ├── Nginx Proxy.md
+│   │   │           ├── NGINX VS APACHE.md
+│   │   │           ├── NGINX Это.md
+│   │   │           └── Шпаргалка.md
 │   │   ├── Алгоритмы
 │   │   │   ├── Cортировка выбо­ром.md
 │   │   │   ├── DFS.md
@@ -47,10 +61,8 @@
 │   │   ├── Методы ТВ.md
 │   │   ├── Сети
 │   │   │   ├── DHCP.md
-│   │   │   ├── DNS.md
 │   │   │   ├── Ethernet.md
 │   │   │   ├── Google search.md
-│   │   │   ├── HTTP И HTTPS расширенный.md
 │   │   │   ├── IP.md
 │   │   │   ├── IPv4 IPv6.md
 │   │   │   ├── IP Маршрутизация.md
@@ -66,16 +78,7 @@
 │   │   │   ├── TCP IP сети.md
 │   │   │   ├── TLS.md
 │   │   │   ├── WEB сайт И WEB приложение.md
-│   │   │   ├── Web сервера
-│   │   │   │   ├── Apache
-│   │   │   │   │   └── Что это.md
-│   │   │   │   └── Nginx
-│   │   │   │       ├── Nginx Proxy.md
-│   │   │   │       ├── NGINX VS APACHE.md
-│   │   │   │       ├── NGINX Это.md
-│   │   │   │       └── Шпаргалка.md
 │   │   │   ├── Базовые принципы сетей.md
-│   │   │   ├── Безопасность.md
 │   │   │   ├── Гайд по настройке CISCO.md
 │   │   │   ├── Как устроен Torrent.md
 │   │   │   ├── Криптография.md
@@ -86,6 +89,7 @@
 │   │   │   ├── Сетивые стандарты и документация.md
 │   │   │   ├── Система единого входа.md
 │   │   │   └── Электронные почты.md
+│   │   ├── Симантика.md
 │   │   ├── Структура компьютера
 │   │   │   ├── Виды компьютерной памяти.md
 │   │   │   ├── Еденицы измерения.md
@@ -223,58 +227,7 @@
 │   │       └── Функциональное программирование
 │   │           └── Функциональное программирование.md
 │   ├── DevOps
-│   │   ├── DevOps
-│   │   │   ├── Docker
-│   │   │   │   ├── Docker archlinux install.md
-│   │   │   │   ├── Docker-compose.md
-│   │   │   │   ├── Docker deep dive.md
-│   │   │   │   ├── Docker-swarm.md
-│   │   │   │   ├── Docker using.md
-│   │   │   │   ├── Docker это.md
-│   │   │   │   ├── Image.md
-│   │   │   │   ├── Stack.md
-│   │   │   │   ├── Балансировщик нагрузки.md
-│   │   │   │   ├── Иструкция по использованию Docker.md
-│   │   │   │   ├── Кластер.md
-│   │   │   │   └── Оркестрация.md
-│   │   │   ├── Kubernetes
-│   │   │   │   ├── AdvKuberK3s
-│   │   │   │   │   ├── CheetSheet.md
-│   │   │   │   │   ├── FinalSettingUP.md
-│   │   │   │   │   ├── HELM Cheet Sheet.md
-│   │   │   │   │   ├── HELM.md
-│   │   │   │   │   ├── K3s learning manifest.md
-│   │   │   │   │   ├── Kustomize Cheet Sheet.md
-│   │   │   │   │   ├── Kustomize.md
-│   │   │   │   │   ├── scripts
-│   │   │   │   │   │   ├── install_k3s_master.sh
-│   │   │   │   │   │   └── install_k3s_worker.sh
-│   │   │   │   │   └── Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md
-│   │   │   │   ├── Docker-compose vs kubernetes.md
-│   │   │   │   ├── Infrastructure as code
-│   │   │   │   │   ├── Terraform And Ansible
-│   │   │   │   │   │   ├── Ansible cheetSheet.md
-│   │   │   │   │   │   ├── ANSIBLE.md
-│   │   │   │   │   │   ├── Ansible Стратегия масштабируемой автоматизации.md
-│   │   │   │   │   │   ├── Terraform cheatsheet small.md
-│   │   │   │   │   │   ├── Архитектурная битва и синергия Terraform & Ansible.md
-│   │   │   │   │   │   └── Жизненный цикл и Масштабирование.md
-│   │   │   │   │   ├── Глубокий технический гайд по контейнеризации.md
-│   │   │   │   │   ├── Инфраструктура микросервисов.md
-│   │   │   │   │   ├── Методологии и инструменты Infrastructure as Code.md
-│   │   │   │   │   ├── Непрерывная поставка и культура DevOps.md
-│   │   │   │   │   ├── Стратегии тестирования в CI-CD.md
-│   │   │   │   │   └── Эксплуатация Мониторинг и Безопасность.md
-│   │   │   │   ├── Installation in Arch Linux.md
-│   │   │   │   ├── K8s это.md
-│   │   │   │   ├── Usage.md
-│   │   │   │   ├── Аттрибуты из манифеста на примере.md
-│   │   │   │   ├── ДопИнфа по k8s.md
-│   │   │   │   ├── Ресурсы для изучения.md
-│   │   │   │   └── Стратегии развертывания.md
-│   │   │   └── Анализ решенных задачь
-│   │   │       ├── counting IPs.md
-│   │   │       └── what is writing to this log file.md
+│   │   ├── DevOps.md
 │   │   ├── DevOpsMentalmap.canvas
 │   │   ├── Git
 │   │   │   ├── Git Expert Cheat Sheet.md
@@ -285,8 +238,62 @@
 │   │   │   └── Архитектурный разбор контентно-адресуемой системы.md
 │   │   ├── Lifecycle
 │   │   │   ├── CI-CD
+│   │   │   │   ├── CICD.md
+│   │   │   │   ├── Непрерывная поставка и культура DevOps.md
+│   │   │   │   └── Стратегии тестирования в CI-CD.md
+│   │   │   ├── IaC_and_Config
+│   │   │   │   ├── Terraform And Ansible
+│   │   │   │   │   ├── Ansible cheetSheet.md
+│   │   │   │   │   ├── ANSIBLE.md
+│   │   │   │   │   ├── Ansible Стратегия масштабируемой автоматизации.md
+│   │   │   │   │   ├── Terraform cheatsheet small.md
+│   │   │   │   │   ├── Архитектурная битва и синергия Terraform & Ansible.md
+│   │   │   │   │   └── Жизненный цикл и Масштабирование.md
+│   │   │   │   ├── Инфраструктура микросервисов.md
+│   │   │   │   └── Методологии и инструменты Infrastructure as Code.md
 │   │   │   ├── Monitoring
 │   │   │   ├── Networking
+│   │   │   ├── Observability
+│   │   │   │   ├── Анализ решенных задачь
+│   │   │   │   │   ├── counting IPs.md
+│   │   │   │   │   └── what is writing to this log file.md
+│   │   │   │   └── Эксплуатация Мониторинг и Безопасность.md
+│   │   │   ├── Runtime
+│   │   │   │   ├── Docker
+│   │   │   │   │   ├── Docker archlinux install.md
+│   │   │   │   │   ├── Docker-compose.md
+│   │   │   │   │   ├── Docker deep dive.md
+│   │   │   │   │   ├── Docker-swarm.md
+│   │   │   │   │   ├── Docker using.md
+│   │   │   │   │   ├── Docker это.md
+│   │   │   │   │   ├── Image.md
+│   │   │   │   │   ├── Stack.md
+│   │   │   │   │   ├── Балансировщик нагрузки.md
+│   │   │   │   │   ├── Иструкция по использованию Docker.md
+│   │   │   │   │   ├── Кластер.md
+│   │   │   │   │   └── Оркестрация.md
+│   │   │   │   ├── Kubernetes
+│   │   │   │   │   ├── AdvKuberK3s
+│   │   │   │   │   │   ├── CheetSheet.md
+│   │   │   │   │   │   ├── FinalSettingUP.md
+│   │   │   │   │   │   ├── HELM Cheet Sheet.md
+│   │   │   │   │   │   ├── HELM.md
+│   │   │   │   │   │   ├── K3s learning manifest.md
+│   │   │   │   │   │   ├── Kustomize Cheet Sheet.md
+│   │   │   │   │   │   ├── Kustomize.md
+│   │   │   │   │   │   ├── scripts
+│   │   │   │   │   │   │   ├── install_k3s_master.sh
+│   │   │   │   │   │   │   └── install_k3s_worker.sh
+│   │   │   │   │   │   └── Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md
+│   │   │   │   │   ├── Docker-compose vs kubernetes.md
+│   │   │   │   │   ├── Installation in Arch Linux.md
+│   │   │   │   │   ├── K8s это.md
+│   │   │   │   │   ├── Usage.md
+│   │   │   │   │   ├── Аттрибуты из манифеста на примере.md
+│   │   │   │   │   ├── ДопИнфа по k8s.md
+│   │   │   │   │   ├── Ресурсы для изучения.md
+│   │   │   │   │   └── Стратегии развертывания.md
+│   │   │   │   └── Глубокий технический гайд по контейнеризации.md
 │   │   │   └── Security
 │   │   └── Брокеры сообщений
 │   │       ├── Kafka
@@ -322,8 +329,6 @@
 │   │   │   │   ├── Лекция.md
 │   │   │   │   └── Полное руководство по командам и дебаггингу.md
 │   │   │   └── Эксплуатация
-│   │   │       ├── CICD.md
-│   │   │       ├── DevOps.md
 │   │   │       └── Упровление конфигурации.md
 │   │   ├── Vagrant
 │   │   │   ├── Vagrantfile.md
@@ -343,15 +348,13 @@
 │   │       ├── Сравнение.md
 │   │       └── Файловая система.md
 │   └── QA
-│       ├── IDOR.md
-│       └── QA
-│           ├── SQL для QA.md
-│           ├── Unit-tests.md
-│           ├── Баги и баг-репорты.md
-│           ├── Введение в тестирование.md
-│           ├── Классификация видов тестирования.md
-│           ├── Тест-кейс.md
-│           └── Чек-лист.md
+│       ├── SQL для QA.md
+│       ├── Unit-tests.md
+│       ├── Баги и баг-репорты.md
+│       ├── Введение в тестирование.md
+│       ├── Классификация видов тестирования.md
+│       ├── Тест-кейс.md
+│       └── Чек-лист.md
 ├── 30_Library
 │   ├── advanced.html.md
 │   ├── Books
@@ -432,7 +435,6 @@
 │       ├── Внутри_ядра_Linux.mp4
 │       └── Ключевые_возможности_Git.mp4
 ├── Home.md
-├── tree.txt
-└── Симантика.md
+└── tree.txt
 
-75 directories, 361 files
+78 directories, 360 files
