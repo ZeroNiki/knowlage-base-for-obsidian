@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "45a3693be61b94a6",
+            "id": "defc98a77859e56f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Areas/DevOps/DevOps MOC.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "DevOps MOC"
-            }
-          },
-          {
-            "id": "ff7d7b7b8b0b44d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,11 +182,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ff7d7b7b8b0b44d1",
+  "active": "defc98a77859e56f",
   "lastOpenFiles": [
-    "20_Areas/DevOps/DevOps MOC.md",
     "README.md",
     "Home.md",
+    "20_Areas/Computer_Science/Computer Science MOC.md",
+    "20_Areas/Development/Development MOC.md",
+    "20_Areas/DevOps/DevOps MOC.md",
+    "20_Areas/OS/OS MOC.md",
+    "20_Areas/QA/QA MOC.md",
+    "40_Vault_Maintenance/IMG/Pasted image 20260419194206.png",
+    "20_Areas/Methodologies/Methodologies MOC.md",
+    "20_Areas/DevOps/DevOpsMentalmap.canvas",
+    "20_Areas/DevOps/Lifecycle/CI-CD/CICD.md",
+    "40_Vault_Maintenance/Templates/Base.md",
     "20_Areas/Computer_Science/Networking/L1",
     "20_Areas/Development/Databases/SQL/SQL для QA.md",
     "20_Areas/Development/Databases/SQL/SQL.md",
@@ -221,21 +215,12 @@
     "20_Areas/Development/Languages/Cpp/Классы/Абстракция данных и Инкапсуляция.md",
     "20_Areas/Development/Languages/Cpp/CMake/Структура проекта на c++.md",
     "20_Areas/Development/Languages/Cpp/CMake/Пример.md",
-    "20_Areas/Development/Languages/Cpp/CMake/Заголовочные файлы проекта.md",
-    "20_Areas/Development/Languages/Cpp/CMake/Базовый гайд по Cmake.md",
-    "20_Areas/Development/Languages/Python/Bootcamp/T02.md",
-    "20_Areas/Development/Languages/Процедурное программирование/Процедурное программирования.md",
-    "20_Areas/Development/Languages/Python/Функциональная парадигма.md",
-    "20_Areas/Development/Languages/Python/Функции высшего порядка в Python.md",
-    "20_Areas/Development/Languages/Python/Рантайм и Безопасность.md",
-    "20_Areas/Development/Languages/Python/Процедурный подход.md",
     "20_Areas/Development/Languages/Python/Bootcamp",
     "20_Areas/Development/Languages/Cpp/Классы",
     "20_Areas/Development/Languages/Cpp/Библеотеки",
     "20_Areas/Development/Languages/Cpp/CMake",
     "20_Areas/Development/Languages/Функциональное программирование",
     "20_Areas/Development/Languages/С",
-    "20_Areas/DevOps/DevOpsMentalmap.canvas",
     "40_Vault_Maintenance/IMG/NotebookLM Mind Map(1).png",
     "40_Vault_Maintenance/IMG/k9s.png",
     "40_Vault_Maintenance/IMG/Shturval-golanskiy.png",
@@ -245,7 +230,6 @@
     "40_Vault_Maintenance/IMG/Образец_тест-кейсы.png",
     "40_Vault_Maintenance/IMG/Образец_чек-лист.png",
     "40_Vault_Maintenance/IMG/Pasted image 20250327212219.png",
-    "40_Vault_Maintenance/IMG/Образец_баг-репорт.png",
     "My Computer Since canvas.canvas",
     "Untitled 1.canvas"
   ]
