@@ -47,7 +47,7 @@
 		{"id":"574f4dfe104dc32e","type":"file","file":"DevOps/Kubernetes/Infrastructure as code/Terraform And Ansible/ANSIBLE.md","x":-4760,"y":4240,"width":400,"height":400},
 		{"id":"ba1022d988b40979","type":"file","file":"DevOps/Kubernetes/Infrastructure as code/Terraform And Ansible/Terraform cheatsheet small.md","x":-4940,"y":3120,"width":400,"height":400},
 		{"id":"5b17495d8333f154","type":"file","file":"DevOps/Kubernetes/Infrastructure as code/Terraform And Ansible/Ansible cheetSheet.md","x":-5680,"y":4240,"width":400,"height":400},
-		{"id":"28a40a1d109a5c09","type":"file","file":"Books/2026/devops.pdf","x":3440,"y":-1580,"width":2240,"height":3340},
+		{"id":"28a40a1d109a5c09","type":"file","file":"30_Library/Books/2026/devops.pdf","x":3440,"y":-1580,"width":2240,"height":3340},
 		{"id":"0df56711ca59bbb6","type":"file","file":"DevOps/Kubernetes/Аттрибуты из манифеста на примере.md","x":-500,"y":2020,"width":400,"height":400,"color":"#02f72b"},
 		{"id":"75411506c3d902e0","type":"file","file":"DevOps/Kubernetes/Стратегии развертывания.md","x":-500,"y":2516,"width":400,"height":400,"color":"#02f72b"},
 		{"id":"b09683f17e9857bb","type":"file","file":"DevOps/Kubernetes/Infrastructure as code/Terraform And Ansible/Жизненный цикл и Масштабирование.md","x":-5440,"y":3120,"width":400,"height":400},
@@ -76,7 +76,7 @@
 		{"id":"ce63f02563e45b0b","type":"file","file":"DevOps/Docker/Оркестрация.md","x":-1510,"y":3000,"width":400,"height":400,"color":"4"},
 		{"id":"2b4fdeb406e0f478","type":"file","file":"DevOps/Kubernetes/AdvKuberK3s/Kustomize.md","x":108,"y":3000,"width":400,"height":400,"color":"4"},
 		{"id":"b0aa0170d4865b5b","x":-7260,"y":2620,"width":400,"height":400,"type":"file","file":"Git/GITOPS.md"},
-		{"id":"6b57aba1c9f9249e","x":-6780,"y":2708,"width":400,"height":225,"type":"file","file":"Video/Ключевые_возможности_Git.mp4"},
+		{"id":"6b57aba1c9f9249e","x":-6780,"y":2708,"width":400,"height":225,"type":"file","file":"40_Vault_Maintenance/Video/Ключевые_возможности_Git.mp4"},
 		{"id":"4917c179ccf64729","type":"file","file":"Сети/Web сервера/Nginx/NGINX Это.md","x":-1970,"y":-4660,"width":400,"height":400,"color":"4"},
 		{"id":"e27008b0795eddca","type":"file","file":"Сети/DNS.md","x":-1970,"y":-4100,"width":400,"height":400,"color":"1"},
 		{"id":"c3164b97ce5e415e","type":"file","file":"Сети/OSI model.md","x":-1970,"y":-3540,"width":400,"height":400,"color":"6"},
@@ -105,8 +105,8 @@
 		{"id":"2d4922b881b5b283","type":"file","file":"Операционные системы/Linux/LVM.md","x":-1310,"y":-1670,"width":400,"height":400},
 		{"id":"12440b4b45254aaf","type":"file","file":"Операционные системы/Linux/Шпаргалки и Общая информация/Полное руководство по командам и дебаггингу.md","x":-1310,"y":-1160,"width":400,"height":400,"color":"2"},
 		{"id":"f8bf6cbfe59756bf","type":"file","file":"Операционные системы/Linux/LinuxBoot workflow.md","x":-1350,"y":-2200,"width":400,"height":400},
-		{"id":"f2f8de55f7260e22","x":-1310,"y":-675,"width":400,"height":225,"type":"file","file":"Video/Внутри_ядра_Linux.mp4"},
-		{"id":"4d9e9530cc2d120a","x":-790,"y":-675,"width":400,"height":315,"type":"file","file":"Books/2026/Linux_for_DevOps.pdf"}
+		{"id":"f2f8de55f7260e22","x":-1310,"y":-675,"width":400,"height":225,"type":"file","file":"40_Vault_Maintenance/Video/Внутри_ядра_Linux.mp4"},
+		{"id":"4d9e9530cc2d120a","x":-790,"y":-675,"width":400,"height":315,"type":"file","file":"30_Library/Books/2026/Linux_for_DevOps.pdf"}
 	],
 	"edges":[
 		{"id":"802299351fe87e67","fromNode":"bcb1c371df214342","fromSide":"right","toNode":"6392c36eb7c68b97","toSide":"left"},
