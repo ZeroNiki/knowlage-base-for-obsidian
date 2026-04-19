@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "840c0a55743e2f73",
+        "id": "6ae1e379ec9c2afe",
         "type": "tabs",
         "children": [
           {
-            "id": "b72c1f8c2ab15df4",
+            "id": "c2ddb4f130f35e2b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DevOpsMentalmap.canvas",
-                "viewState": {
-                  "x": -1002.8918666952522,
-                  "y": -663.2041553343141,
-                  "zoom": -2.89950182759538
-                }
+                "file": "Операционные системы/Linux/Шпаргалки и Общая информация/Лекция.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "DevOpsMentalmap"
+              "icon": "lucide-file",
+              "title": "Лекция"
             }
           }
         ]
@@ -99,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Kubernetes/K8s это.md",
+            "file": "DevOpsMentalmap.canvas",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -109,7 +106,7 @@
             "unlinkedCollapsed": true
           },
           "icon": "links-coming-in",
-          "title": "Backlinks"
+          "title": "Обратные ссылки"
         }
       },
       {
@@ -156,9 +153,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b72c1f8c2ab15df4",
+  "active": "c2ddb4f130f35e2b",
   "lastOpenFiles": [
     "Home.md",
+    "DevOpsMentalmap.canvas",
     "ЯП/С/Arenas.md",
     "Структуры данных/Множества.md",
     "Структура компьютера/Числа с плавающей точкой.md",
@@ -183,7 +181,6 @@
     "21-school/MAKEFILEREADME.md",
     "21-school/MAKEFILE.md",
     "Алгоритмы/Все алгоритмы сортировки.md",
-    "Home.sync-conflict-20241021-132529-ZCXXYNL.md",
     "My Computer Since canvas.canvas"
   ]
 }

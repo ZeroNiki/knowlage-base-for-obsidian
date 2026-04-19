@@ -4,34 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "b4ad4ca7cefa765c",
+        "id": "8505b01bc3623114",
         "type": "tabs",
         "children": [
           {
-            "id": "eb4eb8a36d07ceb3",
+            "id": "524ffb5cdc2b782c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Операционные системы/Linux/Cgroups.md",
+                "file": "Git/GITOPS.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cgroups"
+              "title": "GITOPS"
             }
           },
           {
-            "id": "92ce06617bc2f66a",
+            "id": "a3e05b6366e7d375",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "DevOpsMentalmap.canvas",
                 "viewState": {
-                  "x": 1111.1703139659232,
-                  "y": 778.3087575319985,
-                  "zoom": -4
+                  "x": -926.9951607242426,
+                  "y": -531.2876284013136,
+                  "zoom": -1.6000000000000005
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -62,7 +62,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -187,57 +187,58 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "92ce06617bc2f66a",
+  "active": "a3e05b6366e7d375",
   "lastOpenFiles": [
+    "Video/Внутри_ядра_Linux.mp4",
+    "Books/2026/Linux_for_DevOps.pdf",
+    "Video/Ключевые_возможности_Git.mp4",
+    "Video",
+    "Git/GITOPS.md",
     "DevOpsMentalmap.canvas",
+    "Home.md",
+    "DevOps/Анализ решенных задачь/what is writing to this log file.md",
+    "DevOps/Анализ решенных задачь/counting IPs.md",
+    "Операционные системы/Linux/Шпаргалки и Общая информация/Linux Deep Dive Исчерпывающее руководство.md",
+    "Операционные системы/Linux/Everything is file.md",
+    "Операционные системы/Linux/Шпаргалки и Общая информация/FHS.md",
+    "Операционные системы/Linux/База.md",
+    "Excalidraw/Drawing 2026-04-18 18.22.55.excalidraw.md",
+    "Операционные системы/Файловые системы/Сравнение.md",
+    "Home.sync-conflict-20260412-132204-I6E5SJS.md",
+    "Операционные системы/Linux/Устоновка ARCH Linux.md",
+    "DevOps/Kubernetes/Infrastructure as code/Инфраструктура микросервисов.md",
+    "DevOps/Kubernetes/Infrastructure as code/Terraform And Ansible/Ansible Стратегия масштабируемой автоматизации.md",
+    "DevOps/Kubernetes/Infrastructure as code/Terraform And Ansible/Ansible cheetSheet.md",
+    "DevOps/Kubernetes/Infrastructure as code/Terraform And Ansible/ANSIBLE.md",
+    "DevOps/Untitled.md",
+    "DevOps/Анализ решенных задачь",
+    "DevOps",
+    "Операционные системы/Linux/Шпаргалки и Общая информация/Полное руководство по командам и дебаггингу.md",
     "Операционные системы/Linux/Cgroups.md",
-    "Docker/Docker deep dive.md",
-    "Docker/Балансировщик нагрузки.md",
-    "Docker/Кластер.md",
-    "Docker/Оркестрация.md",
-    "Docker/Иструкция по использованию Docker.md",
-    "Docker/Stack.md",
-    "ЯП/Python/Auth_Module.md",
-    "ЯП/Python/Функциональная парадигма.md",
-    "ЯП/Python/Функции высшего порядка в Python.md",
-    "ЯП/Python/Рантайм и Безопасность.md",
-    "ЯП/Python/Процедурный подход.md",
-    "ЯП/Python/ООП в python.md",
-    "ЯП/Python/Мультипарадигмальный подход.md",
-    "ЯП/Python/Модули и пакеты в Python.md",
-    "ЯП/Python/Контекстные мэнеджеры.md",
-    "ЯП/Python/Компиляция в Python.md",
-    "ЯП/Python/Замыкание в Python.md",
-    "ЯП/Python/Дикораторы и дискрипторы.md",
-    "ЯП/Python/Асинхронное и параллельное программирование.md",
-    "ЯП/Python/typing in python.md",
-    "ЯП/Python/Queue multiprocessing.md",
-    "ЯП/Python/OOP school_21.md",
-    "ЯП/Python/Lambda in python.md",
-    "ЯП/Python/ifname Statement.md",
-    "Kubernetes/Infrastructure as code/Terraform And Ansible",
+    "Операционные системы/Linux/Command line tips and tricks.md",
+    "Операционные системы/Linux/Шпаргалки и Общая информация/Лекция.md",
+    "Операционные системы/Linux/LinuxBoot workflow.md",
+    "Операционные системы/Linux/LVM.md",
+    "Операционные системы/Linux/Modern-Unix.md",
+    "Операционные системы/Linux/Загрузка, системные демоны.md",
+    "DevOps/Kubernetes/Infrastructure as code/Terraform And Ansible",
     "Books/2026/DevOps with Kubernetes.azw3",
     "Books/2026/progit-en.1084.pdf",
     "Books/2026/Git для профессионального программиста.pdf",
     "Books/2026/devops.pdf",
-    "Books/2026/A Practical Guide to Continuous Delivery.epub",
-    "Books/2026/thelinuxcommandline.pdf",
-    "Books/2026/Infrastructure as Code (IAC) Cookbook.pdf",
-    "Books/2026/howtolinuxworks.pdf",
-    "Books/2026/DevOps - Puppet, Docker, and Kubernetes.pdf",
     "IMG/NotebookLM Mind Map(1).png",
     "IMG/k9s.png",
     "IMG/Shturval-golanskiy.png",
