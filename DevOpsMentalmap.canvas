@@ -105,8 +105,8 @@
 		{"id":"2d4922b881b5b283","type":"file","file":"Операционные системы/Linux/LVM.md","x":-1310,"y":-1670,"width":400,"height":400},
 		{"id":"12440b4b45254aaf","type":"file","file":"Операционные системы/Linux/Шпаргалки и Общая информация/Полное руководство по командам и дебаггингу.md","x":-1310,"y":-1160,"width":400,"height":400,"color":"2"},
 		{"id":"f8bf6cbfe59756bf","type":"file","file":"Операционные системы/Linux/LinuxBoot workflow.md","x":-1350,"y":-2200,"width":400,"height":400},
-		{"id":"4d9e9530cc2d120a","x":-830,"y":-675,"width":400,"height":400,"type":"file","file":"Books/2026/Linux_for_DevOps.pdf"},
-		{"id":"f2f8de55f7260e22","x":-1310,"y":-675,"width":400,"height":225,"type":"file","file":"Video/Внутри_ядра_Linux.mp4"}
+		{"id":"f2f8de55f7260e22","x":-1310,"y":-675,"width":400,"height":225,"type":"file","file":"Video/Внутри_ядра_Linux.mp4"},
+		{"id":"4d9e9530cc2d120a","x":-790,"y":-675,"width":400,"height":315,"type":"file","file":"Books/2026/Linux_for_DevOps.pdf"}
 	],
 	"edges":[
 		{"id":"802299351fe87e67","fromNode":"bcb1c371df214342","fromSide":"right","toNode":"6392c36eb7c68b97","toSide":"left"},

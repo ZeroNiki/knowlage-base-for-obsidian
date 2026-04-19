@@ -8,38 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "524ffb5cdc2b782c",
+            "id": "13555f221eaa63b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/GITOPS.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "GITOPS"
-            }
-          },
-          {
-            "id": "a3e05b6366e7d375",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "DevOpsMentalmap.canvas",
-                "viewState": {
-                  "x": -926.9951607242426,
-                  "y": -531.2876284013136,
-                  "zoom": -1.6000000000000005
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "DevOpsMentalmap"
+              "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,14 +182,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a3e05b6366e7d375",
+  "active": "13555f221eaa63b6",
   "lastOpenFiles": [
+    "Git/GITOPS.md",
+    "БД/Postgresql/Install in Arch Linux.md",
+    "DevOpsMentalmap.canvas",
+    "IDOR.md",
+    "ЯП/Python/Auth_Module.md",
     "Video/Внутри_ядра_Linux.mp4",
     "Books/2026/Linux_for_DevOps.pdf",
     "Video/Ключевые_возможности_Git.mp4",
     "Video",
-    "Git/GITOPS.md",
-    "DevOpsMentalmap.canvas",
     "Home.md",
     "DevOps/Анализ решенных задачь/what is writing to this log file.md",
     "DevOps/Анализ решенных задачь/counting IPs.md",
@@ -232,13 +217,10 @@
     "Операционные системы/Linux/Шпаргалки и Общая информация/Лекция.md",
     "Операционные системы/Linux/LinuxBoot workflow.md",
     "Операционные системы/Linux/LVM.md",
-    "Операционные системы/Linux/Modern-Unix.md",
-    "Операционные системы/Linux/Загрузка, системные демоны.md",
     "DevOps/Kubernetes/Infrastructure as code/Terraform And Ansible",
     "Books/2026/DevOps with Kubernetes.azw3",
     "Books/2026/progit-en.1084.pdf",
     "Books/2026/Git для профессионального программиста.pdf",
-    "Books/2026/devops.pdf",
     "IMG/NotebookLM Mind Map(1).png",
     "IMG/k9s.png",
     "IMG/Shturval-golanskiy.png",
