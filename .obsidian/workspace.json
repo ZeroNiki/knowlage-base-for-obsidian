@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "20_Areas/DevOps/DevOps MOC.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "DevOps MOC"
+            }
+          },
+          {
+            "id": "ff7d7b7b8b0b44d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,8 +197,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "88594b4968fa01b1",
+  "active": "ff7d7b7b8b0b44d1",
   "lastOpenFiles": [
+    "20_Areas/DevOps/DevOps MOC.md",
+    "README.md",
+    "Home.md",
     "20_Areas/Computer_Science/Networking/L1",
     "20_Areas/Development/Databases/SQL/SQL для QA.md",
     "20_Areas/Development/Databases/SQL/SQL.md",
@@ -211,15 +229,12 @@
     "20_Areas/Development/Languages/Python/Функции высшего порядка в Python.md",
     "20_Areas/Development/Languages/Python/Рантайм и Безопасность.md",
     "20_Areas/Development/Languages/Python/Процедурный подход.md",
-    "20_Areas/Development/Languages/Python/ООП в python.md",
-    "20_Areas/Development/Languages/Python/Мультипарадигмальный подход.md",
     "20_Areas/Development/Languages/Python/Bootcamp",
     "20_Areas/Development/Languages/Cpp/Классы",
     "20_Areas/Development/Languages/Cpp/Библеотеки",
     "20_Areas/Development/Languages/Cpp/CMake",
     "20_Areas/Development/Languages/Функциональное программирование",
     "20_Areas/Development/Languages/С",
-    "20_Areas/Development/Languages/Процедурное программирование",
     "20_Areas/DevOps/DevOpsMentalmap.canvas",
     "40_Vault_Maintenance/IMG/NotebookLM Mind Map(1).png",
     "40_Vault_Maintenance/IMG/k9s.png",
