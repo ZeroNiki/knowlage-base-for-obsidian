@@ -1,444 +1,76 @@
-.
-├── 01_Inbox
-├── 10_Projects
-├── 20_Areas
-│   ├── Computer_Science
-│   │   ├── Algorithms
-│   │   │   ├── Complexity
-│   │   │   │   └── big(O)
-│   │   │   │       ├── BIG(O).md
-│   │   │   │       └── Сложности
-│   │   │   │           ├── O(n) Линейная сложность.md
-│   │   │   │           ├── Квадратичная сложность.md
-│   │   │   │           ├── Логарифмическая сложность - O(log n).md
-│   │   │   │           ├── Логарифмически линейный.md
-│   │   │   │           └── О(1) Простая сложность.md
-│   │   │   ├── Paradigms
-│   │   │   │   ├── K ближайщих соседей.md
-│   │   │   │   ├── Динамическое программирование.md
-│   │   │   │   ├── Жадный подход.md
-│   │   │   │   ├── Мемоизация.md
-│   │   │   │   ├── Метод грубой силы.md
-│   │   │   │   ├── Перебор с возвратом.md
-│   │   │   │   ├── Полный перебор.md
-│   │   │   │   ├── Разделяй и властвуй.md
-│   │   │   │   └── Рекурсия.md
-│   │   │   └── Search_and_Sort
-│   │   │       ├── Бинарный поиск.md
-│   │   │       ├── Двоичный поиск.md
-│   │   │       ├── Простой поиск.md
-│   │   │       └── сортировка пузырьком.md
-│   │   ├── Networking
-│   │   │   ├── L2_L3_Routing
-│   │   │   │   ├── Ethernet.md
-│   │   │   │   ├── IP.md
-│   │   │   │   ├── IPv4 IPv6.md
-│   │   │   │   ├── IP Маршрутизация.md
-│   │   │   │   ├── LAN и WLAN VLAN.md
-│   │   │   │   ├── MAC адрес.md
-│   │   │   │   ├── NAT (Network Address Translation).md
-│   │   │   │   └── Протоколы маршрутизации.md
-│   │   │   ├── Protocols
-│   │   │   │   ├── DHCP.md
-│   │   │   │   ├── DNS.md
-│   │   │   │   ├── HTTP И HTTPS расширенный.md
-│   │   │   │   ├── JWT.md
-│   │   │   │   ├── OSI model.md
-│   │   │   │   ├── Rest API.md
-│   │   │   │   ├── SSH.md
-│   │   │   │   ├── TCP IP сети.md
-│   │   │   │   ├── Как устроен Torrent.md
-│   │   │   │   └── Электронные почты.md
-│   │   │   ├── Security
-│   │   │   │   ├── SSL.md
-│   │   │   │   ├── TLS.md
-│   │   │   │   ├── Безопасность.md
-│   │   │   │   ├── Криптография.md
-│   │   │   │   ├── Сетивые атаки.md
-│   │   │   │   └── Система единого входа.md
-│   │   │   └── Services
-│   │   │       ├── Apache
-│   │   │       │   └── Что это.md
-│   │   │       └── Nginx
-│   │   │           ├── Nginx Proxy.md
-│   │   │           ├── NGINX VS APACHE.md
-│   │   │           ├── NGINX Это.md
-│   │   │           └── Шпаргалка.md
-│   │   ├── Алгоритмы
-│   │   │   ├── Cортировка выбо­ром.md
-│   │   │   ├── DFS.md
-│   │   │   ├── Алгоритм Дийкстры.md
-│   │   │   ├── Быстрая сотрировка (Сортировка Хоара).md
-│   │   │   ├── Все алгоритмы сортировки.md
-│   │   │   ├── Жадный алгоритм.md
-│   │   │   ├── Задачи
-│   │   │   │   ├── NP-полная задача.md
-│   │   │   │   ├── задача о коммивояжере.md
-│   │   │   │   └── Оптимальные решения.md
-│   │   │   ├── Параллельные алгоритмы.md
-│   │   │   ├── Поиск в ширину.md
-│   │   │   ├── Преобразование Фурье.md
-│   │   │   ├── Сортировка вставками.md
-│   │   │   └── Сортировка Ломута.md
-│   │   ├── Методы
-│   │   │   ├── Sliding window.md
-│   │   │   ├── Простые методы
-│   │   │   └── Сложные методы
-│   │   ├── Методы ТВ.md
-│   │   ├── Сети
-│   │   │   ├── Google search.md
-│   │   │   ├── Proxy server.md
-│   │   │   ├── WEB сайт И WEB приложение.md
-│   │   │   ├── Базовые принципы сетей.md
-│   │   │   ├── Гайд по настройке CISCO.md
-│   │   │   ├── Протокол передачи данных.md
-│   │   │   ├── Сетевое обрудование.md
-│   │   │   └── Сетивые стандарты и документация.md
-│   │   ├── Симантика.md
-│   │   ├── Структура компьютера
-│   │   │   ├── Виды компьютерной памяти.md
-│   │   │   ├── Еденицы измерения.md
-│   │   │   ├── Кадировка.md
-│   │   │   ├── Как работать с битами.md
-│   │   │   ├── Кэш процессора.md
-│   │   │   ├── Многоуровневые цифровые машины.md
-│   │   │   ├── ОЗУ.md
-│   │   │   ├── Отрицательные числа.md
-│   │   │   ├── Процессор.md
-│   │   │   ├── Семейства компьютеров
-│   │   │   │   ├── ARM.md
-│   │   │   │   ├── AVR.md
-│   │   │   │   └── x86.md
-│   │   │   ├── Система счисления.md
-│   │   │   ├── Типы компьютеров
-│   │   │   │   ├── Микроконтроллеры.md
-│   │   │   │   └── Одноразовый компьютер.md
-│   │   │   ├── Цифровая машина.md
-│   │   │   └── Числа с плавающей точкой.md
-│   │   ├── Структуры данных
-│   │   │   ├── АТД.md
-│   │   │   ├── Граф.md
-│   │   │   ├── Двоичное дерево.md
-│   │   │   ├── двухсвязный список.md
-│   │   │   ├── Дерево.md
-│   │   │   ├── Инвертированный индекс.md
-│   │   │   ├── Куча.md
-│   │   │   ├── Массив.md
-│   │   │   ├── Множества.md
-│   │   │   ├── Очередь.md
-│   │   │   ├── Связные списки.md
-│   │   │   ├── Стек.md
-│   │   │   └── Хэш-Таблицы и Хэш-функции.md
-│   │   ├── Теория вероятности.md
-│   │   └── Трансляторы
-│   │       ├── Гибридная трансляция.md
-│   │       ├── Интерпретаторы.md
-│   │       └── Компиляторы.md
-│   ├── Development
-│   │   ├── Clean Architecture.md
-│   │   ├── Databases
-│   │   │   ├── ACID.md
-│   │   │   ├── Postgresql
-│   │   │   │   └── Install in Arch Linux.md
-│   │   │   ├── SQL
-│   │   │   │   ├── CTE.md
-│   │   │   │   ├── JOIN.md
-│   │   │   │   ├── SQL.md
-│   │   │   │   └── SQL для QA.md
-│   │   │   ├── Как устроена База Данных.md
-│   │   │   └── Транзакция.md
-│   │   ├── Languages
-│   │   │   ├── Cpp
-│   │   │   │   ├── CMake
-│   │   │   │   │   ├── Базовый гайд по Cmake.md
-│   │   │   │   │   ├── Заголовочные файлы проекта.md
-│   │   │   │   │   ├── Пример.md
-│   │   │   │   │   └── Структура проекта на c++.md
-│   │   │   │   ├── Sizerof.md
-│   │   │   │   ├── size_t.md
-│   │   │   │   ├── Struct.md
-│   │   │   │   ├── Switch operator.md
-│   │   │   │   ├── try-catch.md
-│   │   │   │   ├── typedef.md
-│   │   │   │   ├── uintmax_t.md
-│   │   │   │   ├── Vector.md
-│   │   │   │   ├── Библеотеки
-│   │   │   │   │   ├── Ncurses.md
-│   │   │   │   │   ├── Библиотека ввода-вывода.md
-│   │   │   │   │   └── Последовательные контейнеры.md
-│   │   │   │   ├── Итерация.md
-│   │   │   │   ├── Классы
-│   │   │   │   │   ├── Абстракция данных и Инкапсуляция.md
-│   │   │   │   │   └── Основа.md
-│   │   │   │   ├── КЛЮЧЕВАЯ КОНЦЕПЦИЯ. ВЫРАВНИВАНИЕ И ФОРМАТИРОВАНИЕ КОДА ПРОГРАММ С++.md
-│   │   │   │   ├── КЛЮЧЕВАЯ КОНЦЕПЦИЯ. Типы.md
-│   │   │   │   ├── Массив и многомерный массив.md
-│   │   │   │   ├── Побитовые операции.md
-│   │   │   │   ├── Преобразование типов.md
-│   │   │   │   ├── Термины.md
-│   │   │   │   └── Функции.md
-│   │   │   ├── Go Lang
-│   │   │   │   └── Materials.md
-│   │   │   ├── Python
-│   │   │   │   ├── Access и Refresh токены.md
-│   │   │   │   ├── Auth_Module.md
-│   │   │   │   ├── Bootcamp
-│   │   │   │   │   └── T02.md
-│   │   │   │   ├── cls static property.md
-│   │   │   │   ├── ifname Statement.md
-│   │   │   │   ├── Lambda in python.md
-│   │   │   │   ├── OOP school_21.md
-│   │   │   │   ├── Queue multiprocessing.md
-│   │   │   │   ├── typing in python.md
-│   │   │   │   ├── Асинхронное и параллельное программирование.md
-│   │   │   │   ├── Дикораторы и дискрипторы.md
-│   │   │   │   ├── Замыкание в Python.md
-│   │   │   │   ├── Компиляция в Python.md
-│   │   │   │   ├── Контекстные мэнеджеры.md
-│   │   │   │   ├── Модули и пакеты в Python.md
-│   │   │   │   ├── Мультипарадигмальный подход.md
-│   │   │   │   ├── ООП в python.md
-│   │   │   │   ├── Процедурный подход.md
-│   │   │   │   ├── Рантайм и Безопасность.md
-│   │   │   │   ├── Функции высшего порядка в Python.md
-│   │   │   │   └── Функциональная парадигма.md
-│   │   │   ├── Rust
-│   │   │   │   ├── Enums.md
-│   │   │   │   ├── Implementing structs and enums.md
-│   │   │   │   ├── Structs.md
-│   │   │   │   ├── Traits.md
-│   │   │   │   └── ОПП в Rust.md
-│   │   │   ├── высокоуровневые и низкоуровневые языки.md
-│   │   │   ├── ООП
-│   │   │   │   └── ООП.md
-│   │   │   ├── Парадигмы.md
-│   │   │   ├── Получение программы.md
-│   │   │   ├── Процедурное программирование
-│   │   │   │   └── Процедурное программирования.md
-│   │   │   ├── С
-│   │   │   │   ├── Arenas.md
-│   │   │   │   ├── ASAN.md
-│   │   │   │   ├── getchar.md
-│   │   │   │   ├── Segmentation Fault.md
-│   │   │   │   ├── Unity Build.md
-│   │   │   │   ├── Адресная арифметика.md
-│   │   │   │   ├── Дебаггинг кода на C.md
-│   │   │   │   ├── Именованные константы.md
-│   │   │   │   ├── Побитовые операции.md
-│   │   │   │   └── Языковая стандартизация C.md
-│   │   │   ├── Синтаксис.md
-│   │   │   ├── Теория языков программирования.md
-│   │   │   ├── Типизация.md
-│   │   │   └── Функциональное программирование
-│   │   │       └── Функциональное программирование.md
-│   │   └── ORM.md
-│   ├── DevOps
-│   │   ├── DevOps.md
-│   │   ├── DevOpsMentalmap.canvas
-│   │   ├── Git
-│   │   │   ├── Git Expert Cheat Sheet.md
-│   │   │   ├── Git fetch and git pull 1.md
-│   │   │   ├── Git fetch and git pull.md
-│   │   │   ├── GITOPS.md
-│   │   │   ├── GIT Глубокое погружение в архитектуру и процессы.md
-│   │   │   └── Архитектурный разбор контентно-адресуемой системы.md
-│   │   ├── Lifecycle
-│   │   │   ├── CI-CD
-│   │   │   │   ├── CICD.md
-│   │   │   │   ├── Непрерывная поставка и культура DevOps.md
-│   │   │   │   └── Стратегии тестирования в CI-CD.md
-│   │   │   ├── IaC_and_Config
-│   │   │   │   ├── Terraform And Ansible
-│   │   │   │   │   ├── Ansible cheetSheet.md
-│   │   │   │   │   ├── ANSIBLE.md
-│   │   │   │   │   ├── Ansible Стратегия масштабируемой автоматизации.md
-│   │   │   │   │   ├── Terraform cheatsheet small.md
-│   │   │   │   │   ├── Архитектурная битва и синергия Terraform & Ansible.md
-│   │   │   │   │   └── Жизненный цикл и Масштабирование.md
-│   │   │   │   ├── Инфраструктура микросервисов.md
-│   │   │   │   └── Методологии и инструменты Infrastructure as Code.md
-│   │   │   ├── Monitoring
-│   │   │   ├── Networking
-│   │   │   ├── Observability
-│   │   │   │   ├── Анализ решенных задачь
-│   │   │   │   │   ├── counting IPs.md
-│   │   │   │   │   └── what is writing to this log file.md
-│   │   │   │   └── Эксплуатация Мониторинг и Безопасность.md
-│   │   │   ├── Runtime
-│   │   │   │   ├── Docker
-│   │   │   │   │   ├── Docker archlinux install.md
-│   │   │   │   │   ├── Docker-compose.md
-│   │   │   │   │   ├── Docker deep dive.md
-│   │   │   │   │   ├── Docker-swarm.md
-│   │   │   │   │   ├── Docker using.md
-│   │   │   │   │   ├── Docker это.md
-│   │   │   │   │   ├── Image.md
-│   │   │   │   │   ├── Stack.md
-│   │   │   │   │   ├── Балансировщик нагрузки.md
-│   │   │   │   │   ├── Иструкция по использованию Docker.md
-│   │   │   │   │   ├── Кластер.md
-│   │   │   │   │   └── Оркестрация.md
-│   │   │   │   ├── Kubernetes
-│   │   │   │   │   ├── AdvKuberK3s
-│   │   │   │   │   │   ├── CheetSheet.md
-│   │   │   │   │   │   ├── FinalSettingUP.md
-│   │   │   │   │   │   ├── HELM Cheet Sheet.md
-│   │   │   │   │   │   ├── HELM.md
-│   │   │   │   │   │   ├── K3s learning manifest.md
-│   │   │   │   │   │   ├── Kustomize Cheet Sheet.md
-│   │   │   │   │   │   ├── Kustomize.md
-│   │   │   │   │   │   ├── scripts
-│   │   │   │   │   │   │   ├── install_k3s_master.sh
-│   │   │   │   │   │   │   └── install_k3s_worker.sh
-│   │   │   │   │   │   └── Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md
-│   │   │   │   │   ├── Docker-compose vs kubernetes.md
-│   │   │   │   │   ├── Installation in Arch Linux.md
-│   │   │   │   │   ├── K8s это.md
-│   │   │   │   │   ├── Usage.md
-│   │   │   │   │   ├── Аттрибуты из манифеста на примере.md
-│   │   │   │   │   ├── ДопИнфа по k8s.md
-│   │   │   │   │   ├── Ресурсы для изучения.md
-│   │   │   │   │   └── Стратегии развертывания.md
-│   │   │   │   └── Глубокий технический гайд по контейнеризации.md
-│   │   │   └── Security
-│   │   └── Брокеры сообщений
-│   │       ├── Kafka
-│   │       │   └── Kafka.md
-│   │       ├── RabbitMQ
-│   │       │   └── RabbitMQ.md
-│   │       └── Rabbitmq vs Kafka.md
-│   ├── Methodologies
-│   │   ├── Agile.md
-│   │   └── Jira.md
-│   ├── OS
-│   │   ├── Linux
-│   │   │   ├── Daily_Ops
-│   │   │   │   ├── Command line tips and tricks.md
-│   │   │   │   ├── Modern unix.md
-│   │   │   │   ├── Modern-Unix.md
-│   │   │   │   ├── Vim motions.md
-│   │   │   │   ├── Vim tips and tricks.md
-│   │   │   │   ├── База.md
-│   │   │   │   ├── История.md
-│   │   │   │   ├── Основы администрирования.md
-│   │   │   │   ├── Пакеты в Linux.md
-│   │   │   │   └── Полное руководство по командам и дебаггингу.md
-│   │   │   ├── Kernel_and_FS
-│   │   │   │   ├── btrfs(Linux).md
-│   │   │   │   ├── Cgroups.md
-│   │   │   │   ├── Everything is file.md
-│   │   │   │   ├── ext-4(Linux).md
-│   │   │   │   ├── F2FS(Flash).md
-│   │   │   │   ├── FAT32.md
-│   │   │   │   ├── FHS.md
-│   │   │   │   ├── LinuxBoot workflow.md
-│   │   │   │   ├── Linux Deep Dive Исчерпывающее руководство.md
-│   │   │   │   ├── LVM.md
-│   │   │   │   ├── NTFS(Windows).md
-│   │   │   │   ├── XFS(Linux).md
-│   │   │   │   ├── ZFS(Linux).md
-│   │   │   │   ├── Загрузка, системные демоны.md
-│   │   │   │   ├── Сравнение.md
-│   │   │   │   ├── Упровление процессами.md
-│   │   │   │   ├── Устоновка ARCH Linux.md
-│   │   │   │   ├── Файловая система Linux.md
-│   │   │   │   └── Файловая система.md
-│   │   │   └── Эксплуатация
-│   │   │       └── Упровление конфигурации.md
-│   │   └── Vagrant
-│   │       ├── Vagrantfile.md
-│   │       ├── База в краце.md
-│   │       ├── Под копотом.md
-│   │       ├── Практика.md
-│   │       ├── Сетевые ражимы кратко.md
-│   │       └── Шпора.md
-│   └── QA
-│       ├── Unit-tests.md
-│       ├── Баги и баг-репорты.md
-│       ├── Введение в тестирование.md
-│       ├── Классификация видов тестирования.md
-│       ├── Тест-кейс.md
-│       └── Чек-лист.md
-├── 30_Library
-│   ├── advanced.html.md
-│   ├── Books
-│   │   ├── 2023
-│   │   │   ├── UNIX AND LINUX system administration handbook.md
-│   │   │   └── Грокаем алгоритмы.md
-│   │   ├── 2024
-│   │   │   └── c++ Базовый курс.md
-│   │   └── 2026
-│   │       ├── Advanced Microservices.pdf
-│   │       ├── A Practical Guide to Continuous Delivery.epub
-│   │       ├── devops.pdf
-│   │       ├── DevOps - Puppet, Docker, and Kubernetes.pdf
-│   │       ├── DevOps with Kubernetes.azw3
-│   │       ├── Git для профессионального программиста.pdf
-│   │       ├── howtolinuxworks.pdf
-│   │       ├── Infrastructure as Code (IAC) Cookbook.pdf
-│   │       ├── Linux_for_DevOps.pdf
-│   │       ├── progit-en.1084.pdf
-│   │       └── thelinuxcommandline.pdf
-│   └── Приложения на чёрный день.md
-├── 40_Vault_Maintenance
-│   ├── Banners.md
-│   ├── Excalidraw
-│   │   ├── Drawing 2025-09-18 22.03.20.excalidraw.md
-│   │   ├── Drawing 2025-09-20 22.05.38.excalidraw.md
-│   │   ├── Drawing 2025-09-22 22.23.11.excalidraw.md
-│   │   ├── Drawing 2025-10-05 16.11.37.excalidraw.md
-│   │   ├── Drawing 2025-10-11 11.26.31.excalidraw.md
-│   │   ├── Drawing 2026-01-01 17.05.02.excalidraw.md
-│   │   └── Drawing 2026-04-18 18.22.55.excalidraw.md
-│   ├── HowTo.md
-│   ├── IMG
-│   │   ├── gruv-material-texture.png
-│   │   ├── home.jpg
-│   │   ├── image.R8ZQ81.png
-│   │   ├── image.UJ3T91.png
-│   │   ├── k9s.png
-│   │   ├── kafka.png
-│   │   ├── LinuxL.png
-│   │   ├── NotebookLM Mind Map(1).png
-│   │   ├── Pasted image 20231007144739.png
-│   │   ├── Pasted image 20231010140639.png
-│   │   ├── Pasted image 20231010140917.png
-│   │   ├── Pasted image 20231010143010.png
-│   │   ├── Pasted image 20231019133931.png
-│   │   ├── Pasted image 20231019134008.png
-│   │   ├── Pasted image 20231019134034.png
-│   │   ├── Pasted image 20231019135304.png
-│   │   ├── Pasted image 20231107125114.png
-│   │   ├── Pasted image 20231109150445.png
-│   │   ├── Pasted image 20231116143456.png
-│   │   ├── Pasted image 20231116143852.png
-│   │   ├── Pasted image 20240726132232.png
-│   │   ├── Pasted image 20240729122035.png
-│   │   ├── Pasted image 20240730111929.png
-│   │   ├── Pasted image 20240803150232.png
-│   │   ├── Pasted image 20240805121304.png
-│   │   ├── Pasted image 20240810134717.png
-│   │   ├── Pasted image 20240816130159.png
-│   │   ├── Pasted image 20240829115512.png
-│   │   ├── Pasted image 20250327212219.png
-│   │   ├── Pasted image 20250918224625.png
-│   │   ├── Shturval-golanskiy.png
-│   │   ├── Образец_баг-репорт.png
-│   │   ├── Образец_тест-кейсы.png
-│   │   └── Образец_чек-лист.png
-│   ├── Tags.md
-│   ├── Templates
-│   │   ├── Book Template.md
-│   │   ├── Course Template.md
-│   │   ├── Default Template.md
-│   │   ├── Math Daily Template.md
-│   │   ├── Planner Template.md
-│   │   └── Reference Template.md
-│   ├── tree.txt
-│   └── Video
-│       ├── Внутри_ядра_Linux.mp4
-│       └── Ключевые_возможности_Git.mp4
-├── Home.md
-└── tree.txt
+20_Areas/DevOps/
+├── DevOps.md
+├── DevOpsMentalmap.canvas
+├── DevOps MOC.md
+├── Git
+│   ├── Git Expert Cheat Sheet.md
+│   ├── Git fetch and git pull 1.md
+│   ├── Git fetch and git pull.md
+│   ├── GITOPS.md
+│   ├── GIT Глубокое погружение в архитектуру и процессы.md
+│   └── Архитектурный разбор контентно-адресуемой системы.md
+├── Lifecycle
+│   ├── CI-CD
+│   │   ├── CICD.md
+│   │   ├── Непрерывная поставка и культура DevOps.md
+│   │   └── Стратегии тестирования в CI-CD.md
+│   ├── IaC_and_Config
+│   │   ├── Terraform And Ansible
+│   │   │   ├── Ansible cheetSheet.md
+│   │   │   ├── ANSIBLE.md
+│   │   │   ├── Ansible Стратегия масштабируемой автоматизации.md
+│   │   │   ├── Terraform cheatsheet small.md
+│   │   │   ├── Архитектурная битва и синергия Terraform & Ansible.md
+│   │   │   └── Жизненный цикл и Масштабирование.md
+│   │   ├── Инфраструктура микросервисов.md
+│   │   └── Методологии и инструменты Infrastructure as Code.md
+│   ├── Monitoring
+│   ├── Networking
+│   ├── Observability
+│   │   ├── Анализ решенных задачь
+│   │   │   ├── counting IPs.md
+│   │   │   └── what is writing to this log file.md
+│   │   └── Эксплуатация Мониторинг и Безопасность.md
+│   ├── Runtime
+│   │   ├── Docker
+│   │   │   ├── Docker archlinux install.md
+│   │   │   ├── Docker-compose.md
+│   │   │   ├── Docker deep dive.md
+│   │   │   ├── Docker-swarm.md
+│   │   │   ├── Docker using.md
+│   │   │   ├── Docker это.md
+│   │   │   ├── Image.md
+│   │   │   ├── Stack.md
+│   │   │   ├── Балансировщик нагрузки.md
+│   │   │   ├── Иструкция по использованию Docker.md
+│   │   │   ├── Кластер.md
+│   │   │   └── Оркестрация.md
+│   │   ├── Kubernetes
+│   │   │   ├── AdvKuberK3s
+│   │   │   │   ├── CheetSheet.md
+│   │   │   │   ├── FinalSettingUP.md
+│   │   │   │   ├── HELM Cheet Sheet.md
+│   │   │   │   ├── HELM.md
+│   │   │   │   ├── K3s learning manifest.md
+│   │   │   │   ├── Kustomize Cheet Sheet.md
+│   │   │   │   ├── Kustomize.md
+│   │   │   │   ├── scripts
+│   │   │   │   │   ├── install_k3s_master.sh
+│   │   │   │   │   └── install_k3s_worker.sh
+│   │   │   │   └── Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md
+│   │   │   ├── Docker-compose vs kubernetes.md
+│   │   │   ├── K8s это.md
+│   │   │   ├── Usage.md
+│   │   │   ├── Аттрибуты из манифеста на примере.md
+│   │   │   ├── ДопИнфа по k8s.md
+│   │   │   └── Стратегии развертывания.md
+│   │   └── Глубокий технический гайд по контейнеризации.md
+│   └── Security
+└── Брокеры сообщений
+    ├── Kafka
+    │   └── Kafka.md
+    ├── RabbitMQ
+    │   └── RabbitMQ.md
+    └── Rabbitmq vs Kafka.md
 
-83 directories, 359 files
+19 directories, 55 files

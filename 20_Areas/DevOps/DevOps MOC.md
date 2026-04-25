@@ -17,7 +17,7 @@ banner: "![[gruv-material-texture.png]]"
 ## 🐳 Runtime & Orchestration
 > [!abstract] Контейнеризация и K8s
 > - **База:** [[Глубокий технический гайд по контейнеризации]]
-> - **Docker:** [[Docker это]], [[Docker using]], [[Image]], [[Stack]], [[Кластер]], [[Оркестрация]], [[Docker-compose]], [[Docker-swarm]]
+> - **Docker:** [[Docker это]], [[Docker using]], [[Image]], [[Stack]], [[Кластер]], [[Оркестрация]], [[Docker-compose]], [[Docker-swarm]], [[Docker archlinux install]] 
 > - **Kubernetes (K3s):** [[K8s это]], [[Usage]], [[Docker-compose vs kubernetes]], [[Аттрибуты из манифеста на примере]]
 >   - *Advanced:* [[AdvKuberK3s/HELM]], [[AdvKuberK3s/Kustomize]], [[Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s)]]
 > 
