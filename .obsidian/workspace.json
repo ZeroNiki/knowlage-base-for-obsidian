@@ -11,22 +11,57 @@
             "id": "b2ed640efbaa394c",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "canvas",
               "state": {
-                "file": "DevPops)).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
+                "file": "20_Areas/DevOps/DevOpsMentalmap.canvas",
+                "viewState": {
+                  "x": -442.1417971691267,
+                  "y": -908.2074044801248,
+                  "zoom": -3.2
                 }
               },
-              "icon": "lucide-trello",
-              "title": "DevPops))"
+              "icon": "lucide-layout-dashboard",
+              "title": "DevOpsMentalmap"
+            }
+          },
+          {
+            "id": "245151b408588386",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "30_Library/Books/2026/Linux_for_DevOps.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Linux_for_DevOps"
+            }
+          },
+          {
+            "id": "7eb3a79fc8980d67",
+            "type": "leaf",
+            "state": {
+              "type": "video",
+              "state": {
+                "file": "40_Vault_Maintenance/Video/Внутри_ядра_Linux.mp4"
+              },
+              "icon": "lucide-file",
+              "title": "Внутри_ядра_Linux"
+            }
+          },
+          {
+            "id": "b6bb11ecdbdaebca",
+            "type": "leaf",
+            "state": {
+              "type": "video",
+              "state": {
+                "file": "40_Vault_Maintenance/Video/Цифровой_детектив__Linux.mp4"
+              },
+              "icon": "lucide-file",
+              "title": "Цифровой_детектив__Linux"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,14 +223,18 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b2ed640efbaa394c",
+  "active": "7eb3a79fc8980d67",
   "lastOpenFiles": [
+    "40_Vault_Maintenance/Video/Цифровой_детектив__Linux.mp4",
+    "40_Vault_Maintenance/Video/Внутри_ядра_Linux.mp4",
+    "30_Library/Books/2026/Linux_for_DevOps.pdf",
+    "20_Areas/DevOps/DevOpsMentalmap.canvas",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/AdvKuberK3s/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
+    "Home.md",
     "DevPops)).md",
     "DevOps_Sprint.md.md",
-    "20_Areas/DevOps/DevOpsMentalmap.canvas",
     "20_Areas/DevOps/Git/Git fetch and git pull 1.md",
     "20_Areas/DevOps/Git/Git fetch and git pull.md",
-    "Home.md",
     "20_Areas/DevOps/DevOps MOC.md",
     "20_Areas/OS/Vagrant/База в краце.md",
     "20_Areas/OS/OS MOC.md",
@@ -216,9 +255,6 @@
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/AdvKuberK3s/HELM Cheet Sheet.md",
     "HELM chea.md",
     "01_Inbox/Troubleshooting/No space left on devise.md",
-    "40_Vault_Maintenance/Video/Цифровой_детектив__Linux.mp4",
-    "01_Inbox/Troubleshooting/SSH Connection Refused.md",
-    "01_Inbox/Troubleshooting/Без названия.md",
     "01_Inbox/Troubleshooting",
     "40_Vault_Maintenance/IMG/Pasted image 20260419194206.png",
     "20_Areas/Computer_Science/Networking/L1",
@@ -226,8 +262,6 @@
     "20_Areas/Development/Databases/Postgresql",
     "20_Areas/Development/Databases",
     "20_Areas/Development/Languages/Python/Bootcamp",
-    "20_Areas/Development/Languages/Cpp/Классы",
-    "20_Areas/Development/Languages/Cpp/Библеотеки",
     "40_Vault_Maintenance/IMG/NotebookLM Mind Map(1).png",
     "40_Vault_Maintenance/IMG/k9s.png",
     "40_Vault_Maintenance/IMG/Shturval-golanskiy.png",

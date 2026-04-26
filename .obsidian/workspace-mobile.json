@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Лекция"
             }
+          },
+          {
+            "id": "5c390ff920e7197a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,6 +151,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -153,9 +165,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c2ddb4f130f35e2b",
+  "active": "5c390ff920e7197a",
   "lastOpenFiles": [
+    "20_Areas/DevOps/DevOpsMentalmap.canvas",
     "Home.md",
+    "Операционные системы/Linux/Шпаргалки и Общая информация/Лекция.md",
     "DevOpsMentalmap.canvas",
     "ЯП/С/Arenas.md",
     "Структуры данных/Множества.md",
@@ -180,7 +194,6 @@
     "Kubernetes/K8s это.md",
     "21-school/MAKEFILEREADME.md",
     "21-school/MAKEFILE.md",
-    "Алгоритмы/Все алгоритмы сортировки.md",
     "My Computer Since canvas.canvas"
   ]
 }
