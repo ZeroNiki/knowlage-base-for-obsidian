@@ -30,7 +30,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Inbox/Troubleshooting/Mystery.md",
+                "file": "20_Areas/OS/Linux/Troubleshooting/Mystery.md",
                 "mode": "source",
                 "source": true
               },
@@ -39,13 +39,27 @@
             }
           },
           {
-            "id": "48eb8846e595c0cb",
+            "id": "43e77519407d3313",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20_Areas/OS/OS MOC.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OS MOC"
+            }
+          },
+          {
+            "id": "f2243bc4eaf28f3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "40_Vault_Maintenance/Templates/Troubleshooting.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -65,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,19 +241,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b6bb11ecdbdaebca",
+  "active": "43e77519407d3313",
   "lastOpenFiles": [
-    "20_Areas/DevOps/DevOpsMentalmap.canvas",
-    "01_Inbox/Troubleshooting/Mystery.md",
     "40_Vault_Maintenance/Templates/Troubleshooting.md",
-    "10_Projects/Анализ книг/Moc.md",
+    "20_Areas/OS/OS MOC.md",
+    "20_Areas/OS/Linux/Troubleshooting/Mystery.md",
+    "30_Library/Books/2026/Linux_for_DevOps.pdf",
+    "20_Areas/DevOps/DevOpsMentalmap.canvas",
+    "01_Inbox/Анализ книг/Moc.md",
     "40_Vault_Maintenance/Video/Цифровой_детектив__Linux.mp4",
-    "10_Projects/Анализ книг/Терминал Linux",
-    "10_Projects/Анализ книг",
+    "01_Inbox/Анализ книг/Терминал Linux",
+    "01_Inbox/Анализ книг",
     "01_Inbox/Без названия.md",
     "40_Vault_Maintenance/Video/Внутри_ядра_Linux.mp4",
-    "30_Library/Books/2026/Linux_for_DevOps.pdf",
-    "01_Inbox/Troubleshooting/No space left on devise.md",
+    "20_Areas/OS/Linux/Troubleshooting/No space left on devise.md",
     "Без названия.base",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/AdvKuberK3s/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
     "Home.md",
@@ -249,7 +264,6 @@
     "20_Areas/DevOps/Git/Git fetch and git pull.md",
     "20_Areas/DevOps/DevOps MOC.md",
     "20_Areas/OS/Vagrant/База в краце.md",
-    "20_Areas/OS/OS MOC.md",
     "20_Areas/OS/Linux/Эксплуатация/Упровление конфигурации.md",
     "40_Vault_Maintenance/Templates/Quick Capture.md",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/Ресурсы для изучения.md",
@@ -262,7 +276,7 @@
     "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/Ansible cheetSheet.md",
     "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/ANSIBLE.md",
     "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/Ansible Стратегия масштабируемой автоматизации.md",
-    "01_Inbox/Troubleshooting",
+    "20_Areas/OS/Linux/Troubleshooting",
     "40_Vault_Maintenance/IMG/Pasted image 20260419194206.png",
     "20_Areas/Computer_Science/Networking/L1",
     "20_Areas/Development/Databases/SQL",

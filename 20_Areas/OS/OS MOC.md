@@ -35,6 +35,10 @@ banner: "![[gruv-material-texture.png]]"
 > [!code] Vagrant
 > - [[База в краце]], [[Под копотом]], [[Практика]], [[Сетевые ражимы кратко]], [[Vagrantfile]], [[Шпора]]
 
+## 🐛 Troubleshooting
+> [!code] Решение популярных проблем
+> -  [[Mystery]], [[No space left on devise]], [[SSH Connection Refused]]
+
 ## 📚 Reference
 > [!tip] База
 > - [[История]]
