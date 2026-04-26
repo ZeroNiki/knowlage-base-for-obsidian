@@ -15,13 +15,41 @@
               "state": {
                 "file": "20_Areas/DevOps/DevOpsMentalmap.canvas",
                 "viewState": {
-                  "x": -442.1417971691267,
-                  "y": -908.2074044801248,
-                  "zoom": -3.2
+                  "x": -363.7851331237458,
+                  "y": -893.0708338298693,
+                  "zoom": -0.8000000000000006
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "DevOpsMentalmap"
+            }
+          },
+          {
+            "id": "b6bb11ecdbdaebca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_Inbox/Troubleshooting/Mystery.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Mystery"
+            }
+          },
+          {
+            "id": "48eb8846e595c0cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "40_Vault_Maintenance/Templates/Troubleshooting.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Troubleshooting"
             }
           },
           {
@@ -35,33 +63,9 @@
               "icon": "lucide-file-text",
               "title": "Linux_for_DevOps"
             }
-          },
-          {
-            "id": "7eb3a79fc8980d67",
-            "type": "leaf",
-            "state": {
-              "type": "video",
-              "state": {
-                "file": "40_Vault_Maintenance/Video/Внутри_ядра_Linux.mp4"
-              },
-              "icon": "lucide-file",
-              "title": "Внутри_ядра_Linux"
-            }
-          },
-          {
-            "id": "b6bb11ecdbdaebca",
-            "type": "leaf",
-            "state": {
-              "type": "video",
-              "state": {
-                "file": "40_Vault_Maintenance/Video/Цифровой_детектив__Linux.mp4"
-              },
-              "icon": "lucide-file",
-              "title": "Цифровой_детектив__Linux"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,12 +227,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7eb3a79fc8980d67",
+  "active": "b6bb11ecdbdaebca",
   "lastOpenFiles": [
+    "20_Areas/DevOps/DevOpsMentalmap.canvas",
+    "01_Inbox/Troubleshooting/Mystery.md",
+    "40_Vault_Maintenance/Templates/Troubleshooting.md",
+    "10_Projects/Анализ книг/Moc.md",
     "40_Vault_Maintenance/Video/Цифровой_детектив__Linux.mp4",
+    "10_Projects/Анализ книг/Терминал Linux",
+    "10_Projects/Анализ книг",
+    "01_Inbox/Без названия.md",
     "40_Vault_Maintenance/Video/Внутри_ядра_Linux.mp4",
     "30_Library/Books/2026/Linux_for_DevOps.pdf",
-    "20_Areas/DevOps/DevOpsMentalmap.canvas",
+    "01_Inbox/Troubleshooting/No space left on devise.md",
+    "Без названия.base",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/AdvKuberK3s/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
     "Home.md",
     "DevPops)).md",
@@ -244,24 +256,16 @@
     "40_Vault_Maintenance/Templates/Reference Template.md",
     "20_Areas/Computer_Science/Networking/L1/Сетевое обрудование.md",
     "1.md",
-    "40_Vault_Maintenance/Templates/Troubleshooting.md",
     "40_Vault_Maintenance/Excalidraw/Drawing 2025-09-20 22.05.38.excalidraw.md",
     "40_Vault_Maintenance/Video/Сетевая_диагностика_для_DevOps.mp4",
     "20_Areas/Development/Languages/Python/ООП в python.md",
     "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/Ansible cheetSheet.md",
     "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/ANSIBLE.md",
     "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/Ansible Стратегия масштабируемой автоматизации.md",
-    "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/Жизненный цикл и Масштабирование.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/AdvKuberK3s/HELM Cheet Sheet.md",
-    "HELM chea.md",
-    "01_Inbox/Troubleshooting/No space left on devise.md",
     "01_Inbox/Troubleshooting",
     "40_Vault_Maintenance/IMG/Pasted image 20260419194206.png",
     "20_Areas/Computer_Science/Networking/L1",
     "20_Areas/Development/Databases/SQL",
-    "20_Areas/Development/Databases/Postgresql",
-    "20_Areas/Development/Databases",
-    "20_Areas/Development/Languages/Python/Bootcamp",
     "40_Vault_Maintenance/IMG/NotebookLM Mind Map(1).png",
     "40_Vault_Maintenance/IMG/k9s.png",
     "40_Vault_Maintenance/IMG/Shturval-golanskiy.png",
