@@ -4,82 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "36d05952d577041e",
+        "id": "b4fe319d13741c8e",
         "type": "tabs",
         "children": [
           {
-            "id": "b2ed640efbaa394c",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "20_Areas/DevOps/DevOpsMentalmap.canvas",
-                "viewState": {
-                  "x": -363.7851331237458,
-                  "y": -893.0708338298693,
-                  "zoom": -0.8000000000000006
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "DevOpsMentalmap"
-            }
-          },
-          {
-            "id": "b6bb11ecdbdaebca",
+            "id": "8e66285ed19de917",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Areas/OS/Linux/Troubleshooting/Mystery.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Mystery"
-            }
-          },
-          {
-            "id": "43e77519407d3313",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_Areas/OS/OS MOC.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "OS MOC"
-            }
-          },
-          {
-            "id": "f2243bc4eaf28f3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40_Vault_Maintenance/Templates/Troubleshooting.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Troubleshooting"
-            }
-          },
-          {
-            "id": "245151b408588386",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "30_Library/Books/2026/Linux_for_DevOps.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Linux_for_DevOps"
+              "title": "Home"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,45 +183,46 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "43e77519407d3313",
+  "active": "8e66285ed19de917",
   "lastOpenFiles": [
-    "40_Vault_Maintenance/Templates/Troubleshooting.md",
-    "20_Areas/OS/OS MOC.md",
-    "20_Areas/OS/Linux/Troubleshooting/Mystery.md",
-    "30_Library/Books/2026/Linux_for_DevOps.pdf",
-    "20_Areas/DevOps/DevOpsMentalmap.canvas",
-    "01_Inbox/Анализ книг/Moc.md",
-    "40_Vault_Maintenance/Video/Цифровой_детектив__Linux.mp4",
-    "01_Inbox/Анализ книг/Терминал Linux",
-    "01_Inbox/Анализ книг",
-    "01_Inbox/Без названия.md",
-    "40_Vault_Maintenance/Video/Внутри_ядра_Linux.mp4",
-    "20_Areas/OS/Linux/Troubleshooting/No space left on devise.md",
-    "Без названия.base",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/AdvKuberK3s/Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s).md",
+    "01_Inbox/K8s hard way.md",
     "Home.md",
-    "DevPops)).md",
-    "DevOps_Sprint.md.md",
-    "20_Areas/DevOps/Git/Git fetch and git pull 1.md",
-    "20_Areas/DevOps/Git/Git fetch and git pull.md",
-    "20_Areas/DevOps/DevOps MOC.md",
-    "20_Areas/OS/Vagrant/База в краце.md",
-    "20_Areas/OS/Linux/Эксплуатация/Упровление конфигурации.md",
-    "40_Vault_Maintenance/Templates/Quick Capture.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/Ресурсы для изучения.md",
-    "40_Vault_Maintenance/Templates/Reference Template.md",
-    "20_Areas/Computer_Science/Networking/L1/Сетевое обрудование.md",
-    "1.md",
-    "40_Vault_Maintenance/Excalidraw/Drawing 2025-09-20 22.05.38.excalidraw.md",
-    "40_Vault_Maintenance/Video/Сетевая_диагностика_для_DevOps.mp4",
-    "20_Areas/Development/Languages/Python/ООП в python.md",
-    "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/Ansible cheetSheet.md",
-    "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/ANSIBLE.md",
-    "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/Ansible Стратегия масштабируемой автоматизации.md",
-    "20_Areas/OS/Linux/Troubleshooting",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker deep dive.md",
+    "20_Areas/OS/Linux/LVM/LVM.md",
+    "20_Areas/OS/Linux/Cgroups/Control Groups.md",
+    "20_Areas/OS/Linux/Namespaces/Linux namespaces.md",
+    "20_Areas/DevOps/DevOpsMentalmap.canvas",
+    "20_Areas/OS/OS MOC.md",
+    "20_Areas/OS/Linux/FHS/Файловая система Linux.md",
+    "20_Areas/OS/Linux/FHS/XFS(Linux).md",
+    "20_Areas/OS/Linux/FHS/ZFS(Linux).md",
+    "20_Areas/OS/Linux/FHS/FHS.md",
+    "20_Areas/OS/Linux/FHS/FAT32.md",
+    "20_Areas/OS/Linux/FHS/ext-4(Linux).md",
+    "20_Areas/OS/Linux/FHS/Everything is file.md",
+    "20_Areas/OS/Linux/FHS/btrfs(Linux).md",
+    "20_Areas/OS/Linux/FHS/Сравнение.md",
+    "20_Areas/OS/Linux/Users and Groups/Users and Groups.md",
+    "20_Areas/OS/Linux/Streams/I and O.md",
+    "20_Areas/OS/Linux/Signals/Асинхронное управление процессами.md",
+    "20_Areas/OS/Linux/Process/Упровление процессами.md",
+    "20_Areas/OS/Linux/Process/Загрузка, системные демоны.md",
+    "20_Areas/OS/Linux/Process/Архитектура и Утилизация.md",
+    "20_Areas/OS/Linux/Karnel/proc.md",
+    "20_Areas/OS/Linux/Karnel/LinuxBoot workflow.md",
+    "20_Areas/OS/Linux/Karnel/Linux Deep Dive Исчерпывающее руководство.md",
+    "20_Areas/OS/Linux/Karnel/Пакеты в Linux.md",
+    "20_Areas/OS/Linux/LVM",
+    "20_Areas/OS/Linux/FHS",
+    "20_Areas/OS/Linux/Streams",
+    "01_Inbox/Linux New/Segkil",
+    "01_Inbox/Linux New/Fork and livecycle",
+    "20_Areas/OS/Linux/Cgroups",
+    "20_Areas/OS/Linux/Namespaces",
+    "20_Areas/OS/Linux/Streams",
+    "20_Areas/OS/Linux/Signals",
+    "20_Areas/OS/Linux/Process",
     "40_Vault_Maintenance/IMG/Pasted image 20260419194206.png",
-    "20_Areas/Computer_Science/Networking/L1",
-    "20_Areas/Development/Databases/SQL",
     "40_Vault_Maintenance/IMG/NotebookLM Mind Map(1).png",
     "40_Vault_Maintenance/IMG/k9s.png",
     "40_Vault_Maintenance/IMG/Shturval-golanskiy.png",
