@@ -5,139 +5,55 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Алгоритмы  ",
+      "query": "path:20_Areas/Computer_Science  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:Методы ",
+      "query": "path:20_Areas/DevOps  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 897747
       }
     },
     {
-      "query": "path:\"Операционные системы\"  ",
+      "query": "path:20_Areas/Development  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "path:\"Полезно знать\"  ",
+      "query": "path:20_Areas/Methodologies  ",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "path:Сети ",
+      "query": "path:20_Areas/OS  ",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "path:\"Структура компьютера\"  ",
+      "query": "path:20_Areas/QA  ",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "path:\"Структуры данных\"  ",
+      "query": "path:01_Inbox  ",
       "color": {
         "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "path:Трансляторы  ",
-      "color": {
-        "a": 1,
-        "rgb": 11621088
-      }
-    },
-    {
-      "query": "path:ЯП  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701233
-      }
-    },
-    {
-      "query": "path:\"big(O)\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:Books  ",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:Docker  ",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "path:EasyOffer  ",
-      "color": {
-        "a": 1,
-        "rgb": 26112
-      }
-    },
-    {
-      "query": "path:Habits  ",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "path:IMG  ",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "path:Kubernetes  ",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "path:Postgresql  ",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "path:ToDo ",
-      "color": {
-        "a": 1,
-        "rgb": 5395121
-      }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5395026
+        "rgb": 10066405
       }
     }
   ],

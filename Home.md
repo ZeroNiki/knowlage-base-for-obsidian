@@ -16,3 +16,6 @@ banner_x: 0.49427
 - [[DevOps MOC]] — Инфраструктура, Docker, K8s, CI/CD
 - [[OS MOC]] — Linux, Arch, Vagrant
 - [[QA MOC]] — Тестирование, Инструменты
+
+## Others
+- [[Methodologies MOC]]

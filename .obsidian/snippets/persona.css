@@ -1,0 +1,12 @@
+.task-list-item-checkbox:checked {
+    background-color: #ff0000 !important;
+    border-color: #000000 !important;
+}
+
+.markdown-rendered h1 {
+    background-color: black;
+    color: white;
+    transform: rotate(-1deg);
+    padding: 5px 15px;
+    display: inline-block;
+}
