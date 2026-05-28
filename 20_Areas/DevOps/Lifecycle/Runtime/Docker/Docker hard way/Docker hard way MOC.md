@@ -31,3 +31,4 @@ banner: "![[gruv-material-texture.png]]"
 > - [[Security-Enhanced Linux]]
 > - [[Config.json]]
 > - Для более краткого и ясного [[Docker deep dive]]
+> - [[Docker the hard way Practice|На практике]]

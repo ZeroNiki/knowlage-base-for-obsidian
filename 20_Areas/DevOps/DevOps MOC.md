@@ -16,9 +16,9 @@ banner: "![[gruv-material-texture.png]]"
 
 ## 🐳 Runtime & Orchestration
 > [!abstract] Контейнеризация и K8s
-> - **База:** [[Глубокий технический гайд по контейнеризации]]
+> - **База:** [[Глубокий технический гайд по контейнеризации]] | [[OCI]]
 > - **Docker:** [[Docker это]], [[Docker using]], [[Image]], [[Stack]], [[Кластер Docker swarm]], [[Оркестрация]], [[Docker-compose]], [[Docker-swarm]], [[Docker archlinux install]], [[Docker hard way MOC]]
-> - **Kubernetes (K3s):** [[K8s это]], [[Usage]], [[Docker-compose vs kubernetes]], [[Аттрибуты из манифеста на примере]]
+> - **Kubernetes (K3s):** [[20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC]] [[K8s это]], [[Usage]], [[Docker-compose vs kubernetes]], [[Аттрибуты из манифеста на примере]]
 > - **Advanced:** [[AdvKuberK3s/HELM]], [[AdvKuberK3s/Kustomize]], [[Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s)]]
 
 ## 🏗 Infrastructure as Code (IaC)
