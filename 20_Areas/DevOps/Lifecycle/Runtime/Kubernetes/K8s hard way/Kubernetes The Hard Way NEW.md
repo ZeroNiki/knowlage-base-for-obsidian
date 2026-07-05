@@ -746,3 +746,8 @@ kubectl get svc nginx
 # Запрос к веб-серверу по внешнему IP-адресу любой ноды и выделенному порту NodePort
 curl http://192.168.56.11:<ВЫДЕЛЕННЫЙ_NODEPORT>
 ```
+
+## Темы для ознакомления
+
+- [Устанавливаю кубер | Kubernetes The Hard Way](https://youtu.be/HqRKOz1UBXA?si=z49vJpst82KDXzt1)
+- [[ETCD]], [[Kube-controller-manager]], [[Kube-scheduler]], [[Kubeapi]], [[Kubelet]], [[MTLS]], [[RBAC]], [[TLS SSL]]
