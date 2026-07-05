@@ -8,4 +8,4 @@ banner: "![[gruv-material-texture.png]]"
 
 ##  Runtime & Orchestration
 > [!abstract] Контейнеризация и K8s
-> - **Introducion** [[ETCD]], [[Kube-controller-manager]], [[Kube-scheduler]], [[Kubeapi]], [[Kubelet]], [[Kubeproxy]], [[MTLS]]
+> - **Introducion** [[ETCD]], [[Kube-controller-manager]], [[Kube-scheduler]], [[Kubeapi]], [[Kubelet]], [[Kubeproxy]], [[MTLS]], [[20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Summary]]

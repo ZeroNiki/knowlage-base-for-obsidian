@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "cssTheme": "Obsidian gruvbox",
-  "baseFontSize": 17,
+  "baseFontSize": 21,
   "nativeMenus": true,
   "enabledCssSnippets": [
     "dashboard",

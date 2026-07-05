@@ -4,63 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "5b25079edaa02e98",
+        "id": "a05e0754fd6a9643",
         "type": "tabs",
         "children": [
           {
-            "id": "a07857335aff88e8",
+            "id": "b1cae4a93ee34b7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC.md",
+                "file": "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Kubernetes The Hard Way NEW.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "K8s Hard Way MOC"
+              "title": "Kubernetes The Hard Way NEW"
             }
           },
           {
-            "id": "c6782e79c986c16c",
+            "id": "ef54fc7ec96d5f7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/ETCD.md",
+                "file": "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s hard way.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ETCD"
-            }
-          },
-          {
-            "id": "29c7346ccdfc8e2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/MTLS.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "MTLS"
-            }
-          },
-          {
-            "id": "88a49c403dee80cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kube-controller-manager.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Kube-controller-manager"
+              "title": "K8s hard way"
             }
           }
         ]
@@ -103,7 +75,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Поиск"
             }
           },
           {
@@ -226,37 +198,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a07857335aff88e8",
+  "active": "b1cae4a93ee34b7b",
   "lastOpenFiles": [
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/MTLS.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kube-controller-manager.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/ETCD.md",
-    "20_Areas/DevOps/DevOpsMentalmap.canvas",
-    "20_Areas/DevOps/DevOps MOC.md",
-    "20_Areas/DevOps/DevOps.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Docker hard way MOC.md",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s hard way.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/K8S hard way MOC.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Kubernetes The Hard Way NEW.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC.md",
     "Home.md",
+    "20_Areas/DevOps/DevOpsMentalmap.canvas",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Docker the hard way Practice.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Docker hard way MOC.md",
+    "20_Areas/DevOps/DevOps MOC.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Summary.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/ETCD.md",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kubeproxy.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kubelet.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kubeapi.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/MTLS.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/RBAC.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kube-controller-manager.md",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kube-scheduler.md",
-    "01_Inbox/Cert/Practice.md",
-    "01_Inbox/Cert/TLS SSL.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kubeapi.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kubelet.md",
+    "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/Terraform cheatsheet small.md",
+    "20_Areas/DevOps/Lifecycle/IaC_and_Config/Terraform And Ansible/Жизненный цикл и Масштабирование.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/The cache.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/Summary.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/Save.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/Image vs containers.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/History and Layers.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Basic/Daemonize and Interactive shell.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Basic/CMD VS ENTRYPOINT.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/User Namespaces и User Mapping.md",
     "01_Inbox/Cert",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction",
-    "01_Inbox/VimTrain/Module 3.md",
-    "01_Inbox/VimTrain/Module 2.md",
-    "01_Inbox/VimTrain/Module 1.md",
     "01_Inbox/VimTrain",
-    "20_Areas/OS/Linux/Daily_Ops/Nvim master sheet.md",
-    "20_Areas/OS/Linux/Daily_Ops/Устоновка ARCH Linux.md",
-    "50_persona/Persona stats.md",
-    "50_persona/Notes/2026-05-11.md",
-    "50_persona/Notes/2026-05-09.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Base/Docker это.md",
     "Pasted image 20260509170851.png",
     "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker compose",
     "20_Areas/DevOps/Lifecycle/Runtime/Docker/Base",
