@@ -45,7 +45,7 @@ Vagrant.configure("2") do |config|
         echo "root:root" | chpasswd
         systemctl restart sshd
 
-        cat <<EOF >> /etc/hosts
+        cat <<EOF>> /etc/hosts
 192.168.56.9  jumpbox
 192.168.56.10 manager01
 192.168.56.11 worker01
@@ -55,12 +55,22 @@ EOF
     end
   end
 end
-
-```
+````
 
 ### Подготовка на Jumpbox
 
 Инициализация рабочей директории, загрузка необходимых бинарников и распаковка пакетов.
+
+> 🛠️ **Инструментарий:**
+> 
+> - `sudo -i` — переключает сессию в режим суперпользователя (root) с полной загрузкой его профиля окружения.
+>     
+> - `apt-get` — пакетный менеджер Debian для обновления локального индекса и установки необходимых инструментов.
+>     
+> - `git clone` — загружает официальный репозиторий с базовыми шаблонами конфигураций и скриптами для лабы.
+>     
+> - `wget` — скачивает бинарные файлы Kubernetes, etcd и сетевых плагинов, сверяя временные метки (`--timestamping`).
+>     
 
 ```bash
 sudo -i
@@ -69,11 +79,18 @@ sudo -i
 apt-get update && apt-get install -y wget openssl git
 
 # Клонирование репозитория с шаблонами
-git clone https://github.com/kelseyhightower/kubernetes-the-hard-way.git
+git clone [https://github.com/kelseyhightower/kubernetes-the-hard-way.git](https://github.com/kelseyhightower/kubernetes-the-hard-way.git)
 mv kubernetes-the-hard-way k8s-hw
 cd k8s-hw
 wget --show-progress -q --https-only --timestamping -P downloads -i downloads-amd64.txt
 ```
+
+> 📦 **Инструментарий:**
+> 
+> - `tar -xvf` — извлекает содержимое архивов (`.tgz`, `.tar.gz`) во временные и целевые каталоги с фильтрацией нужных файлов.
+>     
+> - `chmod +x` — делает скачанные исполняемые файлы (kubectl, kubelet и др.) доступными для запуска в системе.
+>     
 
 ```bash
 {
@@ -97,8 +114,15 @@ chmod +x downloads/client/* downloads/cni-plugins/* downloads/controller/* downl
 
 Выполняется на **jumpbox**:
 
+> 🔑 **Инструментарий:**
+> 
+> - `ssh-keygen` — создает пару RSA-ключей (длиной 4096 бит) без кодовой фразы для автоматизации межсерверного доступа.
+>     
+> - `ssh -o StrictHostKeyChecking=no` — подключается к нодам, автоматически принимая их публичные ключи хоста без интерактивного вопроса, и прописывает сгенерированный ключ в `authorized_keys`.
+>     
+
 ```bash
-cat <<EOF > machines.txt
+cat <<EOF> machines.txt
 192.168.56.9  jumpbox
 192.168.56.10 manager01
 192.168.56.11 worker01  10.244.1.0/24
@@ -113,26 +137,39 @@ for node in jumpbox manager01 worker01 worker02; do
 done
 
 while read -r ip name extra; do 
-  ssh root@${name} "echo '${ip} ${name}' >> /etc/hosts"
+  ssh root@${name} "echo '${ip}${name}' >> /etc/hosts"
 done < machines.txt
 ```
 
----
-
 ## 2. Управление TLS-сертификатами
 
-Генерация инфраструктуры открытых ключей (PKI) для взаимной TLS-аутентификации компонентов кластера.
+Генерация infrastructure открытых ключей (PKI) для взаимной TLS-аутентификации компонентов кластера.
 
 ### Генерация корневого сертификата (CA)
 
-```bash
-openssl genrsa -out ca.key 2048
-openssl req -new -key ca.key -subj "/CN=Kubernetes-CA" -out ca.csr
-openssl x509 -req -in ca.csr -signkey ca.key -CAcreateserial -out ca.crt -days 365
+> 🔒 **Инструментарий:**
+> 
+> - `openssl genrsa` — генерирует закрытый ключ (Private Key) для центра сертификации (CA).
+>     
+> - `openssl req -new` — создает запрос на подпись сертификата (CSR), задавая имя субъекта через ключ `-subj`.
+>     
+> - `openssl x509 -req` — подписывает запрос собственным ключом, создавая самоподписанный корневой сертификат кластера (`ca.crt`) на 365 дней.
+>     
 
+```bash
+{
+	openssl genrsa -out ca.key 2048
+	openssl req -new -key ca.key -subj "/CN=Kubernetes-CA" -out ca.csr
+	openssl x509 -req -in ca.csr -signkey ca.key -CAcreateserial -out ca.crt -days 365
+}
 ```
 
 ### Клиентские сертификаты (Admin, Proxy, Controller Manager, Scheduler)
+
+> 🔐 **Инструментарий:**
+> 
+> - `openssl` (генерация пар ключей и сертификатов) — выпускает индивидуальные клиентские пары для каждого компонента control plane. Идентификация ролей происходит через поле `/CN` (Common Name) и `/O` (Organization). Например, `O=system:masters` дает админу полные права в RBAC.
+>     
 
 ```bash
 {
@@ -160,15 +197,60 @@ openssl x509 -req -in ca.csr -signkey ca.key -CAcreateserial -out ca.crt -days 3
 
 ### Сертификаты для Worker-нод (Node Authorizer)
 
+> 🌐 **Инструментарий:**
+> 
+> - `openssl ... -config ... -extfile` — генерирует сертификаты Kubelet с жесткой привязкой расширений `subjectAltName` (SAN). Файлы конфигурации создаются на лету, внедряя DNS-имена и IP-адреса воркеров, чтобы Kube-APIServer мог успешно валидировать их идентичность.
+>     
+
 ```bash
+# Генерация для worker01
+cat <<EOF> worker01-openssl.cnf
+[req]
+req_extensions = v3_req
+distinguished_name = req_distinguished_name
+[req_distinguished_name]
+[ v3_req ]
+basicConstraints = CA:FALSE
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = worker01
+IP.1 = 192.168.56.11
+EOF
+
 {
 	openssl genrsa -out worker01.key 2048
-	openssl req -new -key worker01.key -subj "/CN=system:node:worker01/O=system:nodes" -out worker01.csr
-	openssl x509 -req -in worker01.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out worker01.crt -days 365
-	
+	openssl req -new -key worker01.key -subj "/CN=system:node:worker01/O=system:nodes" -config worker01-openssl.cnf -out worker01.csr
+	openssl x509 -req -in worker01.csr \
+	  -CA ca.crt -CAkey ca.key -CAcreateserial \
+	  -extfile worker01-openssl.cnf -extensions v3_req \
+	  -out worker01.crt -days 365
+	rm worker01-openssl.cnf
+}
+
+# Генерация для worker02
+cat <<EOF> worker02-openssl.cnf
+[req]
+req_extensions = v3_req
+distinguished_name = req_distinguished_name
+[req_distinguished_name]
+[ v3_req ]
+basicConstraints = CA:FALSE
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = worker02
+IP.1 = 192.168.56.12
+EOF
+
+{
 	openssl genrsa -out worker02.key 2048
-	openssl req -new -key worker02.key -subj "/CN=system:node:worker02/O=system:nodes" -out worker02.csr
-	openssl x509 -req -in worker02.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out worker02.crt -days 365
+	openssl req -new -key worker02.key -subj "/CN=system:node:worker02/O=system:nodes" -config worker02-openssl.cnf -out worker02.csr
+	openssl x509 -req -in worker02.csr \
+	  -CA ca.crt -CAkey ca.key -CAcreateserial \
+	  -extfile worker02-openssl.cnf -extensions v3_req \
+	  -out worker02.crt -days 365
+	rm worker02-openssl.cnf
 }
 ```
 
@@ -181,7 +263,7 @@ openssl x509 -req -in ca.csr -signkey ca.key -CAcreateserial -out ca.crt -days 3
 	openssl x509 -req -in service-accounts.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out service-accounts.crt -days 365
 }
 
-cat <<EOF > kube-apiserver.cnf
+cat <<EOF> kube-apiserver.cnf
 [req]
 req_extensions = v3_req
 distinguished_name = req_distinguished_name
@@ -209,10 +291,14 @@ EOF
 	  -extfile kube-apiserver.cnf -extensions v3_req \
 	  -out kube-api-server.crt -days 365
 }
-
 ```
 
 ### Доставка сертификатов на целевые хосты
+
+> ✈️ **Инструментарий:**
+> 
+> - `scp` — безопасное копирование файлов по протоколу SSH. Переносит сгенерированные пары ключей и публичные сертификаты в соответствующие директории компонентов на удаленных нодах кластера.
+>     
 
 ```bash
 # На воркеры
@@ -223,11 +309,20 @@ EOF
 }
 ```
 
----
-
 ## 3. Генерация конфигурационных файлов (Kubeconfigs)
 
 ### Создание конфигураций компонентов
+
+> ⚙️ **Инструментарий:**
+> 
+> - `kubectl config set-cluster` — регистрирует параметры кластера K8s (адрес API-сервера и корневой CA) в создаваемом файле.
+>     
+> - `kubectl config set-credentials` — упаковывает клиентские сертификаты и приватные ключи внутрь kubeconfig (`--embed-certs=true`).
+>     
+> - `kubectl config set-context` — связывает созданный профиль пользователя и параметры кластера в единый контекст управления.
+>     
+> - `kubectl config use-context` — устанавливает созданный контекст активным по умолчанию для данного файла.
+>     
 
 ```bash
 # Генерация для Worker01 и Worker02
@@ -235,7 +330,7 @@ for hosts in worker01 worker02; do
   kubectl config set-cluster kubernetes-the-hard-way \
     --certificate-authority=ca.crt \
     --embed-certs=true \
-    --server=[https://192.168.56.10:6443](https://192.168.56.10:6443) \
+    --server=https://192.168.56.10:6443 \
     --kubeconfig=${hosts}.kubeconfig
     
   kubectl config set-credentials system:node:${hosts} \
@@ -258,7 +353,7 @@ done
 	kubectl config set-cluster kubernetes-the-hard-way \
 	  --certificate-authority=ca.crt \
 	  --embed-certs=true \
-	  --server=[https://192.168.56.10:6443](https://192.168.56.10:6443) \
+	  --server=https://192.168.56.10:6443 \
 	  --kubeconfig=kube-proxy.kubeconfig
 	
 	kubectl config set-credentials system:kube-proxy \
@@ -281,7 +376,7 @@ done
 	kubectl config set-cluster kubernetes-the-hard-way \
 	  --certificate-authority=ca.crt \
 	  --embed-certs=true \
-	  --server=[https://127.0.0.1:6443](https://127.0.0.1:6443) \
+	  --server=https://127.0.0.1:6443 \
 	  --kubeconfig=kube-controller-manager.kubeconfig
 	
 	kubectl config set-credentials system:kube-controller-manager \
@@ -304,7 +399,7 @@ done
 	kubectl config set-cluster kubernetes-the-hard-way \
 	  --certificate-authority=ca.crt \
 	  --embed-certs=true \
-	  --server=[https://127.0.0.1:6443](https://127.0.0.1:6443) \
+	  --server=https://127.0.0.1:6443 \
 	  --kubeconfig=kube-scheduler.kubeconfig
 	
 	kubectl config set-credentials system:kube-scheduler \
@@ -327,7 +422,7 @@ done
 	kubectl config set-cluster kubernetes-the-hard-way \
 	  --certificate-authority=ca.crt \
 	  --embed-certs=true \
-	  --server=[https://127.0.0.1:6443](https://127.0.0.1:6443) \
+	  --server=https://127.0.0.1:6443 \
 	  --kubeconfig=admin.kubeconfig
 	
 	kubectl config set-credentials admin \
@@ -348,6 +443,11 @@ done
 
 ### Доставка Кубконфигов
 
+> 🚀 **Инструментарий:**
+> 
+> - `ssh root@node "mkdir ..."` — удаленное создание директорий через SSH-сессию перед непосредственной передачей конфигурационных файлов `kubeconfig`.
+>     
+
 ```bash
 {
 	# Распределение файлов по нодам
@@ -364,25 +464,37 @@ done
 }
 ```
 
----
-
 ## 4. Настройка Encryption at Rest
 
 Генерация конфигурационного файла поставщика шифрования секретов в etcd.
 
+> 🔮 **Инструментарий:**
+> 
+> - `head -c 32 /dev/urandom | base64` — считывает 32 случайных байта из криптографического генератора ядра Linux и кодирует их в формат Base64 для использования в качестве ключа шифрования.
+>     
+> - `envsubst` — утилита, которая считывает шаблон `.yaml`, подставляет вместо переменной `$ENCRYPTION_KEY` её реальное значение из окружения и сохраняет готовый файл.
+>     
+
 ```bash
 {
 	export ENCRYPTION_KEY=$(head -c 32 /dev/urandom | base64)
-	envsubst < configs/encryption-config.yaml > encryption-config.yaml
+	envsubst < ./k8s-hw/configs/encryption-config.yaml > encryption-config.yaml
 	scp encryption-config.yaml root@manager01:/var/lib/kubernetes/
 }
 ```
 
----
-
 ## 5. Инициализация Базы Данных etcd
 
 Выполняется локально на **`manager01`**. База данных функционирует по протоколу HTTP без внутреннего шифрации транспорта TLS (`--listen-client-urls http://127.0.0.1:2379`).
+
+> 🗄️ **Инструментарий:**
+> 
+> - `systemctl daemon-reload` — заставляет systemd перечитать конфигурационные файлы с диска, регистрируя новый юнит `etcd.service`.
+>     
+> - `systemctl enable --now` — добавляет службу в автозапуск при загрузке системы и немедленно активирует её.
+>     
+> - `etcdctl member list` — интерфейс командной строки для etcd; запрашивает у локальной БД текущий статус нод в кластере по протоколу HTTP.
+>     
 
 ```bash
 scp downloads/controller/etcd downloads/client/etcdctl units/etcd.service root@manager01:~/
@@ -400,15 +512,18 @@ systemctl enable --now etcd
 # Важно: Обращение к etcdctl выполняется по протоколу HTTP
 {
 	export ETCDCTL_API=3
-	etcdctl member list --endpoints=http://127.0.0.1:2379
+	etcdctl member list --endpoints=[http://127.0.0.1:2379](http://127.0.0.1:2379)
 }
 ```
-
----
 
 ## 6. Запуск Control Plane (Мастера)
 
 Выполняется локально на **`manager01`**.
+
+> 🏗️ **Инструментарий:**
+> 
+> - `kubectl apply -f` — отправляет декларативный манифест YAML в API-сервер для создания правил доступа (RBAC), позволяющих мастеру полноценно управлять Kubelet-компонентами нод.
+>     
 
 ```bash
 {
@@ -421,21 +536,20 @@ systemctl enable --now etcd
 		units/kube-scheduler.service \
 		configs/kube-apiserver-to-kubelet.yaml \
 		root@manager01:~/
-	
-	cp kube-apiserver kube-controller-manager kube-scheduler kubectl /usr/local/bin/
-	cp kube-apiserver.service kube-controller-manager.service kube-scheduler.service /etc/systemd/system/
 }
+
+cp kube-apiserver kube-controller-manager kube-scheduler kubectl /usr/local/bin/
+cp kube-apiserver.service kube-controller-manager.service kube-scheduler.service /etc/systemd/system/
 ```
 
 ### Создание обязательной конфигурации kube-scheduler
 
-> [!danger] Критический фикс
-> Без создания данного файла `kube-scheduler.service` завершится сбоем `status=1/FAILURE`, поскольку по умолчанию ищет схему конфигурации `/etc/kubernetes/config/kube-scheduler.yaml`.
+> [!danger] Критический фикс Без создания данного файла `kube-scheduler.service` завершится сбоем `status=1/FAILURE`, поскольку по умолчанию ищет схему конфигурации `/etc/kubernetes/config/kube-scheduler.yaml`.
 
 ```bash
 mkdir -p /etc/kubernetes/config
 
-cat <<EOF > /etc/kubernetes/config/kube-scheduler.yaml
+cat <<EOF> /etc/kubernetes/config/kube-scheduler.yaml
 apiVersion: kubescheduler.config.k8s.io/v1
 kind: KubeSchedulerConfiguration
 clientConnection:
@@ -443,7 +557,6 @@ clientConnection:
 leaderElection:
   leaderElect: true
 EOF
-
 ```
 
 ```bash
@@ -458,14 +571,11 @@ chmod 600 ~/.kube/config
 
 # Настройка правил авторизации RBAC для Kubelet
 kubectl apply -f kube-apiserver-to-kubelet.yaml
-
 ```
-
----
 
 ## 7. Конфигурация и запуск Worker-нод
 
-Выполняется **И на `worker01`, И на `worker02**`.
+Выполняется **И на `worker01`, И на `worker02`**.
 
 ```bash
 # Установка обязательного системного окружения
@@ -477,6 +587,11 @@ apt-get install -y socat conntrack ipset
 
 Доставка файлов с **`jumpbox`**:
 
+> ⚙️ **Инструментарий:**
+> 
+> - `ln -sf` — создает символическую ссылку (symlink) для `runc` в директорию `/usr/bin/`, чтобы `containerd` гарантированно видел рантайм в системном PATH.
+>     
+
 ```bash
 scp k8s-hw/downloads/worker/kubelet k8s-hw/downloads/worker/kube-proxy root@worker01:/usr/local/bin/
 scp k8s-hw/downloads/worker/runc/runc root@worker01:/usr/local/bin/
@@ -485,8 +600,7 @@ scp k8s-hw/downloads/worker/kubelet k8s-hw/downloads/worker/kube-proxy root@work
 scp k8s-hw/downloads/worker/runc/runc root@worker02:/usr/local/bin/
 ```
 
-> [!danger] Исправление прав исполнения runc
-> Утилита `runc` требует ручного назначения флага выполнения. Дополнительно создается глобальный симлинк в жесткий `$PATH` системных демонов.
+> [!danger] Исправление прав исполнения runc Утилита `runc` требует ручного назначения флага выполнения. Дополнительно создается глобальный симлинк в жесткий `$PATH` системных демонов.
 
 ```bash
 chmod +x /usr/local/bin/kubelet /usr/local/bin/kube-proxy /usr/local/bin/runc
@@ -506,7 +620,7 @@ scp -r k8s-hw/downloads/cni-plugins/* root@worker02:/opt/cni/bin/
 **Конфигурация сетевого моста для `worker01`:**
 
 ```bash
-cat <<EOF > /etc/cni/net.d/10-bridge.conf
+cat <<EOF> /etc/cni/net.d/10-bridge.conf
 {
     "cniVersion": "1.0.0",
     "name": "bridge",
@@ -521,13 +635,12 @@ cat <<EOF > /etc/cni/net.d/10-bridge.conf
     }
 }
 EOF
-
 ```
 
 **Конфигурация сетевого моста для `worker02`:**
 
 ```bash
-cat <<EOF > /etc/cni/net.d/10-bridge.conf
+cat <<EOF> /etc/cni/net.d/10-bridge.conf
 {
     "cniVersion": "1.0.0",
     "name": "bridge",
@@ -547,7 +660,7 @@ EOF
 **Конфигурация loopback (Одинаково для обоих воркеров):**
 
 ```bash
-cat <<EOF > /etc/cni/net.d/99-loopback.conf
+cat <<EOF> /etc/cni/net.d/99-loopback.conf
 {
     "cniVersion": "1.0.0",
     "name": "lo",
@@ -557,6 +670,13 @@ EOF
 ```
 
 ### Конфигурация движка Containerd
+
+> 🐳 **Инструментарий:**
+> 
+> - `containerd config default` — генерирует стандартную базовую структуру конфигурации `toml` для Containerd.
+>     
+> - `sed -i` — выполняет потоковое редактирование "на месте", переключая флаг `SystemdCgroup` в значение `true` для корректной работы с лимитами ресурсов ОС.
+>     
 
 ```bash
 # Распаковка containerd на jumpbox и пересылка:
@@ -579,13 +699,12 @@ sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/config.t
 
 ### Конфигурация Kubelet
 
-> [!warning] Настройка DNS
-> Параметр `resolvConf` переопределен на глобальный файл `/etc/resolv.conf`. Попытка использовать значение по умолчанию `/run/systemd/resolve/resolv.conf` на чистых дистрибутивах вызовет циклическую ошибку создания сетевой песочницы: `FailedCreatePodSandBox`.
+> [!warning] Настройка DNS Параметр `resolvConf` переопределен на глобальный файл `/etc/resolv.conf`. Попытка использовать значение по умолчанию `/run/systemd/resolve/resolv.conf` на чистых дистрибутивах вызовет циклическую ошибку создания сетевой песочницы: `FailedCreatePodSandBox`.
 
 **Для `worker01`:**
 
 ```bash
-cat <<EOF > /var/lib/kubelet/kubelet-config.yaml
+cat <<EOF> /var/lib/kubelet/kubelet-config.yaml
 kind: KubeletConfiguration
 apiVersion: kubelet.config.k8s.io/v1beta1
 authentication:
@@ -607,7 +726,7 @@ EOF
 **Для `worker02`:**
 
 ```bash
-cat <<EOF > /var/lib/kubelet/kubelet-config.yaml
+cat <<EOF> /var/lib/kubelet/kubelet-config.yaml
 kind: KubeletConfiguration
 apiVersion: kubelet.config.k8s.io/v1beta1
 authentication:
@@ -629,7 +748,7 @@ EOF
 ### Конфигурация Kube-Proxy
 
 ```bash
-cat <<EOF > /var/lib/kube-proxy/kube-proxy-config.yaml
+cat <<EOF> /var/lib/kube-proxy/kube-proxy-config.yaml
 kind: KubeProxyConfiguration
 apiVersion: kubeproxy.config.k8s.io/v1alpha1
 clientConnection:
@@ -645,11 +764,14 @@ systemctl daemon-reload
 systemctl enable --now containerd kubelet kube-proxy
 ```
 
----
-
 ## 8. Настройка статической маршрутизации подам
 
 Маршрутизация трафика между изолированными CNI-подсетями `10.244.x.x` через физические сетевые интерфейсы нод.
+
+> 🌐 **Инструментарий:**
+> 
+> - `ip route add` — добавляет записи в таблицу маршрутизации операционной системы ядра Linux. Позволяет пакетам, летящим в виртуальные сети подов `10.244.X.0/24`, понимать, через какой именно физический IP-адрес интерфейса ноды (`via 192.168.56.X`) им нужно следовать.
+>     
 
 ```bash
 # Находясь на Мастере (manager01):
@@ -667,11 +789,14 @@ ip route add 10.244.2.0/24 via 192.168.56.12
 ip route add 10.244.1.0/24 via 192.168.56.11
 ```
 
----
-
 ## 9. Комплексный Smoke Test кластера
 
 ### Тест 1: Валидация статуса нод кластера
+
+> 🔎 **Инструментарий:**
+> 
+> - `kubectl get nodes -o wide` — запрашивает перечень зарегистрированных нод кластера, отображая расширенную (`-o wide`) сводку: версии ОС, рантайма и внутренние/внешние IP.
+>     
 
 ```bash
 kubectl get nodes -o wide
@@ -683,39 +808,53 @@ kubectl get nodes -o wide
 
 Создаем проверочный секрет:
 
+> 🔐 **Инструментарий:**
+> 
+> - `kubectl create secret generic` — генерирует стандартный объект Secret внутри K8s на основе переданных строковых литералов.
+>     
+> - `etcdctl get` — обращается напрямую в хранилище БД etcd, запрашивая значение по указанному ключу реестра `/registry/secrets/...`.
+>     
+> - `hexdump -C` — форматирует сырой бинарный поток ответа от базы данных etcd в читаемый шестнадцатеричный вид и ASCII, позволяя увидеть заголовки криптоалгоритма.
+>     
+
 ```bash
 kubectl create secret generic kubernetes-the-hard-way --from-literal=mykey=mydata
-```
 
-Запрашиваем сырые данные из базы etcd по протоколу HTTP:
-
-```bash
 ETCDCTL_API=3 etcdctl get /registry/secrets/default/kubernetes-the-hard-way \
-  --endpoints=http://127.0.0.1:2379 | hexdump -C
-
+  --endpoints=[http://127.0.0.1:2379](http://127.0.0.1:2379) | hexdump -C
 ```
 
-*Критерий успеха:* Наличие префикса алгоритма шифрования `k8s:enc:aescbc:v1:key1`. Прямое чтение строки `mydata` невозможно.
+_Критерий успеха:_ Наличие префикса алгоритма шифрования `k8s:enc:aescbc:v1:key1`. Прямое чтение строки `mydata` невозможно.
 
 ### Тест 3: Запуск и проверка распределения рабочей нагрузки
 
 Создаем Deployment веб-сервера:
 
+> 📦 **Инструментарий:**
+> 
+> - `kubectl create deployment` — создает абстракцию более высокого уровня (Deployment) для автоматического развертывания и поддержания жизненного цикла реплик указанного контейнера.
+>     
+> - `kubectl get pods -o wide` — запрашивает информацию о запущенных экземплярах контейнеров (подов) с указанием конкретной физической ноды, на которой они сбалансированы.
+>     
+
 ```bash
 kubectl create deployment nginx --image=nginx
-```
 
-Мониторинг планирования и запуска:
-
-```bash
 kubectl get pods -o wide
 ```
 
-*Критерий успеха:* Под переходит в статус `1/1 Running`, получает внутренний CNI IP-адрес из диапазона привязанной ноды.
+_Критерий успеха:_ Под переходит в статус `1/1 Running`, получает внутренний CNI IP-адрес из диапазона привязанной ноды.
 
 ### Тест 4: Валидация сетевой связности подов
 
 Запуск тестовых контейнеров на разных физических хостах и пинг сетевых интерфейсов напрямую:
+
+> 🧪 **Инструментарий:**
+> 
+> - `kubectl run ... --overrides` — создает изолированный под, динамически переопределяя внутреннюю структуру спецификации (`spec.nodeName`), чтобы принудительно запланировать его на нужную физическую ноду в обход планировщика.
+>     
+> - `kubectl exec` — выполняет команду утилиты `ping` непосредственно внутри пространства имен и контейнера развернутого пода, тестируя сквозные CNI маршруты между серверами.
+>     
 
 ```bash
 kubectl run test-pod-1 --image=alpine --restart=Never --overrides='{"spec": {"nodeName": "worker01"}}' -- sleep 3600
@@ -727,6 +866,13 @@ kubectl exec -it test-pod-1 -- ping -c 3 <IP_АДРЕС_TEST_POD_2>
 
 ### Тест 5: Доступность приложения через Port-Forward (Мастер -> Кubelet)
 
+> 🔀 **Инструментарий:**
+> 
+> - `kubectl port-forward` — поднимает прокси-туннель, связывающий указанный локальный порт машины (8080) с внутренним портом приложения (80) внутри кластера K8s.
+>     
+> - `curl` — консольный HTTP-клиент, отправляющий GET-запрос на локальный адрес для проверки успешности проксирования.
+>     
+
 ```bash
 kubectl port-forward deployment/nginx 8080:80
 # В соседнем терминале проверяем ответ от веб-сервера:
@@ -737,6 +883,13 @@ curl http://127.0.0.1:8080
 
 Опубликуем наше приложение внутри сети кластера через компонент `kube-proxy`:
 
+> 🗺️ **Инструментарий:**
+> 
+> - `kubectl expose deployment` — создает абстракцию Service типа `NodePort`, открывая доступ к приложению со всех внешних интерфейсов нод кластера на случайно выделенном высоком порту.
+>     
+> - `kubectl get svc` — отображает созданные сервисы и назначенные им виртуальные IP (ClusterIP), а также выделенные внешние порты (`NodePort`).
+>     
+
 ```bash
 kubectl expose deployment nginx --port 80 --type=NodePort
 
@@ -744,10 +897,10 @@ kubectl expose deployment nginx --port 80 --type=NodePort
 kubectl get svc nginx
 
 # Запрос к веб-серверу по внешнему IP-адресу любой ноды и выделенному порту NodePort
-curl http://192.168.56.11:<ВЫДЕЛЕННЫЙ_NODEPORT>
+curl [http://192.168.56.11](http://192.168.56.11):<ВЫДЕЛЕННЫЙ_NODEPORT>
 ```
 
 ## Темы для ознакомления
 
-- [Устанавливаю кубер | Kubernetes The Hard Way](https://youtu.be/HqRKOz1UBXA?si=z49vJpst82KDXzt1)
+- [Устанавливаю кубер | Kubernetes The Hard Way](https://www.google.com/search?q=https://youtu.be/HqRKOz1UBXA%3Fsi%3Dz49vJpst82KDXzt1)
 - [[ETCD]], [[Kube-controller-manager]], [[Kube-scheduler]], [[Kubeapi]], [[Kubelet]], [[MTLS]], [[RBAC]], [[TLS SSL]]

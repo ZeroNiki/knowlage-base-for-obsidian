@@ -23,16 +23,18 @@ sudo ln -s usr/lib lib64
 cd ..
 
 # 3. Библиотеки для системного Shell (ldd /usr/bin/sh)
-sudo cp -L /lib/libreadline.so.8 malutka/usr/lib/
-sudo cp -L /lib/libc.so.6 malutka/usr/lib/
-sudo cp -L /lib/libncursesw.so.6 malutka/usr/lib/
-sudo cp -L /lib64/ld-linux-x86-64.so.2 malutka/usr/lib/
+{
+	sudo cp -L /lib/libreadline.so.8 malutka/usr/lib/
+	sudo cp -L /lib/libc.so.6 malutka/usr/lib/
+	sudo cp -L /lib/libncursesw.so.6 malutka/usr/lib/
+	sudo cp -L /lib64/ld-linux-x86-64.so.2 malutka/usr/lib/
+}
 
 # 4. Установка BusyBox (Швейцарский нож контейнеров)
 wget https://busybox.net/downloads/binaries/1.35.0-x86_64-linux-musl/busybox
 sudo mv busybox malutka/bin
 sudo chmod +x malutka/bin/busybox
-
+sudo chroot malutka/ /bin/busybox sh
 ```
 
 ---
