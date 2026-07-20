@@ -5,11 +5,11 @@ tags:
   - iac
   - gitops
 source: "Kubernetes SIG-CLI"
-status: 🧠 Deep-Dive-CheatSheet
+status:  Deep-Dive-CheatSheet
 date: 2026-04-10
 ---
 
-# 🛠️ Kustomize: Техническая шпаргалка SRE-инженера
+# ️ Kustomize: Техническая шпаргалка SRE-инженера
 
 > [!abstract] Ключевая концепция
 > **Kustomize** работает по принципу **Configuration Hydration**: есть "сухая" база (Base) и "наполнение" (Overlays). Манифесты всегда остаются валидными YAML-объектами, что исключает ошибки рендеринга строк.

@@ -1,4 +1,4 @@
-# 🤖 Ansible Cheat Sheet: Core Essentials
+#  Ansible Cheat Sheet: Core Essentials
 
 ## 1. Базовые команды (Ad-hoc)
 Быстрые действия без написания плейбуков.

@@ -1,4 +1,4 @@
-# 📥 Новая мысль: <% tp.file.title %>
+#  Новая мысль: <% tp.file.title %>
 **Дата:** <% tp.date.now("YYYY-MM-DD HH:mm") %>
 **Теги:** #инбокс 
 

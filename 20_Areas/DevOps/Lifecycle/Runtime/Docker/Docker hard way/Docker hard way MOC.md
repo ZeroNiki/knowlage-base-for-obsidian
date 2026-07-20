@@ -3,7 +3,7 @@ cssclasses:
   - dashboard
 banner: "![[gruv-material-texture.png]]"
 ---
-# 🎁 Docker hard way MOC
+#  Docker hard way MOC
 > Docker не магия. Это всего лишь набор ограничений для процессов, которые мы называем порядком.
 
 ---

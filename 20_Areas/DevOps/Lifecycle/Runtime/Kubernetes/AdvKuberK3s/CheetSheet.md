@@ -5,12 +5,12 @@ status: "Reference_Material"
 tags: [k8s, devops, kubectl, troubleshooting, cheat-sheet]
 ---
 
-## 📖 Философия управления
+##  Философия управления
 Эффективная работа с Kubernetes строится на трех столпах: **Наблюдение**, **Диагностика** и **Управление ресурсами**. Данный гайд содержит команды, проверенные «в бою» при развертывании стека на k3s.
 
 ---
 
-## 🛠️ 1. Быстрый старт и Инфраструктура
+## ️ 1. Быстрый старт и Инфраструктура
 Команды для проверки общего состояния кластера и его узлов.
 
 * `kubectl get nodes -o wide` — Проверка статуса нод и их **Internal-IP** (важно для проверки работы `eth1` в Vagrant).
@@ -19,7 +19,7 @@ tags: [k8s, devops, kubectl, troubleshooting, cheat-sheet]
 
 ---
 
-## 🏗️ 2. Управление ресурсами (Deployments & Pods)
+## ️ 2. Управление ресурсами (Deployments & Pods)
 Работа с твоими сервисами (`booking`, `report`, `postgres`).
 
 * `kubectl apply -f <file.yml>` — Применить манифест.
@@ -30,7 +30,7 @@ tags: [k8s, devops, kubectl, troubleshooting, cheat-sheet]
 
 ---
 
-## 🔍 3. Глубокая диагностика (Troubleshooting)
+##  3. Глубокая диагностика (Troubleshooting)
 Когда сервис выдает `500 Error` или статус `Pending`.
 
 * `kubectl describe pod <pod_name>` — **Самая важная команда.** Показывает логи старта, ошибки монтирования дисков и нехватку ресурсов.
@@ -40,7 +40,7 @@ tags: [k8s, devops, kubectl, troubleshooting, cheat-sheet]
 
 ---
 
-## 🌐 4. Сетевая отладка
+##  4. Сетевая отладка
 Проверка связи между микросервисами (VXLAN, DNS).
 
 * `kubectl get svc` — Посмотреть список сервисов и их ClusterIP/NodePort.
@@ -53,7 +53,7 @@ tags: [k8s, devops, kubectl, troubleshooting, cheat-sheet]
 
 ---
 
-## 📦 5. Работа с конфигурациями (ConfigMap & Secrets)
+##  5. Работа с конфигурациями (ConfigMap & Secrets)
 
 * `kubectl get configmap app-config -o yaml` — Посмотреть текущие настройки окружения.
 * `kubectl get secret app-secrets -o jsonpath='{.data.DB_PASSWORD}' | base64 -d` — Декодировать пароль из Secret (чтобы убедиться, что он верный).
@@ -61,7 +61,7 @@ tags: [k8s, devops, kubectl, troubleshooting, cheat-sheet]
 
 ---
 
-## 📊 6. Визуализация потоков (Mermaid)
+##  6. Визуализация потоков (Mermaid)
 
 ```mermaid
 graph LR
@@ -76,7 +76,7 @@ graph LR
 
 ---
 
-## 📒 7. Словарь Hardcore DevOps
+##  7. Словарь Hardcore DevOps
 
 | Команда | Зачем она тебе? |
 | :--- | :--- |
@@ -86,7 +86,7 @@ graph LR
 
 ---
 
-## ✅ 8. Чек-лист при падении сервиса
+##  8. Чек-лист при падении сервиса
 1.  **Status Check:** `kubectl get pods` (ищи `CrashLoopBackOff` или `Pending`).
 2.  **Describe:** `kubectl describe pod ...` (смотри секцию `Events` в конце).
 3.  **Logs:** `kubectl logs ...` (ищи `Stacktrace` или `Connection Refused`).

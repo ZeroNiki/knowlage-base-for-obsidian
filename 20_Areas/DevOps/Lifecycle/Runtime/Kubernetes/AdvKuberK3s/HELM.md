@@ -6,7 +6,7 @@ tags:
   - package-manager
   - automation
 source: "Helm Documentation & Cloud Native Computing Foundation (CNCF)"
-status: 🏛️ Architecture-Guide
+status: ️ Architecture-Guide
 date: 2026-04-10
 ---
 
@@ -129,7 +129,7 @@ spec:
 
 | Кейс | Helm | Kustomize |
 | :--- | :--- | :--- |
-| **Стороннее ПО** (Kafka, Prometheus) | ✅ Да (Industry Standard) | ❌ Нет |
-| **Сложная логика** (циклы, условия) | ✅ Да | ❌ Нет |
-| **Свои микросервисы** (простые) | ⚠️ Избыточно | ✅ Да (Overlays) |
-| **GitOps прозрачность** | ⚠️ Средняя (шаблоны) | ✅ Высокая (чистый YAML) |
+| **Стороннее ПО** (Kafka, Prometheus) |  Да (Industry Standard) |  Нет |
+| **Сложная логика** (циклы, условия) |  Да |  Нет |
+| **Свои микросервисы** (простые) | ️ Избыточно |  Да (Overlays) |
+| **GitOps прозрачность** | ️ Средняя (шаблоны) |  Высокая (чистый YAML) |

@@ -5,11 +5,11 @@ tags:
   - gitops
   - infrastructure-as-code
 source: "SIG-CLI Kustomize Deep Dive"
-status: 🏆 PRO-Guide
+status:  PRO-Guide
 date: 2026-04-10
 ---
 
-# 🏗️ Kustomize: От Новичка до PRO
+# ️ Kustomize: От Новичка до PRO
 
 > [!abstract] Философия
 > **Kustomize** — это "template-free" инструмент. В отличие от Helm, он не вырезает дырки в YAML (шаблонизация), а накладывает слои (**Configuration Hydration**). Это обеспечивает чистоту манифестов и исключает ошибки синтаксиса при подстановке строк.

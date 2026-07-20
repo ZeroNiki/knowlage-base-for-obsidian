@@ -69,7 +69,7 @@ fn main() {}
 
 ```rust
 struct SizeAndColour {
-    colour: Colour // ⚠️
+    colour: Colour // ️
     size: u32,
 }
 

@@ -1,4 +1,4 @@
-# 🐛 Issue: No space left on device (Metadata/Inodes exhaustion)
+#  Issue: No space left on device (Metadata/Inodes exhaustion)
 ## Описание
 > Парадоксальная ситуация: `df -h` показывает наличие места, но ОС блокирует запись с ошибкой «No space left on device». Проблема кроется в исчерпании **Inodes** (индексных дескрипторов) или удерживании удаленных файлов активными процессами.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🧠 Теория: Inodes и структура данных
+##  Теория: Inodes и структура данных
 
 
 *Каждый файл в Linux — это пара: **Inodes** (метаданные) + **Data Blocks** (содержимое).*
@@ -61,7 +61,7 @@ sudo systemctl reload nginx
 
 ---
 
-## ⚡️ SRE Checklist (Предотвращение)
+## ️ SRE Checklist (Предотвращение)
 
 > [!important] Мониторинг
 > Не ограничивайтесь `df -h`! Настройте алерты на `df -i` (порог 80%).

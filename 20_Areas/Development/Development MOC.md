@@ -3,20 +3,20 @@ cssclasses:
   - dashboard
 banner: "![[gruv-material-texture.png]]"
 ---
-# 💻 Development MOC
+#  Development MOC
 
 > "Код — это способ общения с машиной. Архитектура — способ общения с людьми."
 
 ---
 
-## 🏗 Общая архитектура
+##  Общая архитектура
 > [!info] Фундамент разработки
 > - [[Clean Architecture]]
 > - [[ORM]]
 > - [[Парадигмы]] | [[Типизация]] | [[Получение программы]]
 > 
 
-## 🗄 Базы данных
+##  Базы данных
 > [!abstract] Устройство и SQL
 > - **Теория:** [[Как устроена База Данных]] | [[Транзакция]] | [[ACID]]
 > - **SQL:** [[SQL]] | [[JOIN]] | [[CTE]]
@@ -24,7 +24,7 @@ banner: "![[gruv-material-texture.png]]"
 > - **Postgres:** [[Install in Arch Linux]]
 > 
 
-## 🚀 Языки программирования
+##  Языки программирования
 > [!code] C / C++
 > - **C:** [[Языковая стандартизация C]] | [[Адресная арифметика]] | [[Дебаггинг кода на C]] | [[ASAN]] | [[Arenas]] | [[Unity Build]] | [[Именованные константы]]  | [[20_Areas/Development/Languages/С/Побитовые операции]] | [[Языковая стандартизация C]] | [[getchar]] | [[Segmentation Fault]] | [[Unity Build]]
 > - **C++:** [[Основа]] | [[Абстракция данных и Инкапсуляция]] | [[CMake/Базовый гайд по Cmake]] | [[Вектор]] | [[try-catch]] | [[Побитовые операции]] | [[Vector]] | [[uintmax_t]] | [[typedef]] | [[try-catch]] | [[Switch operator]] | [[Struct]] | [[Sizerof]] | [[size_t]] | [[Функции]] | [[Термины]] | [[Преобразование типов]] | [[20_Areas/Development/Languages/Cpp/Побитовые операции]] | [[Массив и многомерный массив]] | [[Итерация]]
@@ -41,7 +41,7 @@ banner: "![[gruv-material-texture.png]]"
 > - **Rust:** [[Structs]] | [[Implementing structs and enums]] | [[Enums]] | [[Traits]] | [[ОПП в Rust]]
 > - **Go:** [[Materials]]
 
-## 🎓 Теория и Парадигмы
+##  Теория и Парадигмы
 > [!tip] Парадигмальный сдвиг
 > - [[ООП]]
 > - [[Процедурное программирования]]

@@ -5,11 +5,11 @@ tags:
   - architecture
   - notes
 source: "A Practical Guide to Continuous Delivery (Eberhard Wolff)"
-status: 📝 Study
+status:  Study
 date: 2026-04-10
 ---
 
-# 🚀 Непрерывная поставка и культура DevOps
+#  Непрерывная поставка и культура DevOps
 
 > [!abstract] Стратегическая цель
 > Превращение выпуска ПО в предсказуемую и рутинную операцию. Переход от редких релизов-"подвигов" к непрерывному потоку ценности.

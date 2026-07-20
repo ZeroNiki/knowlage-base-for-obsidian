@@ -2,7 +2,7 @@
 
 
 
-![🤖 Метод k-ближайших соседей (k-nearest neighbour)](https://media.proglib.io/posts/2021/07/19/0aac1c22fade24ce960d7e79db1c5a76.jpg)
+![ Метод k-ближайших соседей (k-nearest neighbour)](https://media.proglib.io/posts/2021/07/19/0aac1c22fade24ce960d7e79db1c5a76.jpg)
 
 Что это такое?
 

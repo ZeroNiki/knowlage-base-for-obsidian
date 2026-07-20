@@ -6,14 +6,14 @@ tags: [k8s, devops, school21, security, cert-manager]
 created: 2026-03-22
 ---
 
-# 🏗️ Архитектурный стандарт: k3s + Ingress-NGINX + TLS
+# ️ Архитектурный стандарт: k3s + Ingress-NGINX + TLS
 
 > [!ABSTRACT] Обзор документа
 > Данный документ устанавливает требования к архитектуре микросервисной платформы на базе **k3s**. В центре внимания — автоматизация PKI через **Cert-Manager** и устранение векторов атак.
 
 ---
 
-## 🛣️ Сквозной путь трафика (L7)
+## ️ Сквозной путь трафика (L7)
 В системе используется **Ingress-NGINX** как единая точка входа (Entry Point).
 
 1. **DNS**: `hotel.devops.com` → IP LoadBalancer.
@@ -27,11 +27,11 @@ created: 2026-03-22
 
 ---
 
-## 🔐 Жизненный цикл SSL (Cert-Manager & ACME)
+##  Жизненный цикл SSL (Cert-Manager & ACME)
 Автоматизация исключает простои из-за просроченных сертификатов. 
 
 ### Схема выпуска:
-`Ingress Annotation` ➔ `Certificate` ➔ `CertificateRequest` ➔ `ACME Order` ➔ `Challenge` ➔ `TLS Secret`
+`Ingress Annotation`  `Certificate`  `CertificateRequest`  `ACME Order`  `Challenge`  `TLS Secret`
 
 > [!DANGER] КРИТИЧЕСКАЯ ОШИБКА: Wildcard vs HTTP-01
 > В проекте обнаружена коллизия:
@@ -43,14 +43,14 @@ created: 2026-03-22
 
 ---
 
-## 📑 Технический аудит манифестов
+##  Технический аудит манифестов
 
 | Параметр | Текущее состояние (Audit) | Рекомендуемое состояние (Standard) |
 | :--- | :--- | :--- |
-| **Тип сервиса** | `NodePort` ❌ | `ClusterIP` ✅ |
-| **Backend Paths** | Пусто (404 Error) ❌ | Явное указание `/` и сервиса ✅ |
-| **TLS Challenge** | HTTP-01 ❌ | DNS-01 (для Wildcard) ✅ |
-| **Безопасность** | Base64 Secrets ⚠️ | Secrets Encryption "at rest" ✅ |
+| **Тип сервиса** | `NodePort`  | `ClusterIP`  |
+| **Backend Paths** | Пусто (404 Error)  | Явное указание `/` и сервиса  |
+| **TLS Challenge** | HTTP-01  | DNS-01 (для Wildcard)  |
+| **Безопасность** | Base64 Secrets ️ | Secrets Encryption "at rest"  |
 
 ### Анализ сервиса `hotel-service.yml`
 > [!BUG] Security Issue
@@ -58,7 +58,7 @@ created: 2026-03-22
 
 ---
 
-## 🛠️ План действий (Troubleshooting Guide)
+## ️ План действий (Troubleshooting Guide)
 
 1. **Исправить Ingress:** Заполнить секцию `paths` для всех хостов.
 2. **Исправить ClusterIssuer:** Настроить интеграцию с DNS-провайдером (Cloudflare/Route53) для работы `dns01`.
@@ -67,5 +67,5 @@ created: 2026-03-22
 
 ---
 
-## 🔗 Связанные компоненты
+##  Связанные компоненты
 ![[NotebookLM Mind Map(1).png]]

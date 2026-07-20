@@ -1,4 +1,4 @@
-# 🌍 Terraform Cheat Sheet: Infrastructure as Code
+#  Terraform Cheat Sheet: Infrastructure as Code
 
 ## 1. Основной рабочий цикл (Core Workflow)
 Стандартная последовательность действий при внесении изменений.

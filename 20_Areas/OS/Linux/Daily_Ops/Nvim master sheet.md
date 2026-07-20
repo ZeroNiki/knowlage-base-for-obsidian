@@ -1,4 +1,4 @@
-# 🌌 Neovim Master Cheatsheet (Split Edition)
+#  Neovim Master Cheatsheet (Split Edition)
 
 **Основная философия:** `Пробел` — твой лучший друг (Leader). Кисти остаются на домашнем ряду (Home Row). Тянуться к `Esc` и стрелкам — незаконно.
 

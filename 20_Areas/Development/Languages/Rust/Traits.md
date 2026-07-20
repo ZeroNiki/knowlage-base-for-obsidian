@@ -13,7 +13,7 @@ fn main() {}
 
 ```rust
 fn main() {
-// 🚧
+// 
 let result = self.second_thing + self.first_thing as f32
 }
 ```
@@ -22,7 +22,7 @@ let result = self.second_thing + self.first_thing as f32
 
 ```rust
 fn main() {
-// 🚧
+// 
 let result = self.second_thing as u32 + self.first_thing
 }
 ```

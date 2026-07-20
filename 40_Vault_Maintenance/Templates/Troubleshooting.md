@@ -1,4 +1,4 @@
-# 🐛 Issue: <% tp.file.title %>
+#  Issue: <% tp.file.title %>
 **Дата:** <% tp.date.now("YYYY-MM-DD") %>
 **Статус:** #status/investigating 
 

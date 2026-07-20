@@ -58,7 +58,7 @@ R1(config-line)#login
 R1(config-line)#transport input telnet
 ```
 
-👉 Теперь можно подключаться:
+ Теперь можно подключаться:
 
 ```
 R2#telnet 192.168.10.1

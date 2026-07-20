@@ -5,7 +5,7 @@
 
 ---
 
-## 1. 🏗 Теоретический фундамент: Триада ИБ
+## 1.  Теоретический фундамент: Триада ИБ
 
 Разделение ответственности (Separation of Concerns) позволяет строить модульные системы, где каждый фильтр выполняет ровно одну задачу.
 
@@ -22,7 +22,7 @@
 | **Процесс** | Ввод логина | Проверка пароля/JWT | Проверка ролей/ACL |
 | **Уязвимость** | Impersonation | Brute Force | [[IDOR]] / [[BOLA]] |
 
-### 🛰 Механизм Authorization Header
+###  Механизм Authorization Header
 Стандарт для REST API — заголовок `Authorization`.
 **Формат:** `Authorization: <Type> <Credentials>`
 
@@ -34,7 +34,7 @@
 
 ---
 
-## 2. 🐍 Практическая реализация на Flask
+## 2.  Практическая реализация на Flask
 
 Используем связку `Flask-JWT-Extended` + `Flask-Bcrypt`.
 
@@ -88,7 +88,7 @@ def create_app():
 
 ---
 
-## 3. 📊 Визуализация взаимодействия
+## 3.  Визуализация взаимодействия
 
 
 ```mermaid
@@ -118,7 +118,7 @@ sequenceDiagram
 
 ---
 
-## 4. 🚀 Deep Dive: Архитектура и Best Practices
+## 4.  Deep Dive: Архитектура и Best Practices
 ### Defense_in_Depth
 1. **Blueprints:** Выносите логику аутентификации в `auth_blueprint.py`. Не загромождайте `app.py`.
 2. **Bcrypt vs SHA:** Bcrypt использует адаптивную стоимость (work factor) и встроенную **соль**, что делает перебор на GPU неэффективным.
