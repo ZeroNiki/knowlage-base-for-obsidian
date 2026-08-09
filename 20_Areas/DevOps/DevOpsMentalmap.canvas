@@ -84,7 +84,7 @@
 		{"id":"cdb8d09e9ba79456","type":"file","file":"20_Areas/DevOps/Git/Git Expert Cheat Sheet.md","x":-7260,"y":1680,"width":400,"height":400,"color":"#0062ff"},
 		{"id":"1065dfb83c629338","type":"file","file":"20_Areas/DevOps/Git/GIT Глубокое погружение в архитектуру и процессы.md","x":-7260,"y":2160,"width":400,"height":400,"color":"#0062ff"},
 		{"id":"8a4f8ca866546933","type":"file","file":"20_Areas/Development/Languages/Python/cls static property.md","x":-2800,"y":3000,"width":400,"height":400,"color":"#0c12b0"},
-		{"id":"b0aa0170d4865b5b","type":"file","file":"20_Areas/DevOps/Git/GITOPS.md","x":-7260,"y":2620,"width":400,"height":400},
+		{"id":"b0aa0170d4865b5b","type":"file","file":"20_Areas/DevOps/Git/GITOPS/GITOPS.md","x":-7260,"y":2620,"width":400,"height":400},
 		{"id":"7f0a0627266814b5","type":"file","file":"20_Areas/DevOps/Git/Git fetch and git pull.md","x":-6780,"y":1680,"width":400,"height":400,"color":"#0062ff"},
 		{"id":"38ee1e74eaff3d94","type":"file","file":"20_Areas/DevOps/Git/Архитектурный разбор контентно-адресуемой системы.md","x":-6780,"y":2160,"width":400,"height":400,"color":"#0062ff"},
 		{"id":"63167c691725c4cc","type":"file","file":"20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/AdvKuberK3s/CheetSheet.md","x":-1010,"y":1500,"width":400,"height":400,"color":"#02f72b"},

@@ -4,38 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f9da1041f850a596",
+        "id": "42e6053f547e481b",
         "type": "tabs",
         "children": [
           {
-            "id": "9f9cf25a3c3c5eb3",
+            "id": "f118dbb24b55a5bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20_Areas/DevOps/Lifecycle/Networking/Kubernetes network/Сетевая архитектура Kubernetes.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Сетевая архитектура Kubernetes"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           },
           {
-            "id": "601d8b78a8126360",
+            "id": "1cd196fcaada3365",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Areas/DevOps/Lifecycle/Networking/Docker Network/Сетевой стек Docker.md",
+                "file": "20_Areas/DevOps/Git/GITOPS/ARGOCD/Синхронизация и управление состоянием в Argo CD.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Сетевой стек Docker"
+              "title": "Синхронизация и управление состоянием в Argo CD"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +52,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -198,44 +197,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "88594b4968fa01b1",
+  "active": "1cd196fcaada3365",
   "lastOpenFiles": [
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы/Tier III.md",
-    "20_Areas/DevOps/Lifecycle/Networking/Docker Network/Сетевой стек Docker.md",
-    "20_Areas/DevOps/Lifecycle/Networking/Kubernetes network/Сетевая архитектура Kubernetes.md",
-    "20_Areas/Computer_Science/Networking/Security/IP Sec.md",
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы/HA/Kubernetes HA.md",
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы/HA/HA Proxy.md",
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы/HA/High Availability.md",
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы/Кворум/Кворум.md",
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы",
-    "20_Areas/Computer_Science/Networking/Protocols/TCP IP сети.md",
-    "20_Areas/Computer_Science/Networking/Protocols/Электронные почты.md",
-    "20_Areas/Computer_Science/Networking/Protocols/Протокол передачи данных.md",
-    "20_Areas/Computer_Science/Networking/Protocols/Как устроен Torrent.md",
+    "20_Areas/DevOps/Git/GITOPS/ARGOCD/Пошаговое практическое руководство.md",
+    "20_Areas/DevOps/Git/GITOPS/ARGOCD/Синхронизация и управление состоянием в Argo CD.md",
+    "20_Areas/DevOps/Git/GITOPS/ARGOCD/Архитектура Argo CD.md",
+    "20_Areas/DevOps/DevOps MOC.md",
+    "20_Areas/DevOps/Git/GITOPS/ARGOCD",
+    "20_Areas/DevOps/Git/GITOPS",
+    "20_Areas/DevOps/Lifecycle/Observability/Monitoring/Graphana/Grafana Observability-as-Code.md",
     "Home.md",
-    "20_Areas/Computer_Science/Networking/Services/Nginx/NGINX VS APACHE.md",
-    "20_Areas/Computer_Science/Networking/Services/Nginx/Nginx Proxy.md",
-    "20_Areas/Computer_Science/Networking/Services/Nginx/NGINX Это.md",
-    "20_Areas/Computer_Science/Networking/Services/Nginx/Шпаргалка.md",
-    "20_Areas/Computer_Science/Networking/Services/Apache/Что это.md",
-    "20_Areas/Computer_Science/Networking/Security/TLS.md",
-    "20_Areas/Computer_Science/Networking/Security/SSL.md",
-    "20_Areas/Computer_Science/Networking/Security/Безопасность.md",
-    "20_Areas/Computer_Science/Networking/Protocols/OSI model.md",
-    "20_Areas/Computer_Science/Networking/Protocols/SSH.md",
-    "20_Areas/Computer_Science/Networking/Protocols/Rest API.md",
-    "20_Areas/Computer_Science/Networking/Protocols/JWT.md",
-    "20_Areas/Computer_Science/Networking/Protocols/HTTP И HTTPS расширенный.md",
+    "20_Areas/DevOps/Lifecycle/CI-CD/Gitlab CI",
+    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault/Архитектура HashiCorp Vault.md",
+    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault/Управление идентичностью в HashiCorp Vault.md",
+    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault/Интеграция HashiCorp Vault с Kubernetes.md",
+    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault/Динамические движки секретов в HashiCorp Vault.md",
+    "01_Inbox/Механизмы продвинутого планирования в Kubernetes.md",
+    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker In Docker.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Docker deep dive.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Config.json.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/The cache.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Docker hard way MOC.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/History and Layers.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/Summary.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Linux Capabilities.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Security-Enhanced Linux.md",
+    "20_Areas/OS/Linux/Daily_Ops/Устоновка ARCH Linux.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Оркестрация.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker Swarm/Docker-swarm.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/RBAC.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Basic/OCI.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Basic/install and check.md",
+    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы",
     "01_Inbox/Uptime Kuma",
     "01_Inbox/Hashicorp Vaults",
     "01_Inbox/Arch/TIER III",
     "20_Areas/DevOps/Lifecycle/Архитектура и Подходы",
     "01_Inbox/Arch/HA/HA proxy",
-    "01_Inbox/IP SEC",
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы/HA",
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы/Кворум",
-    "20_Areas/DevOps/Lifecycle/Networking/Kubernetes network",
     "20_Areas/DevOps/DevOpsMentalmap.canvas",
     "Pasted image 20260509170851.png",
     "40_Vault_Maintenance/IMG/Pasted image 20260419194206.png",
