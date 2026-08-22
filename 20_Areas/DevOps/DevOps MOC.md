@@ -32,7 +32,6 @@ banner: "![[gruv-material-texture.png]]"
 > [!tip] Культура и процессы
 > - [[CICD]], [[Непрерывная поставка и культура DevOps]]
 > - [[Стратегии тестирования в CI-CD]]
-> - [[Архитектура HashiCorp Vault|HashiCorp Vault Architecture]], [[Динамические движки секретов в HashiCorp Vault]], [[Интеграция HashiCorp Vault с Kubernetes]], [[Управление идентичностью в HashiCorp Vault]]
 
 ##  Messaging & Data
 > [!code] Брокеры
@@ -44,10 +43,14 @@ banner: "![[gruv-material-texture.png]]"
 > [!warning] Мониторинг и логи
 > - **Monitoring:** [[Эксплуатация Мониторинг и Безопасность]], [[Grafana Observability-as-Code]], [[Prometheus Node Exporter]],[[Архитектура и низкоуровневые механизмы мониторинга]]
 > - **Log Analysis:** [[counting IPs]], [[what is writing to this log file]]
+> - **Secrets:** [[Архитектура HashiCorp Vault|HashiCorp Vault Architecture]], [[Динамические движки секретов в HashiCorp Vault]], [[Интеграция HashiCorp Vault с Kubernetes]], [[Управление идентичностью в HashiCorp Vault]]
 
-## ️ Version Control (Git)
+## ️ Version Control (Git and GitOps)
 > [!done] Гитизация
 > - [[GIT Глубокое погружение в архитектуру и процессы]]
 > - [[Архитектурный разбор контентно-адресуемой системы]]
 > - [[GITOPS]]
 > - [[Git Expert Cheat Sheet]]
+> - [[Архитектура Argo CD]]
+> - [[Пошаговое практическое руководство]]
+> - [[Синхронизация и управление состоянием в Argo CD]]

@@ -10,5 +10,10 @@
   "obsidian-kanban",
   "obsidian-charts",
   "dataview",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "quickadd",
+  "gentle-pomo",
+  "metadata-menu",
+  "table-editor-obsidian"
 ]

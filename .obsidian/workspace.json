@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "42e6053f547e481b",
+        "id": "31cc397e58cbafab",
         "type": "tabs",
         "children": [
           {
-            "id": "f118dbb24b55a5bb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
-            }
-          },
-          {
-            "id": "1cd196fcaada3365",
+            "id": "b1e2f729b2df0c41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Areas/DevOps/Git/GITOPS/ARGOCD/Синхронизация и управление состоянием в Argo CD.md",
+                "file": "50_persona/01_Path/CKA - Архитектура кластера установка и обслуживание.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Синхронизация и управление состоянием в Argo CD"
+              "title": "CKA - Архитектура кластера установка и обслуживание"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 386.48828125
   },
   "right": {
     "id": "53d17784c2aae329",
@@ -171,17 +160,37 @@
               "icon": "lucide-ghost",
               "title": "mermaid-toolbar-view"
             }
+          },
+          {
+            "id": "6d37cf853997bb0d",
+            "type": "leaf",
+            "state": {
+              "type": "gentle-pomo-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Gentle pomodoro"
+            }
+          },
+          {
+            "id": "df78cfc7802d11d1",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 294.7734375
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -194,48 +203,51 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-kanban:Create new board": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "gentle-pomo:Gentle pomodoro": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1cd196fcaada3365",
+  "active": "b1e2f729b2df0c41",
   "lastOpenFiles": [
-    "20_Areas/DevOps/Git/GITOPS/ARGOCD/Пошаговое практическое руководство.md",
-    "20_Areas/DevOps/Git/GITOPS/ARGOCD/Синхронизация и управление состоянием в Argo CD.md",
-    "20_Areas/DevOps/Git/GITOPS/ARGOCD/Архитектура Argo CD.md",
-    "20_Areas/DevOps/DevOps MOC.md",
-    "20_Areas/DevOps/Git/GITOPS/ARGOCD",
-    "20_Areas/DevOps/Git/GITOPS",
-    "20_Areas/DevOps/Lifecycle/Observability/Monitoring/Graphana/Grafana Observability-as-Code.md",
-    "Home.md",
-    "20_Areas/DevOps/Lifecycle/CI-CD/Gitlab CI",
-    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault/Архитектура HashiCorp Vault.md",
-    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault/Управление идентичностью в HashiCorp Vault.md",
-    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault/Интеграция HashiCorp Vault с Kubernetes.md",
-    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault/Динамические движки секретов в HashiCorp Vault.md",
-    "01_Inbox/Механизмы продвинутого планирования в Kubernetes.md",
-    "20_Areas/DevOps/Lifecycle/Security/Hashicorp Vault",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker In Docker.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Docker deep dive.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Config.json.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/The cache.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Docker hard way MOC.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/History and Layers.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/Summary.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Linux Capabilities.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Security-Enhanced Linux.md",
-    "20_Areas/OS/Linux/Daily_Ops/Устоновка ARCH Linux.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Оркестрация.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker Swarm/Docker-swarm.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/RBAC.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Basic/OCI.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Basic/install and check.md",
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы",
-    "01_Inbox/Uptime Kuma",
-    "01_Inbox/Hashicorp Vaults",
-    "01_Inbox/Arch/TIER III",
-    "20_Areas/DevOps/Lifecycle/Архитектура и Подходы",
-    "01_Inbox/Arch/HA/HA proxy",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/KubeADM/Управление компонентами control plane.md",
+    "50_persona/01_Path/CKA - Архитектура кластера установка и обслуживание.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/KubeADM/Установка и Troubleshooting.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/KubeADM",
+    "50_persona/01_Path/CKA - Хранение данных.md",
+    "50_persona/01_Path/CKA - Сетевые взаимодействия.md",
+    "50_persona/01_Path/CKA - Рабочие нагрузки и планирование.md",
+    "50_persona/01_Path/CKA - Безопасность.md",
     "20_Areas/DevOps/DevOpsMentalmap.canvas",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Docker deep dive.md",
+    "20_Areas/OS/Linux/Karnel/База.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kubeapi.md",
+    "Home.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Summary.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kubelet.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/KubeADM",
+    "50_persona/02_Goals/CKA.md",
+    "50_persona/02_Goals/Выпуск из School21.md",
+    "50_persona/Player profile dashboard.md",
+    "50_persona/cka.txt",
+    "50_persona/cka.txt;",
+    "tree.txt",
+    "tree.txtr",
+    "50_persona/01_Path/Устранение неполадок и отладка.md",
+    "50_persona/02_Projects/Без названия.md",
+    "50_persona/Templates/Project_Template.md",
+    "50_persona/Transaction_reward_shop/Transaction-2026-08-16.md",
+    "50_persona/Dashboard.canvas",
+    "50_persona/Reward_Shop.md",
+    "50_persona/Transaction_reward_shop",
+    "50_persona/Player_Profile.md",
+    "50_persona/02_Projects/CKA.md",
+    "50_persona/Templates/Daily_Log_Template.md",
+    "copilot/skills/obsidian-cli/SKILL.md",
+    "copilot/skills/obsidian-cli/LICENSE",
+    "copilot/skills/obsidian-cli",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/LICENSE",
     "Pasted image 20260509170851.png",
     "40_Vault_Maintenance/IMG/Pasted image 20260419194206.png",
     "40_Vault_Maintenance/IMG/NotebookLM Mind Map(1).png",
