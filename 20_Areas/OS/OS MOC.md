@@ -19,7 +19,7 @@ banner: "![[gruv-material-texture.png]]"
 > - [[Асинхронное управление процессами]]
 > - [[Архитектура и Утилизация]]
 > - [[Загрузка, системные демоны]]
-> - [[Упровление процессами]]
+> - [[Управление процессами]]
 > - [[Linux namespaces]]
 > - [[Control Groups]]
 
@@ -27,26 +27,28 @@ banner: "![[gruv-material-texture.png]]"
 > - **База:** [[Файловая система]], [[FHS]]
 > - **Типы:** [[ext-4(Linux)]], [[btrfs(Linux)]], [[XFS(Linux)]], [[ZFS(Linux)]], [[F2FS(Flash)]], [[FAT32]], [[NTFS(Windows)]]
 > - [[Сравнение]]
+> - **Подробнее:** [[FHS MOC]]
 
 > [!check] Управление
-> - [[Упровление процессами]], [[Cgroups]], [[LVM]]
+> - [[Управление процессами]], [[Cgroups]], [[LVM]]
 
 ##  Daily Operations (Modern Unix)
 > [!quote] Инструментарий
 > - **Терминал:** [[База]], [[Основы администрирования]], [[Полное руководство по командам и дебаггингу]]
 > - **Modern CLI:** [[Modern unix]], [[Пакеты в Linux]]
 > - **Neovim/Vim:** [[Vim motions]], [[Vim tips and tricks]], [[Module 1|VimTrain: Модуль 1]], [[Module 2|VimTrain: Модуль 2]], [[Module 3|VimTrain: Модуль 3]]
-> - **Config:** [[Упровление конфигурации]]
+> - **Config:** [[Управление конфигурацией]]
+> - **Подробнее:** [[Daily_Ops MOC]]
 
 ## ️ Virtualization & Automation
 > [!code] Vagrant
-> - [[База в краце]], [[Под копотом]], [[Практика]], [[Сетевые ражимы кратко]], [[Vagrantfile]], [[Шпора]]
+> - [[База в кратце]], [[Под копотом]], [[Практика]], [[Сетевые режимы кратко]], [[Vagrantfile]], [[Шпора]]
 
 ##  Troubleshooting
 > [!code] Решение популярных проблем
-> -  [[Mystery]], [[No space left on devise]], [[SSH Connection Refused]]
+> -  [[Mystery]], [[No space left on device]], [[SSH Connection Refused]]
 
 ##  Reference
 > [!tip] База
 > - [[История]]
-> - [[Устоновка ARCH Linux]]
+> - [[Установка ARCH Linux]]

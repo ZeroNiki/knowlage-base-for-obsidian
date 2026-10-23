@@ -1,3 +1,16 @@
+---
+title: "Установка Arch Linux"
+aliases: ["Устоновка ARCH Linux"]
+tags:
+  - area/os
+  - topic/linux
+  - topic/arch
+type: howto
+status: draft
+created: 2023-12-28
+updated: 2026-10-23
+---
+
 ## подготовка к устоновке
 - *Создаём образ на флешку*
 - *Загружаемся с флешки*

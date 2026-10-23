@@ -1,3 +1,17 @@
+---
+title: "Анатомия процесса загрузки и инициализации Linux"
+aliases: ["LinuxBoot workflow"]
+tags:
+  - area/os
+  - topic/linux
+  - topic/kernel
+  - topic/boot
+type: theory
+status: stable
+created: 2026-04-17
+updated: 2026-10-23
+---
+
 #  Техническое руководство: Анатомия процесса загрузки и инициализации Linux
 
 > [!ABSTRACT] Контекст

@@ -1,11 +1,14 @@
 ---
+title: "Установка Arch Linux (v2)"
+aliases: ["Установка Arch Linux v2"]
 tags:
-  - linux
-  - arch
-  - install
-  - dwm
-date: 2026-10-18
+  - area/os
+  - topic/linux
+  - topic/arch
+type: howto
 status: draft
+created: 2026-10-23
+updated: 2026-10-23
 ---
 
 # Установка Arch Linux

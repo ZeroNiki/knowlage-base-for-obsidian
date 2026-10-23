@@ -1,3 +1,16 @@
+---
+title: "No space left on device (Metadata/Inodes exhaustion)"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/filesystem
+type: troubleshooting
+status: stable
+created: 2026-04-26
+updated: 2026-10-23
+---
+
 #  Issue: No space left on device (Metadata/Inodes exhaustion)
 ## Описание
 > Парадоксальная ситуация: `df -h` показывает наличие места, но ОС блокирует запись с ошибкой «No space left on device». Проблема кроется в исчерпании **Inodes** (индексных дескрипторов) или удерживании удаленных файлов активными процессами.

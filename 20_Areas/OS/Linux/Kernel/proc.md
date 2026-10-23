@@ -1,10 +1,15 @@
 ---
+title: "Интерфейс /proc: Архитектура и Конфигурация ядра"
+aliases: []
 tags:
-  - linux/kernel
-  - procfs
-  - vfs
-  - monitoring
-  - sysctl
+  - area/os
+  - topic/linux
+  - topic/kernel
+  - topic/procfs
+type: reference
+status: stable
+created: 2026-05-03
+updated: 2026-10-23
 ---
 
 # Интерфейс /proc: Архитектура и Конфигурация ядра

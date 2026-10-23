@@ -1,8 +1,15 @@
 ---
-tags: [linux, devops, architecture, mastery, kernel]
-type: guide
-status: deep-dive
-updated: 2026-04-09
+title: "Linux Deep Dive: Исчерпывающее руководство системного инженера"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/kernel
+  - topic/architecture
+type: theory
+status: stable
+created: 2026-04-10
+updated: 2026-10-23
 ---
 
 # Linux Deep Dive: Исчерпывающее руководство системного инженера

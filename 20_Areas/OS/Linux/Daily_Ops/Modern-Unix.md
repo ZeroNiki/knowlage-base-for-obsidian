@@ -1,4 +1,17 @@
-# Moder-Unix
+---
+title: "Modern Unix"
+aliases: ["Moder-Unix"]
+tags:
+  - area/os
+  - topic/linux
+  - topic/cli-tools
+type: cheatsheet
+status: stable
+created: 2025-09-17
+updated: 2026-10-23
+---
+
+# Modern Unix
 ###  Поиск файлов и текста
 
 **fd** (замена `find`)
