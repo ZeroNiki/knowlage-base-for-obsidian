@@ -1,3 +1,15 @@
+---
+title: "Jira"
+aliases: []
+tags:
+  - area/methodologies
+  - topic/jira
+type: reference
+status: stable
+created: 2025-01-29
+updated: 2026-10-23
+---
+
 # Jira
 ## Что такое Jira?
 

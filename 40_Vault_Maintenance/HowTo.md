@@ -1,3 +1,16 @@
+---
+title: "Проектирование многопроцессного симулятора экзамена"
+aliases: ["HowTo"]
+tags:
+  - area/development
+  - topic/python
+  - topic/multiprocessing
+type: howto
+status: stable
+created: 2025-10-18
+updated: 2026-10-23
+---
+
 ## Этап 1. Понять задание, а не писать код
 
 Не начинай с кода — сначала разберись в логике и сущностях.

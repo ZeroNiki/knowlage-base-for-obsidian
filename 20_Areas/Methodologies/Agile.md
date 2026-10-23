@@ -1,3 +1,15 @@
+---
+title: "Agile"
+aliases: []
+tags:
+  - area/methodologies
+  - topic/agile
+type: theory
+status: stable
+created: 2025-01-29
+updated: 2026-10-23
+---
+
 # Agile
 ## Что такое методология Agile?
 

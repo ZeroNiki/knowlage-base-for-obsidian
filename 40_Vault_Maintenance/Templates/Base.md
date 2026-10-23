@@ -1,6 +1,12 @@
 ---
-date: {{date}}
-tags: #area/название #type/theory
+title: ""
+aliases: []
+tags:
+  - area/название
+type: theory
+status: draft
+created: {{date}}
+updated: {{date}}
 ---
 
 # Заголовок заметки
