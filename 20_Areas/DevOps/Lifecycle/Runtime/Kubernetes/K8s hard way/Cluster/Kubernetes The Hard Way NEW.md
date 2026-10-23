@@ -80,8 +80,6 @@ apt-get update && apt-get install -y wget openssl git
 
 # Клонирование репозитория с шаблонами
 git clone https://github.com/kelseyhightower/kubernetes-the-hard-way.git
-mv kubernetes-the-hard-way k8s-hw
-cd k8s-hw
 wget --show-progress -q --https-only --timestamping -P downloads -i downloads-amd64.txt
 ```
 
@@ -94,20 +92,32 @@ wget --show-progress -q --https-only --timestamping -P downloads -i downloads-am
 
 ```bash
 {
-	ARCH=amd64
-	mkdir -p downloads/{client,cni-plugins,controller,worker,worker/runc}
-	tar -xvf downloads/cni-plugins-linux-${ARCH}-v1.6.2.tgz -C downloads/cni-plugins/
-	tar -xvf downloads/etcd-v3.6.0-rc.3-linux-${ARCH}.tar.gz -C downloads/ \
-	    --strip-components 1 \
-	    etcd-v3.6.0-rc.3-linux-${ARCH}/etcdctl \
-	    etcd-v3.6.0-rc.3-linux-${ARCH}/etcd
-	mv downloads/{etcdctl,kubectl} downloads/client/
-	mv downloads/{etcd,kube-apiserver,kube-controller-manager,kube-scheduler} downloads/controller/
-	mv downloads/{kubelet,kube-proxy} downloads/worker/
-	mv downloads/runc.${ARCH} downloads/worker/runc/runc
+  ARCH=$(dpkg --print-architecture)
+  mkdir -p downloads/{client,cni-plugins,controller,worker}
+  tar -xvf downloads/crictl-v1.32.0-linux-${ARCH}.tar.gz \
+    -C downloads/worker/
+  tar -xvf downloads/containerd-2.1.0-beta.0-linux-${ARCH}.tar.gz \
+    --strip-components 1 \
+    -C downloads/worker/
+  tar -xvf downloads/cni-plugins-linux-${ARCH}-v1.6.2.tgz \
+    -C downloads/cni-plugins/
+  tar -xvf downloads/etcd-v3.6.0-rc.3-linux-${ARCH}.tar.gz \
+    -C downloads/ \
+    --strip-components 1 \
+    etcd-v3.6.0-rc.3-linux-${ARCH}/etcdctl \
+    etcd-v3.6.0-rc.3-linux-${ARCH}/etcd
+  mv downloads/{etcdctl,kubectl} downloads/client/
+  mv downloads/{etcd,kube-apiserver,kube-controller-manager,kube-scheduler} \
+    downloads/controller/
+  mv downloads/{kubelet,kube-proxy} downloads/worker/
+  mv downloads/runc.${ARCH} downloads/worker/runc
 }
 
-chmod +x downloads/client/* downloads/cni-plugins/* downloads/controller/* downloads/worker/*
+rm -rf downloads/*gz
+
+{
+  chmod +x downloads/{client,cni-plugins,controller,worker}/*
+}
 ```
 
 ### Генерация и распределение SSH-ключей

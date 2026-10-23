@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "31cc397e58cbafab",
+        "id": "d0bbc1e43d53b77c",
         "type": "tabs",
         "children": [
           {
-            "id": "b1e2f729b2df0c41",
+            "id": "90f53344b5ee5d3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_persona/01_Path/CKA - Архитектура кластера установка и обслуживание.md",
+                "file": "01_Inbox/Механизмы продвинутого планирования в Kubernetes.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CKA - Архитектура кластера установка и обслуживание"
+              "title": "Механизмы продвинутого планирования в Kubernetes"
             }
           }
         ]
@@ -130,10 +130,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Теги"
             }
           },
           {
@@ -142,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ЯП/Python/Процедурный подход.md",
+                "file": "50_persona/99_Work/Data sharing via Hashicorp Vaults.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Процедурный подход"
+              "title": "Структура"
             }
           },
           {
@@ -157,18 +159,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
-            }
-          },
-          {
-            "id": "6d37cf853997bb0d",
-            "type": "leaf",
-            "state": {
-              "type": "gentle-pomo-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Gentle pomodoro"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           },
           {
@@ -182,11 +174,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 294.7734375
+    "width": 228.94140625,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,50 +197,49 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
-      "gentle-pomo:Gentle pomodoro": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b1e2f729b2df0c41",
+  "active": "90f53344b5ee5d3d",
   "lastOpenFiles": [
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/KubeADM/Управление компонентами control plane.md",
-    "50_persona/01_Path/CKA - Архитектура кластера установка и обслуживание.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/KubeADM/Установка и Troubleshooting.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/KubeADM",
-    "50_persona/01_Path/CKA - Хранение данных.md",
-    "50_persona/01_Path/CKA - Сетевые взаимодействия.md",
-    "50_persona/01_Path/CKA - Рабочие нагрузки и планирование.md",
-    "50_persona/01_Path/CKA - Безопасность.md",
-    "20_Areas/DevOps/DevOpsMentalmap.canvas",
-    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Advanced/Docker deep dive.md",
-    "20_Areas/OS/Linux/Karnel/База.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kubeapi.md",
+    "20_Areas/DevOps/Study/Path.md",
+    "Excalidraw/Drawing 2026-07-12 11.55.22.excalidraw.md",
     "Home.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Summary.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kubelet.md",
+    "2026-08-23.md",
+    "20_Areas/OS/Qemu/Qemu.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Cluster/Kubernetes The Hard Way v2.md",
+    "20_Areas/OS/Qemu",
+    "20_Areas/OS/Linux/Daily_Ops/Устоновка_ARCH_Linux_v2.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Cluster/GatewayAPI.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Cluster/Kubernetes The Hard Way NEW.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Networking/eBPF.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Networking/Cilium.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Networking/CNI.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Networking/Gateway API.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Networking/Envoy.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Networking",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Cluster/K8s hard way.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Cluster",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Kubernetes_The_Hard_Way_NEW.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Security/Стандарты безопасности.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Security/Безопасность Podов и рабочих нагрузок в Kubernetes.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Security/Управление доступом к API Kubernetes.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Security",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/Resizing/HPA.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/Resizing/VPA.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Basic/CMD VS ENTRYPOINT.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/Resizing",
+    "20_Areas/DevOps/Study",
+    "20_Areas/DevOps/Lifecycle/Networking/Kubernetes network/Сетевая архитектура Kubernetes.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kube-scheduler.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Introduction/Kube-controller-manager.md",
+    "50_persona/99_Work/GPU",
+    "50_persona/99_Work",
+    "20_Areas/DevOps/DevOpsMentalmap.canvas",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/KubeADM",
-    "50_persona/02_Goals/CKA.md",
-    "50_persona/02_Goals/Выпуск из School21.md",
-    "50_persona/Player profile dashboard.md",
-    "50_persona/cka.txt",
-    "50_persona/cka.txt;",
-    "tree.txt",
-    "tree.txtr",
-    "50_persona/01_Path/Устранение неполадок и отладка.md",
-    "50_persona/02_Projects/Без названия.md",
-    "50_persona/Templates/Project_Template.md",
-    "50_persona/Transaction_reward_shop/Transaction-2026-08-16.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/KubeADM",
     "50_persona/Dashboard.canvas",
-    "50_persona/Reward_Shop.md",
-    "50_persona/Transaction_reward_shop",
-    "50_persona/Player_Profile.md",
-    "50_persona/02_Projects/CKA.md",
-    "50_persona/Templates/Daily_Log_Template.md",
-    "copilot/skills/obsidian-cli/SKILL.md",
-    "copilot/skills/obsidian-cli/LICENSE",
-    "copilot/skills/obsidian-cli",
-    "copilot/skills/json-canvas/SKILL.md",
-    "copilot/skills/json-canvas/LICENSE",
     "Pasted image 20260509170851.png",
     "40_Vault_Maintenance/IMG/Pasted image 20260419194206.png",
     "40_Vault_Maintenance/IMG/NotebookLM Mind Map(1).png",
