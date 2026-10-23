@@ -1,3 +1,16 @@
+---
+title: "IP Sec"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/security
+type: theory
+status: stable
+created: 2026-07-20
+updated: 2026-10-23
+---
+
 Вот чистый технический конспект по теме **IPsec** для Obsidian. Вместо изображений здесь используются встроенные диаграммы **Mermaid**, которые Obsidian рендерит нативно. Текст написан в строгом профессиональном стиле без использования эмодзи.
 
 ---

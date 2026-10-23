@@ -1,3 +1,15 @@
+---
+title: "Гайд по настройке CISCO"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+type: howto
+status: stable
+created: 2025-10-02
+updated: 2026-10-23
+---
+
 # Большой гайд по настройке Cisco IOS (C3745 и похожие устройства)
 
 ## 1. Базовая настройка устройства

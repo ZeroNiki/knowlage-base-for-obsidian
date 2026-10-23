@@ -1,3 +1,16 @@
+---
+title: "NAT (Network Address Translation)"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/routing
+type: theory
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
+
 **Network Address Translation** - это механизм в сетях TCP/IP, позволяющий изменять IP адрес в заголовке пакета, проходящего через устройство маршрутизации трафика.  
 Принимая пакет от локального компьютера, маршрутизатор смотрит на IP-адрес назначения. Если это локальный адрес, то пакет пересылается другому локальному компьютеру. Если нет, то пакет надо переслать наружу в интернет.
 

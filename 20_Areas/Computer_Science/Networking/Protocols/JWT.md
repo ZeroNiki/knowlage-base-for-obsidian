@@ -1,3 +1,17 @@
+---
+title: "JWT"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/protocols
+  - topic/security
+type: theory
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
+
 > `JSON Web Token (JWT)` — это _JSON_ объект, который определен в открытом стандарте [RFC 7519](https://tools.ietf.org/html/rfc7519). Он считается одним из безопасных способов передачи информации между двумя участниками. Для его создания необходимо определить заголовок (header) с общей информацией по токену, полезные данные (payload), такие как id пользователя, его роль и т.д. и подписи (signature).  
 
 Простыми словами, _JWT_ — это лишь строка в следующем формате `header.payload.signature`.  

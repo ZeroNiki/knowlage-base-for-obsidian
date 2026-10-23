@@ -1,3 +1,16 @@
+---
+title: "Nginx Proxy"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/web-servers
+type: howto
+status: stable
+created: 2025-10-12
+updated: 2026-10-23
+---
+
 Конечно, давай разберём работу Nginx как прокси на примере твоего проекта без лишних украшений.
 
 ---

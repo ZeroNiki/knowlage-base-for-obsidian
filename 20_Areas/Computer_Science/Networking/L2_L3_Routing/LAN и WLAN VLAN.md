@@ -1,3 +1,16 @@
+---
+title: "LAN и WLAN VLAN"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/routing
+type: theory
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
+
 ## LAN - Local Area Network
 Начнем с **LAN - Local Area Network** или просто ЛВС локальная вычислительная сеть - локалка. Она бывает домашняя на 5-6 человек, а бывает офисная на 50 человек. LAN покрывает небольшую зону: квартиру, помещение, пару этажей или здание.
 

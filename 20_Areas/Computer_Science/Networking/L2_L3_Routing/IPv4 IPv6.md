@@ -1,3 +1,16 @@
+---
+title: "IPv4 IPv6"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/routing
+type: theory
+status: stable
+created: 2023-11-09
+updated: 2026-10-23
+---
+
 ## Версии IPv4 и IPv6
 
 ### Что такое IPv4?

@@ -1,1 +1,14 @@
+---
+title: "IP"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/routing
+type: theory
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
+
 **Internet Protocol** (**IP**, досл. «межсетевой протокол») — [маршрутизируемый](https://www.wikiwand.com/ru/Маршрутизация "Маршрутизация") [протокол](https://www.wikiwand.com/ru/Сетевой_протокол "Сетевой протокол") [сетевого уровня](https://www.wikiwand.com/ru/Протоколы_сетевого_уровня "Протоколы сетевого уровня") [стека](https://www.wikiwand.com/ru/Стек "Стек") [TCP/IP](https://www.wikiwand.com/ru/TCP/IP "TCP/IP"). Именно IP стал тем протоколом, который объединил отдельные [компьютерные сети](https://www.wikiwand.com/ru/Компьютерная_сеть "Компьютерная сеть") во всемирную сеть [Интернет](https://www.wikiwand.com/ru/Интернет "Интернет"). Неотъемлемой частью протокола является _адресация_ сети (см. [IP-адрес](https://www.wikiwand.com/ru/IP-адрес "IP-адрес")).

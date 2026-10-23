@@ -1,3 +1,16 @@
+---
+title: "Rest API"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/protocols
+type: theory
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
+
 # Источник из инета
 REST API — это способ взаимодействия сайтов и веб-приложений с сервером. Его также называют RESTful.
 

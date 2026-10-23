@@ -1,3 +1,17 @@
+---
+title: "SSH"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/protocols
+  - topic/security
+type: theory
+status: stable
+created: 2025-10-02
+updated: 2026-10-23
+---
+
 *SSH (Secure Shell)* — это сетевой протокол, который позволяет безопасно подключаться к удалённым компьютерам и управлять ими через командную строку.
 Он пришёл на замену Telnet, так как обеспечивает шифрование всех передаваемых данных (включая логин и пароль).
 

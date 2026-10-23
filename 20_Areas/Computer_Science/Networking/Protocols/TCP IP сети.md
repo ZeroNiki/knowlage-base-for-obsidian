@@ -1,3 +1,16 @@
+---
+title: "TCP IP сети"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/protocols
+type: theory
+status: stable
+created: 2023-11-09
+updated: 2026-10-23
+---
+
 > __TCP/IP__ (Transmission Control Protocol/lnternet Protocol) - это сетевая система, лежащая в основе Интернета. Она не зависит ни от аппаратного обеспечения , ни от опе­рационной системы, поэтому все устройства, использующие протоколы TCP/IP, могут обмениваться данными ("взаимодействовать"), несмотря на различия.  
 
 **TCP/ IP** - это семейство сетевых протоколов, ориентированных

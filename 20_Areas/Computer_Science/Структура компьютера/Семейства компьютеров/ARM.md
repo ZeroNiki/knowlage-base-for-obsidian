@@ -1,3 +1,15 @@
+---
+title: "ARM"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/computer-architecture
+type: theory
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
+
 Архитектура ARM (Advanced RISC Machine) — это семейство инструкций и архитектурный дизайн, разработанный компанией ARM Holdings. Она отличается от классических архитектур, таких как x86, и изначально была разработана для использования в энергоэффективных и мобильных устройствах.
 
 Вот основные особенности архитектуры ARM:

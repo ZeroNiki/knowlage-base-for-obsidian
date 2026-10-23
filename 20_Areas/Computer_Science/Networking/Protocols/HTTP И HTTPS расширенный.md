@@ -1,3 +1,16 @@
+---
+title: "HTTP И HTTPS расширенный"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/protocols
+type: theory
+status: stable
+created: 2025-01-29
+updated: 2026-10-23
+---
+
 ## HTTP Протоколы
 
 ### Что такое HTTP

@@ -1,3 +1,17 @@
+---
+title: "K ближайших соседей"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/algorithms
+  - topic/paradigms
+  - topic/machine-learning
+type: theory
+status: stable
+created: 2023-08-25
+updated: 2026-10-23
+---
+
 Метод k-ближайших соседей (k Nearest Neighbors, или kNN) – популярный алгоритм классификации, который используется в разных типах задач машинного обучения. Наравне с деревом решений это один из самых понятных подходов к классификации.
 
 

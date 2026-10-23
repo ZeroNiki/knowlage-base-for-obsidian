@@ -1,3 +1,16 @@
+---
+title: "DNS"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/protocols
+type: theory
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
+
 ## Что такое DNS
 
 DNS (Domain Name System). DNS — это технология, которая позволяет браузеру вроде Firefox, Chrome или Edge найти запрошенный пользователем сайт по его имени

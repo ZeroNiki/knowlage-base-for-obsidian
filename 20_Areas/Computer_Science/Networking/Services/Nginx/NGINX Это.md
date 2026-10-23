@@ -1,3 +1,16 @@
+---
+title: "NGINX Это"
+aliases: []
+tags:
+  - area/computer-science
+  - topic/networking
+  - topic/web-servers
+type: theory
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
+
 # NGINX Это
 NGINX — это веб-сервер и почтовый прокси, который работает под управлением операционных систем семейства Linux/Unix и Microsoft.
 
