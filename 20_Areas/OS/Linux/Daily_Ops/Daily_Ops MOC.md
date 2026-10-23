@@ -24,5 +24,9 @@ banner: "![[gruv-material-texture.png]]"
 > [!example] Arch Linux
 > - [[Установка ARCH Linux]] | [[Установка_ARCH_Linux_v2]]
 
+## Конфигурация
+> [!check] Управление настройками системы
+> - [[Управление конфигурацией]]
+
 ---
 См. также: [[OS MOC]]
