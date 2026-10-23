@@ -1,3 +1,15 @@
+---
+title: "Access и Refresh токены"
+aliases: []
+tags:
+  - area/development
+  - topic/python
+  - topic/security
+type: theory
+status: stable
+created: 2026-04-17
+updated: 2026-10-23
+---
 #  Глубокое погружение: Access и Refresh токены
 
 > [!ABSTRACT] Архитектурная цель

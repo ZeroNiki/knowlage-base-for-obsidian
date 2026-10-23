@@ -1,3 +1,14 @@
+---
+title: "Lambda in Python"
+aliases: []
+tags:
+  - area/development
+  - topic/python
+type: howto
+status: stable
+created: 2025-01-29
+updated: 2026-10-23
+---
 ### Гайд по `lambda` в Python
 
 #### Что такое `lambda` в Python?

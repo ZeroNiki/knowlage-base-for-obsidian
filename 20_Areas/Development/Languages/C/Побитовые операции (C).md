@@ -1,3 +1,14 @@
+---
+title: "Побитовые операции (C)"
+aliases: []
+tags:
+  - area/development
+  - topic/c
+type: reference
+status: stable
+created: 2025-03-30
+updated: 2026-10-23
+---
 # Побитовые операции (C)
 
 ## Побитовое НЕ `~` 

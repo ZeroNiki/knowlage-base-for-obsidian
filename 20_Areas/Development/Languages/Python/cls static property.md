@@ -1,3 +1,14 @@
+---
+title: "cls, staticmethod, property"
+aliases: []
+tags:
+  - area/development
+  - topic/python
+type: reference
+status: stable
+created: 2025-01-29
+updated: 2026-10-23
+---
 В Python существуют специальные функции-декораторы, такие как **`@classmethod`**, **`@staticmethod`** и **`@property`**, которые используются для изменения поведения методов в классах. Давайте разберём, что они делают и как применяются.
 
 ### 1. **`@classmethod`**

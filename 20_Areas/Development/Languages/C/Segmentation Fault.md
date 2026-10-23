@@ -1,3 +1,15 @@
+---
+title: "Segmentation Fault в C"
+aliases: []
+tags:
+  - area/development
+  - topic/c
+  - topic/memory-management
+type: troubleshooting
+status: stable
+created: 2025-02-01
+updated: 2026-10-23
+---
 #  **Гайд по отладке сегфолтов (Segmentation Fault) в C**  
 
 **Segmentation Fault (сегфолт)** — это ошибка, возникающая при **недопустимом доступе к памяти**.  

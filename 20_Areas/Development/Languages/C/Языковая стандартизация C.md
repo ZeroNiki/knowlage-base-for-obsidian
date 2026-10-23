@@ -1,3 +1,14 @@
+---
+title: "Языковая стандартизация C"
+aliases: []
+tags:
+  - area/development
+  - topic/c
+type: reference
+status: stable
+created: 2025-02-01
+updated: 2026-10-23
+---
 ##  **Ключевые стандарты языка C**:
 
 1. **C89 / C90 (ANSI C)**  

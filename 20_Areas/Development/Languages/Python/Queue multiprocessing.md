@@ -1,3 +1,14 @@
+---
+title: "Queue multiprocessing"
+aliases: []
+tags:
+  - area/development
+  - topic/python
+type: theory
+status: stable
+created: 2026-01-01
+updated: 2026-10-23
+---
 Хорошо — давай разберём, **как работает** `multiprocessing.Queue` в Python и **почему** твой код с очередями в классе `Examiner` работает (или может работать). Включу также ключевые подводные моменты и источники.
 
 ---

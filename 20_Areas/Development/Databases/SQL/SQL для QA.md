@@ -1,3 +1,15 @@
+---
+title: "SQL для QA"
+aliases: []
+tags:
+  - area/development
+  - topic/databases
+  - topic/sql
+type: cheatsheet
+status: stable
+created: 2025-03-30
+updated: 2026-10-23
+---
 # SQL
 ## **Базовые запросы**  
 **1. Вывести все записи из таблицы**  

@@ -1,3 +1,15 @@
+---
+title: "SQL"
+aliases: []
+tags:
+  - area/development
+  - topic/databases
+  - topic/sql
+type: cheatsheet
+status: stable
+created: 2025-01-29
+updated: 2026-10-23
+---
 Для собеседования на позицию Junior разработчика с использованием SQL, важно быть готовым к вопросам по базам данных и SQL-запросам. Вот основные темы и примеры вопросов, которые могут быть полезны:
 
 ### Основные SQL-запросы

@@ -1,3 +1,15 @@
+---
+title: "ASan (AddressSanitizer) в C"
+aliases: []
+tags:
+  - area/development
+  - topic/c
+  - topic/memory-management
+type: reference
+status: stable
+created: 2025-02-01
+updated: 2026-10-23
+---
 #  **ASan (AddressSanitizer) в C**  
 
 **ASan (AddressSanitizer)** — это инструмент для выявления **ошибок работы с памятью** в C и C++. Он помогает находить:  

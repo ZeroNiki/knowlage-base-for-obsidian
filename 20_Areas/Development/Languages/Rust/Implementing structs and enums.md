@@ -1,3 +1,14 @@
+---
+title: "Implementing structs and enums (Rust)"
+aliases: []
+tags:
+  - area/development
+  - topic/rust
+type: howto
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
 
 Именно здесь вы можете начать придавать своим структурам и перечислениям реальную мощь. Чтобы вызвать функции в структуре или перечислении, используйте блок `impl`. Эти функции называются методами. В блоке `impl` есть два типа методов.  
   

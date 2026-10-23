@@ -1,3 +1,15 @@
+---
+title: "Arenas (Арены) в управлении памятью"
+aliases: []
+tags:
+  - area/development
+  - topic/c
+  - topic/memory-management
+type: theory
+status: stable
+created: 2025-02-01
+updated: 2026-10-23
+---
 # **Arenas (Арены) в управлении памятью**  
 
 ##  **Что такое арены (Arenas)?**  

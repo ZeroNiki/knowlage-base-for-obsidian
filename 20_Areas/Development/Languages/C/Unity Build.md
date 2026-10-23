@@ -1,3 +1,14 @@
+---
+title: "Unity Build в C"
+aliases: []
+tags:
+  - area/development
+  - topic/c
+type: theory
+status: stable
+created: 2025-02-01
+updated: 2026-10-23
+---
 ###  **Unity Build (Объединённая сборка) в C**  
 
 **Unity Build** — это техника сборки, при которой несколько исходных файлов C (`.c`) компилируются вместе как один большой файл. Это позволяет ускорить компиляцию и оптимизировать код.

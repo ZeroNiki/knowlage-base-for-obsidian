@@ -1,3 +1,15 @@
+---
+title: "JOIN"
+aliases: []
+tags:
+  - area/development
+  - topic/databases
+  - topic/sql
+type: reference
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
 # Виды JOIN
 ## INNER JOIN
 Внутреннее соединение - соединяет строки из обеих таблиц, которые удовлетворяют условию соединения

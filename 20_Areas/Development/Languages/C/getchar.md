@@ -1,3 +1,14 @@
+---
+title: "getchar"
+aliases: []
+tags:
+  - area/development
+  - topic/c
+type: reference
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
 ```c
 #include <stdio.h>
 

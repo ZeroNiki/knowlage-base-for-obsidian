@@ -1,3 +1,15 @@
+---
+title: "CTE"
+aliases: []
+tags:
+  - area/development
+  - topic/databases
+  - topic/sql
+type: reference
+status: stable
+created: 2025-09-28
+updated: 2026-10-23
+---
 **CTE** (*Common Table Expression*) - это временный результирующий набор строк, который можно определить внутри SQL-запроса и использовать как `виртуальную таблицу`. Определяется с помощью ключевого слова `WITH` перед основным запросом.
 
 ## Простейший пример
