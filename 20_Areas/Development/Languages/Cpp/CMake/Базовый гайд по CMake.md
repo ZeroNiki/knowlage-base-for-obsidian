@@ -1,3 +1,15 @@
+---
+title: "Базовый гайд по CMake"
+aliases: ["Базовый гайд по Cmake"]
+tags:
+  - area/development
+  - topic/cpp
+  - topic/cmake
+type: howto
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
 Конечно! Давай начнем с базового гайда по CMake на Unix-подобных системах.
 
 ### Базовый гайд по CMake на Unix-подобных системах:

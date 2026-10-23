@@ -1,3 +1,15 @@
+---
+title: "Структура проекта на C++"
+aliases: ["Структура проекта на c++"]
+tags:
+  - area/development
+  - topic/cpp
+  - topic/cmake
+type: reference
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
 
 ## Пример структуры проекта:
 ```

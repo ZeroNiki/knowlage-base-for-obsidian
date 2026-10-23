@@ -1,3 +1,15 @@
+---
+title: "NCurses"
+aliases: []
+tags:
+  - area/development
+  - topic/cpp
+  - topic/libraries
+type: reference
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
 Конечно, я могу помочь с общими примерами и концепциями использования библиотеки NCurses для создания текстовых пользовательских интерфейсов на C++. Вот небольшой гайд:
 
 ## Что такое NCurses?

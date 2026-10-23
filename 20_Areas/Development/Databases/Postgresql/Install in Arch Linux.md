@@ -1,4 +1,15 @@
-Устоновка:
+---
+title: "Install in Arch Linux"
+aliases: []
+tags:
+  - area/development
+  - topic/postgresql
+type: howto
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
+Установка:
 ```bash
 sudo pacman -S postgresql 
 ```

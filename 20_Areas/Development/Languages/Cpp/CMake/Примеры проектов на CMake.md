@@ -1,3 +1,15 @@
+---
+title: "Примеры проектов на CMake"
+aliases: ["Пример"]
+tags:
+  - area/development
+  - topic/cpp
+  - topic/cmake
+type: cheatsheet
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
 ## №1
 Вот как будет выглядеть структура проекта:
 

@@ -1,4 +1,17 @@
-# Auth_Module
+---
+title: "Auth Module"
+aliases:
+  - Auth_Module
+tags:
+  - area/development
+  - topic/python
+  - topic/security
+type: howto
+status: stable
+created: 2026-04-19
+updated: 2026-10-23
+---
+# Auth Module
 
 > [!ABSTRACT] Концепция
 > Разграничение прав доступа — это стратегический фундамент безопасности API. Ошибка в понимании разницы между этими этапами ведет к критическим уязвимостям, таким как **IDOR** (Insecure Direct Object Reference) и **BOLA**.
