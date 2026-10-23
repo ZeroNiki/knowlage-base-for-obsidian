@@ -35,7 +35,7 @@ banner: "![[gruv-material-texture.png]]"
 > [!quote] Инструментарий
 > - **Терминал:** [[База]], [[Основы администрирования]], [[Полное руководство по командам и дебаггингу]]
 > - **Modern CLI:** [[Modern unix]], [[Пакеты в Linux]]
-> - **Neovim/Vim:** [[Vim motions]], [[Vim tips and tricks]]
+> - **Neovim/Vim:** [[Vim motions]], [[Vim tips and tricks]], [[Module 1|VimTrain: Модуль 1]], [[Module 2|VimTrain: Модуль 2]], [[Module 3|VimTrain: Модуль 3]]
 > - **Config:** [[Упровление конфигурации]]
 
 ## ️ Virtualization & Automation
