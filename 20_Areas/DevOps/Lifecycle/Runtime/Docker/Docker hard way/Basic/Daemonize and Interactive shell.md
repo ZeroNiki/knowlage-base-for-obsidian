@@ -1,3 +1,15 @@
+---
+title: "Daemonize and Interactive Shell"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: reference
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # Режимы запуска контейнеров: Detached vs Interactive
 
 В Docker режим запуска определяет, как жизненный цикл процесса и его потоки ввода-вывода (I/O) связаны с текущей сессией терминала.

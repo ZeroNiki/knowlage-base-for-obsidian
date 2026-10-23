@@ -1,3 +1,15 @@
+---
+title: "Docker Deep Dive"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2026-04-17
+updated: 2026-10-23
+---
+
 #  Docker: Техническая реализация на уровне ядра Linux
 
 > [!ABSTRACT] Философия изоляции

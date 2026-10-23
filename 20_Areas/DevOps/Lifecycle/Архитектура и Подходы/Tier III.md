@@ -1,3 +1,15 @@
+---
+title: "Tier III Data Center"
+aliases: []
+tags:
+  - area/devops
+  - topic/high-availability
+type: reference
+status: stable
+created: 2026-07-20
+updated: 2026-10-23
+---
+
 # Tier III Data Center (Uptime Institute)
 
 **Tier III (Concurrently Maintainable / Параллельно обслуживаемый)** — это стандарт надежности инфраструктуры центра обработки данных (ЦОД), который позволяет проводить любые плановые ремонтные и регламентные работы без остановки ИТ-нагрузки.

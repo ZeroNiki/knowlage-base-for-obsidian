@@ -1,3 +1,15 @@
+---
+title: "Балансировщик нагрузки Docker Swarm"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2025-10-12
+updated: 2026-10-23
+---
+
 ## 1. Общая архитектура Docker Swarm
 
 Когда создаётся сервис в Docker Swarm (через `docker service create` или `docker stack deploy`), Swarm:

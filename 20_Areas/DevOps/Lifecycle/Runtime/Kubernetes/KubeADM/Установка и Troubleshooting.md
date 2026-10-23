@@ -1,3 +1,15 @@
+---
+title: "Kubeadm: установка и troubleshooting"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+type: howto
+status: stable
+created: 2026-08-22
+updated: 2026-10-23
+---
+
 # KUBEADM: Установка и Troubleshooting
 
 ## About

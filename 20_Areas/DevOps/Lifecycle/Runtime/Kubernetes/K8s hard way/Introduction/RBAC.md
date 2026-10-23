@@ -1,3 +1,15 @@
+---
+title: "RBAC в Kubernetes"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+type: theory
+status: stable
+created: 2026-07-05
+updated: 2026-10-23
+---
+
 ## Аналитический обзор: RBAC в Kubernetes
 
 RBAC (Role-Based Access Control) — это система управления доступом, которая отвечает на три вопроса: Кто, Что делает и С чем.

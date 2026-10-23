@@ -1,3 +1,16 @@
+---
+title: "Сетевая архитектура Kubernetes"
+aliases: []
+tags:
+  - area/devops
+  - topic/networking
+  - topic/kubernetes
+type: theory
+status: stable
+created: 2026-07-20
+updated: 2026-10-23
+---
+
 # Сетевая архитектура Kubernetes (K8s Networking)
 
 Сетевая модель Kubernetes связывает сотни динамических контейнеров на разных серверах в единую, прозрачную для разработчика сеть.

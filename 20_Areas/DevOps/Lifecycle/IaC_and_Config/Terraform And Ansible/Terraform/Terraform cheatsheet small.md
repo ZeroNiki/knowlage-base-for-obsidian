@@ -1,3 +1,16 @@
+---
+title: "Terraform Cheat Sheet"
+aliases: []
+tags:
+  - area/devops
+  - topic/iac
+  - topic/terraform
+type: cheatsheet
+status: stable
+created: 2026-04-12
+updated: 2026-10-23
+---
+
 #  Terraform Cheat Sheet: Infrastructure as Code
 
 ## 1. Основной рабочий цикл (Core Workflow)

@@ -1,3 +1,15 @@
+---
+title: "Практическая с RBAC"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+type: howto
+status: stable
+created: 2026-10-23
+updated: 2026-10-23
+---
+
 # KUBERNETES: Практика RBAC (ServiceAccounts, Roles, ClusterRoles)
 
 ## Задание 1. Создание ServiceAccount

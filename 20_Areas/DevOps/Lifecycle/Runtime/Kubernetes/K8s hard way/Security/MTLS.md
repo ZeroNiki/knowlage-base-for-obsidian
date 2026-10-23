@@ -1,3 +1,16 @@
+---
+title: "mTLS (Mutual TLS)"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+  - topic/security
+type: theory
+status: stable
+created: 2026-05-28
+updated: 2026-10-23
+---
+
 # Технология безопасности: mTLS (Mutual TLS)
 
 ## 1. Общие сведения: Идентификация в мире эфемерности

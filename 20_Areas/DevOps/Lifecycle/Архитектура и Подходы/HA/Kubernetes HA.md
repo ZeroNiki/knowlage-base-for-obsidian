@@ -1,3 +1,16 @@
+---
+title: "Kubernetes High Availability (HA) Cluster"
+aliases: []
+tags:
+  - area/devops
+  - topic/high-availability
+  - topic/kubernetes
+type: theory
+status: stable
+created: 2026-07-20
+updated: 2026-10-23
+---
+
 # Kubernetes High Availability (HA) Cluster
 
 **Kubernetes HA Cluster** — это конфигурация, при которой управляющий контур кластера (**Control Plane**) задублирован на нескольких серверах (минимум 3 мастер-ноды). Это гарантирует, что падение одной или даже двух мастер-нод не приведет к остановке деплоя и управления контейнерами.

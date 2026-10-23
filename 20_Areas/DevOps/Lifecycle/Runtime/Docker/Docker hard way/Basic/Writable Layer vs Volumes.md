@@ -1,3 +1,15 @@
+---
+title: "Writable Layer vs Volumes"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: reference
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # Хранение данных в Docker: Writable Layer vs Volumes
 
 В Docker используется концепция разделения неизменяемых данных образа и динамических данных работающего контейнера.

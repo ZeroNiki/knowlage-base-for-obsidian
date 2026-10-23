@@ -1,3 +1,15 @@
+---
+title: "CI/CD"
+aliases: []
+tags:
+  - area/devops
+  - topic/ci-cd
+type: theory
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
+
 ## Определение CI/CD
 ### Кратко и ясно
 **CI/CD** (Continuous Integration / Continuous Deployment or Delivery) — это конкретные практики внутри методологии [[DevOps]], которые направлены на автоматизацию и улучшение процесса интеграции кода и развертывания приложений.

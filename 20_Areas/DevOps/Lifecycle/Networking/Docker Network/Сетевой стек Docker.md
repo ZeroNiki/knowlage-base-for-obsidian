@@ -1,3 +1,16 @@
+---
+title: "Сетевой стек Docker"
+aliases: []
+tags:
+  - area/devops
+  - topic/networking
+  - topic/docker
+type: theory
+status: stable
+created: 2026-07-20
+updated: 2026-10-23
+---
+
 # Сетевой стек Docker: Архитектура и Драйверы
 
 Сетевая подсистема Docker отвечает за две вещи: дать контейнерам связаться друг с другом и изолировать их ради безопасности.

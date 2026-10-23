@@ -1,3 +1,15 @@
+---
+title: "Install and Check"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: howto
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # Инициализация Docker в Linux
 
 Процесс запуска Docker состоит из активации системного демона (серверной части) и проверки связи между клиентом и сервером.

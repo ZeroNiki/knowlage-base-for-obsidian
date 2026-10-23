@@ -1,3 +1,16 @@
+---
+title: "RabbitMQ"
+aliases: []
+tags:
+  - area/devops
+  - topic/rabbitmq
+  - topic/message-brokers
+type: theory
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
+
 **RabbitMQ** — это брокер сообщений (message broker) с открытым исходным кодом, написанный на Erlang. Он реализует классическую модель очередей сообщений, в основе которой протокол AMQP (Advanced Message Queuing Protocol).
 
 Его используют для организации взаимодействия между приложениями:

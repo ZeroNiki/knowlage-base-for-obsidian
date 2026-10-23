@@ -1,3 +1,15 @@
+---
+title: "CMD vs ENTRYPOINT"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: reference
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # Docker: CMD vs ENTRYPOINT
 
 В Docker-контейнерах запуск основного процесса определяется двумя ключевыми инструкциями в `Dockerfile`. Их различие заключается в способе обработки аргументов командной строки и степени жесткости определения исполняемого файла.

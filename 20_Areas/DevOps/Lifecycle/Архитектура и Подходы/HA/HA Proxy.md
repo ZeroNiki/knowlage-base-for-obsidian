@@ -1,3 +1,15 @@
+---
+title: "HAProxy"
+aliases: []
+tags:
+  - area/devops
+  - topic/high-availability
+type: theory
+status: stable
+created: 2026-07-20
+updated: 2026-10-23
+---
+
 # HAProxy (High Availability Proxy)
 
 **HAProxy** — это сверхбыстрый, надежный и депизированный балансировщик нагрузки (Load Balancer) и прокси-сервер для протоколов TCP (L4) и HTTP/HTTPS (L7). Это стандарт де-факто в DevOps для распределения трафика между бэкендами.

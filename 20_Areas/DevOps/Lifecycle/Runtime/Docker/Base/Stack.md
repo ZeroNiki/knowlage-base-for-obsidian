@@ -1,3 +1,15 @@
+---
+title: "Docker Stack"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2025-09-22
+updated: 2026-10-23
+---
+
 **Stack** (стек) в **Docker** — это:
 - группа взаимосвязанных сервисов, которые вместе составляют приложение;
 - упакованы в единый docker-compose.yml;

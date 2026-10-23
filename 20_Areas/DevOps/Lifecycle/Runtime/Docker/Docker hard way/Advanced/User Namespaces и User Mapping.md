@@ -1,3 +1,15 @@
+---
+title: "User Namespaces и User Mapping"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # User Namespaces и User Mapping: Безопасный суперпользователь
 > [!IMPORTANT] Доп. материалы 
 > [[Security-Enhanced Linux]]

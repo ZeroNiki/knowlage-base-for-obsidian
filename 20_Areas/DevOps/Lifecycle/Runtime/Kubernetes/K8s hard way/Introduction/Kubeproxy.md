@@ -1,3 +1,15 @@
+---
+title: "kube-proxy"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+type: theory
+status: stable
+created: 2026-05-28
+updated: 2026-10-23
+---
+
 # Компонент K8s: kube-proxy
 
 ## 1. Общие сведения и системная роль

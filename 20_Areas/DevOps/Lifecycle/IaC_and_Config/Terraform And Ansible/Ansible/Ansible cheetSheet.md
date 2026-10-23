@@ -1,3 +1,16 @@
+---
+title: "Ansible Cheat Sheet"
+aliases: []
+tags:
+  - area/devops
+  - topic/iac
+  - topic/ansible
+type: cheatsheet
+status: stable
+created: 2026-04-12
+updated: 2026-10-23
+---
+
 #  Ansible Cheat Sheet: Core Essentials
 
 ## 1. Базовые команды (Ad-hoc)

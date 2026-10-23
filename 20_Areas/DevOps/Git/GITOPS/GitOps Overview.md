@@ -1,3 +1,16 @@
+---
+title: "GitOps Overview"
+aliases: []
+tags:
+  - area/devops
+  - topic/git
+  - topic/gitops
+type: theory
+status: stable
+created: 2026-04-19
+updated: 2026-10-23
+---
+
 # GitOps: Фундаментальные принципы и техническая реализация
 
 > [!abstract] Кратко

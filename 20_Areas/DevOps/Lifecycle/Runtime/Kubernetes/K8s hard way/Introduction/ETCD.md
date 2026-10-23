@@ -1,3 +1,15 @@
+---
+title: "etcd"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+type: theory
+status: stable
+created: 2026-05-28
+updated: 2026-10-23
+---
+
 # Распределенная база: etcd
 
 ## 1. Общие сведения: Источник истины в Kubernetes

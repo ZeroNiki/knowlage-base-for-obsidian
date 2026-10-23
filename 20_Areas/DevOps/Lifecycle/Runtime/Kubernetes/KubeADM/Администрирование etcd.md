@@ -1,3 +1,15 @@
+---
+title: "Администрирование etcd"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+type: howto
+status: stable
+created: 2026-10-23
+updated: 2026-10-23
+---
+
 # KUBERNETES: Администрирование и Бэкап Etcd
 
 ## 1. Подключение и проверка etcd

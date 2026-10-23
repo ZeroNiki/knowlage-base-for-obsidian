@@ -1,3 +1,15 @@
+---
+title: "Docker Image"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2025-10-12
+updated: 2026-10-23
+---
+
 ## Что такое Docker-образ
 
 Docker image — это шаблон только для чтения, который содержит всё необходимое для запуска контейнера:

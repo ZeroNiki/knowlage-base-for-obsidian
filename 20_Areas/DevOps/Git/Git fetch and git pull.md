@@ -1,3 +1,15 @@
+---
+title: "Git fetch и git pull"
+aliases: []
+tags:
+  - area/devops
+  - topic/git
+type: reference
+status: stable
+created: 2025-01-29
+updated: 2026-10-23
+---
+
 Основная разница между командами `git fetch` и `git pull` заключается в том, как они взаимодействуют с удалённым репозиторием и локальной рабочей копией проекта. Давайте рассмотрим это подробнее.
 
 ### 1. **`git fetch`**

@@ -1,3 +1,15 @@
+---
+title: "config.json и спецификация OCI"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: reference
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # Низкоуровневая конфигурация: config.json и спецификация OCI
 
 При работе с Docker на глубоком уровне (The Hard Way) важно понимать, что Docker-демон является лишь надстройкой над низкоуровневыми средами выполнения. Основным связующим звеном здесь выступает файл конфигурации в формате JSON.

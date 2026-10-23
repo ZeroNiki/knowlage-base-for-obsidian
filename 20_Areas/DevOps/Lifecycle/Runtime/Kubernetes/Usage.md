@@ -1,3 +1,15 @@
+---
+title: "Kubernetes Usage"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+type: cheatsheet
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
+
 ## First Step
 Создание кластера 
 ```bash

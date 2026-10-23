@@ -1,3 +1,15 @@
+---
+title: "Linux Capabilities"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # Linux Capabilities в Docker
 > [!IMPORTANT] Доп. материалы 
 > [[Control Groups]]

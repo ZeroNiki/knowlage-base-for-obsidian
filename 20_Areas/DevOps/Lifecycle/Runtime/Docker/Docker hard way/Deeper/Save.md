@@ -1,3 +1,15 @@
+---
+title: "Docker Save vs Docker Export"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: reference
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # Перенос данных: Docker Save vs Docker Export
 
 В экосистеме Docker существует два принципиально разных способа упаковки данных в архив (`.tar`). Выбор метода зависит от того, что именно нужно сохранить: историю сборки и метаданные или текущий снимок файловой системы.

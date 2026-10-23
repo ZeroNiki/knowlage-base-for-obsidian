@@ -1,3 +1,15 @@
+---
+title: "Docker the Hard Way: Practice"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: howto
+status: stable
+created: 2026-05-28
+updated: 2026-10-23
+---
+
 
 # Container from Scratch: The Hard Way
 

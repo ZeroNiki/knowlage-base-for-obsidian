@@ -1,3 +1,15 @@
+---
+title: "SELinux (Security-Enhanced Linux)"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # Docker и SELinux: Мандатное управление доступом
 > [!IMPORTANT] Доп. материалы 
 > [[Control Groups]]

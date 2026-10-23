@@ -1,3 +1,15 @@
+---
+title: "Image vs Containers"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: reference
+status: stable
+created: 2026-05-09
+updated: 2026-10-23
+---
+
 # Различия: Docker Image vs Docker Container
 
 В экосистеме Docker разделение на «образ» и «контейнер» аналогично разделению между «программой на диске» и «запущенным процессом в оперативной памяти».

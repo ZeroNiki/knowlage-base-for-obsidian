@@ -1,3 +1,15 @@
+---
+title: "OCI (Open Container Initiative)"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2026-05-28
+updated: 2026-10-23
+---
+
 # ️ OCI (Open Container Initiative)
 
 > [!ABSTRACT] Суть
