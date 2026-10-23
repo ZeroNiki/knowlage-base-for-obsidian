@@ -1,12 +1,16 @@
 ---
+title: "Kustomize Cheat Sheet"
+aliases: []
 tags:
-  - kubernetes
+  - area/devops
+  - topic/kubernetes
   - kustomize
-  - iac
   - gitops
 source: "Kubernetes SIG-CLI"
-status:  Deep-Dive-CheatSheet
-date: 2026-04-10
+type: cheatsheet
+status: stable
+created: 2026-04-10
+updated: 2026-10-23
 ---
 
 # ️ Kustomize: Техническая шпаргалка SRE-инженера

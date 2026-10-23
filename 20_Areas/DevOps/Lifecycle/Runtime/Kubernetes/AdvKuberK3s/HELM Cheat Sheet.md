@@ -1,12 +1,15 @@
 ---
+title: "HELM Cheat Sheet"
+aliases: []
 tags:
-  - kubernetes
+  - area/devops
+  - topic/kubernetes
   - helm
-  - automation
-  - devops
 source: "Helm Documentation & Artifact Hub"
-status: ️ Tooling-CheatSheet
-date: 2026-04-10
+type: cheatsheet
+status: stable
+created: 2026-04-10
+updated: 2026-10-23
 ---
 
 # ⎈ Helm: Пакетный менеджер Kubernetes

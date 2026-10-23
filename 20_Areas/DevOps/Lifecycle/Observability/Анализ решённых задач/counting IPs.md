@@ -1,7 +1,14 @@
 ---
-tags: [tasks, devops]
-status: in progress 
-created: 2026-04-18
+title: "Counting IPs"
+aliases: []
+tags:
+  - area/devops
+  - topic/observability
+  - topic/bash
+type: troubleshooting
+status: stable
+created: 2026-04-19
+updated: 2026-10-23
 ---
 
 # counting IPs
@@ -13,12 +20,12 @@ created: 2026-04-18
 - cat /home/admin/access.log - выводим весь файл
 - awk ... - Получаем только первую колонку (ip адреса)
 - uniq -c - считаем уникальное
-- Сортируем в обратном парядке с нумерацией
+- Сортируем в обратном порядке с нумерацией
 - head -1 - Выводим только top 1
 
 - echo "{IP}" > file.txt
 
-## Рефликсия
+## Рефлексия
 - Изучить awk - чтобы было легче оптимизировать
 
 ###  Пример оптимизации

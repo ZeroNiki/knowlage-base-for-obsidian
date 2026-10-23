@@ -1,11 +1,14 @@
 ---
+title: "Kubernetes The Hard Way (v1)"
+aliases: []
 tags:
-  - kubernetes
-  - devops
+  - area/devops
+  - topic/kubernetes
   - k8s-the-hard-way
-  - lab
-date: 2026-07-05
-status: completed
+type: howto
+status: outdated
+created: 2026-07-05
+updated: 2026-10-23
 ---
 
 # Kubernetes: The Hard Way (Полное руководство по сборке)

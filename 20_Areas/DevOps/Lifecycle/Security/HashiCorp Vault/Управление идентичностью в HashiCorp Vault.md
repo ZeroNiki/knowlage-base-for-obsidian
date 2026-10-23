@@ -1,15 +1,16 @@
 ---
-tags:
-  - vault
-  - security
-  - auth
-  - devops
-  - architecture
-date: 2026-08-08
+title: "Управление идентичностью в HashiCorp Vault"
 aliases:
   - Advanced Vault Auth
   - JWT OIDC AppRole Guide
-status: reference
+tags:
+  - area/devops
+  - topic/vault
+  - topic/auth
+type: reference
+status: stable
+created: 2026-08-09
+updated: 2026-10-23
 ---
 
 # Управление идентичностью в HashiCorp Vault: От федеративного доверия до AppRole

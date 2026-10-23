@@ -1,3 +1,15 @@
+---
+title: "Дополнительная информация о Kubernetes"
+aliases:
+  - ДопИнфа по k8s
+tags:
+  - area/devops
+  - topic/kubernetes
+type: theory
+status: stable
+created: 2026-04-19
+updated: 2026-10-23
+---
 # ️ Kubernetes (K8s)
 
 > [!info] **Kubernetes** — это мощный фреймворк для оркестрации контейнеров. 

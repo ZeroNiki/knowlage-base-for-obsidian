@@ -1,8 +1,15 @@
 ---
-project: "School 21: DO11_Advanced_K8s"
-topic: "Learning Manifest: k3s + Ingress + Cert-Manager"
-status: "Study_Material"
-tags: [k8s, devops, security, architecture, ssl]
+title: "K3s Learning Manifest"
+aliases:
+  - Learning Manifest: k3s + Ingress + Cert-Manager
+tags:
+  - area/devops
+  - topic/kubernetes
+  - school21
+type: theory
+status: stable
+created: 2026-04-19
+updated: 2026-10-23
 ---
 
 #  Обучающий Манифест: Современный K8s-стек

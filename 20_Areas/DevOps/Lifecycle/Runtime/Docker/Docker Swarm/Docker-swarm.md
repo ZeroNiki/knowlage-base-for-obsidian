@@ -1,4 +1,17 @@
-# Docker swarm
+---
+title: "Docker Swarm"
+aliases:
+  - Docker swarm
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2025-09-17
+updated: 2026-10-23
+---
+
+# Docker Swarm
 **Docker Swarm** — инструмент оркестрации ([[Оркестрация]]), идущий в комплекте с _Docker_.
 
 ## Работа

@@ -12,7 +12,7 @@ status: draft
 
 # Gateway API на Cilium для Kubernetes The Hard Way
 
-Продолжение заметки [[Kubernetes_The_Hard_Way_NEW]]. После успешных smoke-тестов классический сетевой стек кластера (CNI `bridge`, `kube-proxy`, статические маршруты) заменяется на Cilium, а для публикации приложений включается Gateway API. Тестовое приложение nginx публикуется через ресурсы `Gateway` и `HTTPRoute`.
+Продолжение заметки [[Kubernetes The Hard Way v1]]. После успешных smoke-тестов классический сетевой стек кластера (CNI `bridge`, `kube-proxy`, статические маршруты) заменяется на Cilium, а для публикации приложений включается Gateway API. Тестовое приложение nginx публикуется через ресурсы `Gateway` и `HTTPRoute`.
 
 > [!abstract] Результат
 > - Cilium работает как CNI и полностью заменяет `kube-proxy` (eBPF вместо iptables).

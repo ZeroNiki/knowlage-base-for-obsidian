@@ -1,3 +1,16 @@
+---
+title: "Кластер в Docker Swarm"
+aliases:
+  - Кластер Docker swarm
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2025-09-22
+updated: 2026-10-23
+---
+
 ## Что такое кластер
 
 **Кластер** — это группа из нескольких компьютеров (или виртуальных машин), объединённых так, что они работают как единая система.

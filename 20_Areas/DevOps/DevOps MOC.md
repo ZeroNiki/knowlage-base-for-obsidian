@@ -16,10 +16,10 @@ banner: "![[gruv-material-texture.png]]"
 
 ##  Runtime & Orchestration
 > [!abstract] Контейнеризация и K8s
-> - **База:** [[Глубокий технический гайд по контейнеризации]] | [[20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Basic/OCI]]
-> - **Docker:** [[Docker это]], [[Image]], [[Stack]], [[Кластер Docker swarm]], [[Оркестрация]], [[Docker-compose]], [[Docker-swarm]], [[Docker archlinux install]], [[Docker hard way MOC]]
-> - **Kubernetes (K3s):** [[20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC]] [[K8s это]], [[Usage]], [[Docker-compose vs kubernetes]], [[Аттрибуты из манифеста на примере]], [[Механизмы продвинутого планирования в Kubernetes]]
-> - **Advanced:** [[AdvKuberK3s/HELM]], [[AdvKuberK3s/Kustomize]], [[Архитектурный стандарт Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s)]], [[Кворум]], [[Tier III]], [[HA Proxy]], [[High Availability]], [[Kubernetes HA]], [[Сетевая архитектура Kubernetes]],
+> - **База:** [[Глубокий технический гайд по контейнеризации]] | [[OCI]]
+> - **Docker:** [[Docker это]], [[Image]], [[Stack]], [[Кластер Docker Swarm]], [[Оркестрация]], [[Docker-compose]], [[Docker-swarm]], [[Docker Arch Linux install]], [[Docker hard way MOC]], [[Docker MOC]]
+> - **Kubernetes (K3s):** [[Kubernetes MOC]], [[K8s Hard Way MOC]], [[K8s это]], [[Usage]], [[Docker Compose vs Kubernetes]], [[Аттрибуты из манифеста на примере]], [[Механизмы продвинутого планирования в Kubernetes]]
+> - **Advanced:** [[AdvKuberK3s MOC]], [[HELM]], [[Kustomize]], [[Кворум]], [[Tier III]], [[HA Proxy]], [[High Availability]], [[Kubernetes HA]], [[Сетевая архитектура Kubernetes]]
 
 ##  Infrastructure as Code (IaC)
 > [!check] Инструменты автоматизации
@@ -35,12 +35,13 @@ banner: "![[gruv-material-texture.png]]"
 
 ##  Messaging & Data
 > [!code] Брокеры
-> - **Kafka:** [[Kafka]]
-> - **RabbitMQ:** [[RabbitMQ]]
-> - **Comparison:** [[Rabbitmq vs Kafka]]
+> - **Kafka:** [[Kafka]], [[Kafka the def guide]]
+> - **RabbitMQ:** [[RabbitMQ]], [[RabbitMQ in depth]]
+> - **Comparison:** [[RabbitMQ vs Kafka]]
 
 ## ️ Observability & Security
 > [!warning] Мониторинг и логи
+> - **MOC:** [[Observability MOC]]
 > - **Monitoring:** [[Эксплуатация Мониторинг и Безопасность]], [[Grafana Observability-as-Code]], [[Prometheus Node Exporter]],[[Архитектура и низкоуровневые механизмы мониторинга]]
 > - **Log Analysis:** [[counting IPs]], [[what is writing to this log file]]
 > - **Secrets:** [[Архитектура HashiCorp Vault|HashiCorp Vault Architecture]], [[Динамические движки секретов в HashiCorp Vault]], [[Интеграция HashiCorp Vault с Kubernetes]], [[Управление идентичностью в HashiCorp Vault]]
@@ -49,7 +50,7 @@ banner: "![[gruv-material-texture.png]]"
 > [!done] Гитизация
 > - [[GIT Глубокое погружение в архитектуру и процессы]]
 > - [[Архитектурный разбор контентно-адресуемой системы]]
-> - [[GITOPS]]
+> - [[GitOps Overview]]
 > - [[Git Expert Cheat Sheet]]
 > - [[Архитектура Argo CD]]
 > - [[Пошаговое практическое руководство]]

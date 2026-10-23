@@ -1,15 +1,17 @@
 ---
-tags:
-  - vault
-  - security
-  - dynamic-secrets
-  - devops
-  - architecture
-date: 2026-08-08
+title: "Динамические движки секретов в HashiCorp Vault"
 aliases:
   - Dynamic Secrets
   - JIT Provisioning
   - Vault Architecture
+tags:
+  - area/devops
+  - topic/vault
+  - topic/secrets-management
+type: reference
+status: stable
+created: 2026-08-09
+updated: 2026-10-23
 ---
 
 # Динамические движки секретов в HashiCorp Vault: Глубокое погружение

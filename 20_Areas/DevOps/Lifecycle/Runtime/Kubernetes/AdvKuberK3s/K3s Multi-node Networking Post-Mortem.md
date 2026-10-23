@@ -1,8 +1,15 @@
 ---
-project: "School 21: DO11_Advanced_K8s"
-topic: "Post-Mortem: Multi-node k3s Networking & Resource Starvation"  
-Status: "Final_Solution"
-tags: [k3s, vagrant, virtualbox, networking, vxlan, troubleshooting]
+title: "K3s Multi-node Networking Post-Mortem"
+aliases:
+  - Post-Mortem: Multi-node k3s Networking & Resource Starvation
+tags:
+  - area/devops
+  - topic/kubernetes
+  - school21
+type: troubleshooting
+status: stable
+created: 2026-04-19
+updated: 2026-10-23
 ---
 
 ##  Обучающий Манифест: Выживание в Multi-node кластере

@@ -1,8 +1,15 @@
 ---
-project: "School 21: DO11_Advanced_K8s"
-topic: "The Ultimate K8s CLI Cheat Sheet"
-status: "Reference_Material"
-tags: [k8s, devops, kubectl, troubleshooting, cheat-sheet]
+title: "K8s CLI Cheat Sheet"
+aliases:
+  - The Ultimate K8s CLI Cheat Sheet
+tags:
+  - area/devops
+  - topic/kubernetes
+  - school21
+type: cheatsheet
+status: stable
+created: 2026-04-19
+updated: 2026-10-23
 ---
 
 ##  Философия управления

@@ -14,7 +14,7 @@ banner: "![[gruv-material-texture.png]]"
 > - [[CMD VS ENTRYPOINT]]
 > - [[Writable Layer vs Volumes]]
 > - [[Daemonize and Interactive shell]]
-> - [[20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Basic/Summary]]
+> - [[Docker-Basic-Summary]]
 
 ## L2. Deeper
 > [!abstract] Кеширование и слои (+ бекапы)
@@ -22,7 +22,7 @@ banner: "![[gruv-material-texture.png]]"
 > - [[History and Layers]]
 > - [[Image vs containers]]
 > - [[Save]]
-> - [[20_Areas/DevOps/Lifecycle/Runtime/Docker/Docker hard way/Deeper/Summary]]
+> - [[Docker-Cache-Invalidation-Summary]]
 
 ## L4. Adv
 > [!abstract] Изоляция и config.json 

@@ -1,15 +1,16 @@
 ---
-tags:
-  - vault
-  - kubernetes
-  - devops
-  - security
-  - architecture
-date: 2026-08-08
+title: "Интеграция HashiCorp Vault с Kubernetes"
 aliases:
   - Vault-K8s-Integration
   - Kubernetes-Secrets-Management
-status: reference
+tags:
+  - area/devops
+  - topic/vault
+  - topic/kubernetes
+type: reference
+status: stable
+created: 2026-08-09
+updated: 2026-10-23
 ---
 
 # Интеграция HashiCorp Vault с Kubernetes: Архитектура и Безопасность

@@ -1,14 +1,16 @@
 ---
-tags:
-  - security
-  - vault
-  - hashicorp
-  - devops
-  - architecture
-date: 2026-08-08
+title: "Архитектура HashiCorp Vault"
 aliases:
   - HashiCorp Vault Architecture
   - Vault System Design
+tags:
+  - area/devops
+  - topic/vault
+  - topic/security
+type: reference
+status: stable
+created: 2026-08-09
+updated: 2026-10-23
 ---
 
 # Архитектура HashiCorp Vault: Системный дизайн и внутреннее устройство

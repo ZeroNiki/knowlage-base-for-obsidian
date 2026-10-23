@@ -1,7 +1,16 @@
 ---
-tags: [tasks, devops, python, bash, logs]
-status: in progress 
-created: 2026-04-18
+title: "\"Saint John\": What Is Writing to This Log File?"
+aliases: []
+tags:
+  - area/devops
+  - topic/observability
+  - topic/python
+  - topic/bash
+  - topic/logs
+type: troubleshooting
+status: stable
+created: 2026-04-19
+updated: 2026-10-23
 ---
 
 # "Saint John": what is writing to this log file?

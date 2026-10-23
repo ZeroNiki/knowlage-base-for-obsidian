@@ -1,3 +1,15 @@
+---
+title: "K8s Hard Way: обзор компонентов control plane и worker-нод"
+aliases:
+  - K8s Introduction Summary
+tags:
+  - area/devops
+  - topic/kubernetes
+type: reference
+status: stable
+created: 2026-07-05
+updated: 2026-10-23
+---
 ### Схема компонентов Kubernetes (Mermaid)
 Фрагмент кода
 ```mermaid

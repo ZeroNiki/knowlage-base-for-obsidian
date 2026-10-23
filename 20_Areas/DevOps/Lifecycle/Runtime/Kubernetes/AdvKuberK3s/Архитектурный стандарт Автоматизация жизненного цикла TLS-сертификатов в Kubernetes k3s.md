@@ -1,9 +1,15 @@
 ---
-project: "DO11_Advanced_K8s"
-type: "Architecture_Review"
-status: "Needs_Fixes"
-tags: [k8s, devops, school21, security, cert-manager]
+title: "Архитектурный стандарт: Автоматизация жизненного цикла TLS-сертификатов в Kubernetes (k3s)"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+  - school21
+  - security
+type: theory
+status: draft
 created: 2026-03-22
+updated: 2026-10-23
 ---
 
 # ️ Архитектурный стандарт: k3s + Ingress-NGINX + TLS

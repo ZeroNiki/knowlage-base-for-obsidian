@@ -1,4 +1,16 @@
-Docker - это технология для упровления контейнерами
+---
+title: "Docker — что это и зачем нужен"
+aliases: []
+tags:
+  - area/devops
+  - topic/docker
+type: theory
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
+
+Docker - это технология для управления контейнерами
 
 ## Что такое **контейнеры**
 

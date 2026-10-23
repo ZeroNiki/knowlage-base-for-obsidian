@@ -1,3 +1,14 @@
+---
+title: "Docker Compose vs Kubernetes"
+aliases: []
+tags:
+  - area/devops
+  - topic/kubernetes
+type: theory
+status: stable
+created: 2026-04-19
+updated: 2026-10-23
+---
 ## Различия между Kubernetes и Docker Compose
 
 **В то время как Docker Compose предназначен для создания и запуска одного или нескольких контейнеров, Kubernetes больше служит платформой для создания сети, в которой мы можем оркестровать контейнеры.**
