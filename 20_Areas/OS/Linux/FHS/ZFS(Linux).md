@@ -1,3 +1,16 @@
+---
+title: "ZFS"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/filesystem
+type: reference
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
+
 ZFS (Zettabyte File System) - это мощная и передовая файловая система, созданная компанией Sun Microsystems и предназначенная для операционных систем семейства Unix, таких как FreeBSD, Illumos, Linux и другие.
 
 Вот ключевые особенности и возможности ZFS:

@@ -1,3 +1,16 @@
+---
+title: "Issue: Mystery"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/cli-tools
+type: troubleshooting
+status: stable
+created: 2026-04-25
+updated: 2026-10-23
+---
+
 #  Issue: Mystery
 **Дата:** 04-26-2026
 **Статус:** #status/solved 

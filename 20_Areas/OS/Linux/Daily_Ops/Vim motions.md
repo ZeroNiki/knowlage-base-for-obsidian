@@ -1,3 +1,16 @@
+---
+title: "Шпаргалка по Vim"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/vim
+type: cheatsheet
+status: stable
+created: 2025-01-29
+updated: 2026-10-23
+---
+
 # Шпаргалка по Vim
 ## Обработка текста
 ```de``` - Удалите все до конца слова, нажав . по вашему желанию.

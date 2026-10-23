@@ -1,3 +1,15 @@
+---
+title: "Vagrantfile"
+aliases: []
+tags:
+  - area/os
+  - topic/vagrant
+type: howto
+status: stable
+created: 2023-12-28
+updated: 2026-10-23
+---
+
 ## Основные блоки
 `Vagrantfile` - это Ruby файл. Пример:
 ```ruby

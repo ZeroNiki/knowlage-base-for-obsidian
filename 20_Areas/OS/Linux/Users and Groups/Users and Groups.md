@@ -1,3 +1,15 @@
+---
+title: "Users and Groups"
+aliases: []
+tags:
+  - area/os
+  - topic/users-and-groups
+type: theory
+status: stable
+created: 2026-05-03
+updated: 2026-10-23
+---
+
 #  Идентификация пользователей и групп в UNIX/Linux
 ##  Пользователи (Users)
 Каждый пользователь в системе имеет уникальное имя и числовой идентификатор. Данные хранятся в файле `/etc/passwd`.

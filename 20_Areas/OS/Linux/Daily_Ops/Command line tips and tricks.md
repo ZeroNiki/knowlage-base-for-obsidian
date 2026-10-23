@@ -1,4 +1,17 @@
 
+---
+title: "Command line tips and tricks"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/cli-tools
+type: cheatsheet
+status: stable
+created: 2024-09-19
+updated: 2026-10-23
+---
+
 ## Return to the prev working dir:
 ```bash
 cd -

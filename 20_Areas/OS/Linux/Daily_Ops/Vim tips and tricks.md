@@ -1,3 +1,16 @@
+---
+title: "Vim Tips and Tricks"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/vim
+type: cheatsheet
+status: stable
+created: 2025-01-29
+updated: 2026-10-23
+---
+
 1. **gg** – Переместиться на первую строку файла
 2. **G** – Переместиться на последнюю строку файла
 3. **gg=G** – Переиндентировать весь файл

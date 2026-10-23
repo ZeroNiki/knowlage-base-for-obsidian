@@ -1,3 +1,16 @@
+---
+title: "SSH Connection Refused (Port 2222)"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/networking
+type: troubleshooting
+status: stable
+created: 2026-04-26
+updated: 2026-10-23
+---
+
 #  Issue: SSH Connection Refused (Port 2222)
 ## Описание
 > Соединение активно отклонено целевым хостом на уровне L4 (TCP Reset). В отличие от Timeout, это указывает на то, что запрос дошел до сервера, но не был принят сокетом.

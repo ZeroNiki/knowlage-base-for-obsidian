@@ -1,3 +1,16 @@
+---
+title: "Neovim Master Cheatsheet"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/neovim
+type: cheatsheet
+status: stable
+created: 2026-05-28
+updated: 2026-10-23
+---
+
 #  Neovim Master Cheatsheet (Split Edition)
 
 **Основная философия:** `Пробел` — твой лучший друг (Leader). Кисти остаются на домашнем ряду (Home Row). Тянуться к `Esc` и стрелкам — незаконно.

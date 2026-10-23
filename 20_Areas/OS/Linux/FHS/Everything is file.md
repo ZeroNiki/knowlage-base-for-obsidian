@@ -1,3 +1,16 @@
+---
+title: "Everything is a File"
+aliases: []
+tags:
+  - area/os
+  - topic/linux
+  - topic/filesystem
+type: theory
+status: stable
+created: 2026-04-17
+updated: 2026-10-23
+---
+
 #  Философия «Everything is a File» и архитектура ФС Linux
 
 > [!QUOTE] Фундаментальный принцип
