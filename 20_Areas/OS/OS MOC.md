@@ -44,6 +44,10 @@ banner: "![[gruv-material-texture.png]]"
 > [!code] Vagrant
 > - [[База в кратце]], [[Под копотом]], [[Практика]], [[Сетевые режимы кратко]], [[Vagrantfile]], [[Шпора]]
 
+## ❄️ Declarative / Functional Linux
+> [!abstract] Nix-экосистема
+> - [[NixOS]]
+
 ##  Troubleshooting
 > [!code] Решение популярных проблем
 > -  [[Mystery]], [[No space left on device]], [[SSH Connection Refused]]

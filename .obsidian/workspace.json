@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7402e8e53e5ef4c1",
+        "id": "584d3157c55d5b24",
         "type": "tabs",
         "children": [
           {
-            "id": "29e24458cc7989e8",
+            "id": "b638fc194a9c0c15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC.md",
+                "file": "20_Areas/OS/OS MOC.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "K8s Hard Way MOC"
+              "title": "OS MOC"
             }
           }
         ]
@@ -200,9 +200,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "29e24458cc7989e8",
+  "active": "b638fc194a9c0c15",
   "lastOpenFiles": [
+    "20_Areas/OS/NixOS.md",
     "Home.md",
+    "20_Areas/OS/Linux/Daily_Ops/Установка_ARCH_Linux_v2.md",
+    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC.md",
     "35_live-strategy/01_devops-roadmap/00_PLAN.md",
     "ENG_PROMTP.md",
     "35_live-strategy/04_obsidian-routines/README.md",
@@ -228,16 +231,13 @@
     "35_live-strategy/04_obsidian-routines/templates/daily-evening-dump.md",
     "PROMPT.md",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/Kubernetes MOC.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC.md",
     "20_Areas/Computer_Science/Computer Science MOC.md",
     "30_Library/Reference/Приложения на чёрный день.md",
     "30_Library/Books/Reading-list.md",
     "20_Areas/OS/Linux/Daily_Ops/Управление конфигурацией.md",
     "20_Areas/OS/Linux/FHS/FHS MOC.md",
     "20_Areas/OS/Linux/Daily_Ops/Daily_Ops MOC.md",
-    "20_Areas/OS/Linux/Daily_Ops/Установка_ARCH_Linux_v2.md",
     "20_Areas/OS/Linux/Daily_Ops/Установка ARCH Linux.md",
-    "20_Areas/OS/Vagrant/База в кратце.md",
     "20_Areas/DevOps/DevOpsMentalmap.canvas",
     "50_persona/Dashboard.canvas",
     "Pasted image 20260509170851.png",
