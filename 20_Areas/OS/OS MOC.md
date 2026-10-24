@@ -24,21 +24,16 @@ banner: "![[gruv-material-texture.png]]"
 > - [[Control Groups]]
 
 > [!info] Файловые системы
-> - **База:** [[Файловая система]], [[FHS]]
-> - **Типы:** [[ext-4(Linux)]], [[btrfs(Linux)]], [[XFS(Linux)]], [[ZFS(Linux)]], [[F2FS(Flash)]], [[FAT32]], [[NTFS(Windows)]]
-> - [[Сравнение]]
-> - **Подробнее:** [[FHS MOC]]
+> - **Файловые системы (без дублей, вся база и типы — внутри):** [[FHS MOC]]
+> - **Не покрыто FHS MOC:** F2FS(Flash), NTFS(Windows)
 
 > [!check] Управление
-> - [[Управление процессами]], [[Cgroups]], [[LVM]]
+> - [[Управление процессами]], [[LVM]]
 
 ##  Daily Operations (Modern Unix)
 > [!quote] Инструментарий
-> - **Терминал:** [[База]], [[Основы администрирования]], [[Полное руководство по командам и дебаггингу]]
-> - **Modern CLI:** [[Modern-Unix]], [[Пакеты в Linux]]
-> - **Neovim/Vim:** [[Vim motions]], [[Vim tips and tricks]], [[Module 1|VimTrain: Модуль 1]], [[Module 2|VimTrain: Модуль 2]], [[Module 3|VimTrain: Модуль 3]]
-> - **Config:** [[Управление конфигурацией]]
-> - **Подробнее:** [[Daily_Ops MOC]]
+> - **Не покрыто Daily_Ops MOC:** [[База]], Основы администрирования, [[Пакеты в Linux]]
+> - **Подробнее (терминал, CLI, Vim, установка Arch, конфигурация — внутри):** [[Daily_Ops MOC]]
 
 ## ️ Virtualization & Automation
 > [!code] Vagrant
@@ -54,5 +49,4 @@ banner: "![[gruv-material-texture.png]]"
 
 ##  Reference
 > [!tip] База
-> - [[История]]
-> - [[Установка ARCH Linux]]
+> История и установка Arch Linux — см. [[Daily_Ops MOC]].

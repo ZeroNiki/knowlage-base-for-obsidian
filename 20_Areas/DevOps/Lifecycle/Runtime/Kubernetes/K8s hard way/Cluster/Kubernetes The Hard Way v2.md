@@ -1360,4 +1360,4 @@ journalctl -u <служба> -e --no-pager
 
 - [Устанавливаю кубер | Kubernetes The Hard Way](https://youtu.be/HqRKOz1UBXA)
 - [Репозиторий kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
-- [[ETCD]], [[Kube-controller-manager]], [[Kube-scheduler]], [[Kubeapi]], [[Kubelet]], [[MTLS]], [[RBAC]], [[TLS SSL]]
+- [[ETCD]], [[Kube-controller-manager]], [[Kube-scheduler]], [[Kubeapi]], [[Kubelet]], [[MTLS]], [[RBAC]], [[TLS]], [[SSL]]

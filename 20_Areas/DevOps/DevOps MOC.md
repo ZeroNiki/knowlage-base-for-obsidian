@@ -11,15 +11,14 @@ banner: "![[gruv-material-texture.png]]"
 
 ##  Навигация и Основы
 > [!info] Общая карта
-> - [[DevOpsMentalmap.canvas]] (Canvas-карта процесса)
 > - [[DevOps]] (Фундаментальная теория)
 
 ##  Runtime & Orchestration
 > [!abstract] Контейнеризация и K8s
 > - **База:** [[Глубокий технический гайд по контейнеризации]] | [[OCI]]
-> - **Docker:** [[Docker это]], [[Image]], [[Stack]], [[Кластер Docker Swarm]], [[Оркестрация]], [[Docker-compose]], [[Docker-swarm]], [[Docker Arch Linux install]], [[Docker hard way MOC]], [[Docker MOC]]
-> - **Kubernetes (K3s):** [[Kubernetes MOC]], [[K8s Hard Way MOC]], [[K8s это]], [[Usage]], [[Docker Compose vs Kubernetes]], [[Аттрибуты из манифеста на примере]], [[Механизмы продвинутого планирования в Kubernetes]]
-> - **Advanced:** [[AdvKuberK3s MOC]], [[HELM]], [[Kustomize]], [[Кворум]], [[Tier III]], [[HA Proxy]], [[High Availability]], [[Kubernetes HA]], [[Сетевая архитектура Kubernetes]]
+> - **Docker:** [[Оркестрация]] | [[Docker MOC]] (вся база, Compose, Swarm, Hard Way — внутри)
+> - **Kubernetes (K3s):** [[Kubernetes MOC]] (K8s Hard Way, AdvKuberK3s, kubeadm, общие заметки — внутри)
+> - **Advanced (без своего MOC):** [[Кворум]], [[Tier III]], [[HA Proxy]], [[High Availability]], [[Kubernetes HA]], [[Сетевая архитектура Kubernetes]]
 
 ##  Infrastructure as Code (IaC)
 > [!check] Инструменты автоматизации
@@ -41,10 +40,8 @@ banner: "![[gruv-material-texture.png]]"
 
 ## ️ Observability & Security
 > [!warning] Мониторинг и логи
-> - **MOC:** [[Observability MOC]]
-> - **Monitoring:** [[Эксплуатация Мониторинг и Безопасность]], [[Grafana Observability-as-Code]], [[Prometheus Node Exporter]],[[Архитектура и низкоуровневые механизмы мониторинга]]
-> - **Log Analysis:** [[counting IPs]], [[what is writing to this log file]]
-> - **Secrets:** [[Архитектура HashiCorp Vault|HashiCorp Vault Architecture]], [[Динамические движки секретов в HashiCorp Vault]], [[Интеграция HashiCorp Vault с Kubernetes]], [[Управление идентичностью в HashiCorp Vault]]
+> - **Мониторинг и логи:** [[Observability MOC]] (Grafana, Prometheus, troubleshooting-кейсы — внутри)
+> - **Secrets (без своего MOC):** [[Архитектура HashiCorp Vault|HashiCorp Vault Architecture]], [[Динамические движки секретов в HashiCorp Vault]], [[Интеграция HashiCorp Vault с Kubernetes]], [[Управление идентичностью в HashiCorp Vault]]
 
 ## ️ Version Control (Git and GitOps)
 > [!done] Гитизация

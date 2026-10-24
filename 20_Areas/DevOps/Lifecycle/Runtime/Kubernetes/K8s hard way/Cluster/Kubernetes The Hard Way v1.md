@@ -916,4 +916,4 @@ curl [http://192.168.56.11](http://192.168.56.11):<ВЫДЕЛЕННЫЙ_NODEPORT
 ## Темы для ознакомления
 
 - [Устанавливаю кубер | Kubernetes The Hard Way](https://www.google.com/search?q=https://youtu.be/HqRKOz1UBXA%3Fsi%3Dz49vJpst82KDXzt1)
-- [[ETCD]], [[Kube-controller-manager]], [[Kube-scheduler]], [[Kubeapi]], [[Kubelet]], [[MTLS]], [[RBAC]], [[TLS SSL]]
+- [[ETCD]], [[Kube-controller-manager]], [[Kube-scheduler]], [[Kubeapi]], [[Kubelet]], [[MTLS]], [[RBAC]], [[TLS]], [[SSL]]

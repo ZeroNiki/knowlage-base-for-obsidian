@@ -33,7 +33,7 @@ updated: 2026-10-23
 | :--- | :--- | :--- | :--- |
 | **Цель** | Заявить о личности | Подтвердить личность | Определить права |
 | **Процесс** | Ввод логина | Проверка пароля/JWT | Проверка ролей/ACL |
-| **Уязвимость** | Impersonation | Brute Force | [[IDOR]] / [[BOLA]] |
+| **Уязвимость** | Impersonation | Brute Force | IDOR / BOLA |
 
 ###  Механизм Authorization Header
 Стандарт для REST API — заголовок `Authorization`.
