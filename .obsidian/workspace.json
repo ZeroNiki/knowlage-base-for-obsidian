@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e06f32c2316b3e59",
+        "id": "cf89010dc48ceee7",
         "type": "tabs",
         "children": [
           {
-            "id": "74466349633f5d9c",
+            "id": "eeca4cb1298fe9cd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "20_Areas/DevOps/Lifecycle/Outline/Outline API загрузка Markdown и работа с документами.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Outline API загрузка Markdown и работа с документами"
             }
           }
         ]
@@ -42,7 +46,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -155,8 +159,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           },
           {
@@ -165,8 +169,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -179,62 +183,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "quickadd:QuickAdd": false,
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
+      "quickadd:QuickAdd": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "74466349633f5d9c",
+  "active": "88594b4968fa01b1",
   "lastOpenFiles": [
-    "Home.md",
     "20_Areas/DevOps/DevOps MOC.md",
+    "20_Areas/DevOps/Lifecycle/Outline/sedCtYtOz",
+    "20_Areas/DevOps/Lifecycle/Security/Identity/Outline ручная установка с LDAP и Keycloak.md",
+    "20_Areas/DevOps/Lifecycle/Outline/Outline API загрузка Markdown и работа с документами.md",
+    "20_Areas/DevOps/Lifecycle/Outline/Outline ручная установка с LDAP и Keycloak.md",
+    "20_Areas/DevOps/Lifecycle/Outline",
+    "Outline API загрузка Markdown и работа с документами.md",
+    "Home.md",
+    "20_Areas/Computer_Science/Computer Science MOC.md",
+    "35_live-strategy/Strategy MOC.md",
+    "35_live-strategy/00_OVERVIEW.md",
+    "35_live-strategy/01_devops-roadmap/README.md",
+    "20_Areas/OS/Моя система NixOS.md",
+    "20_Areas/OS/OS MOC.md",
+    "35_live-strategy/02_english-c1/README.md",
+    "35_live-strategy/Strategy MOC.md.tmp.4296.e31fd42bd6ee",
+    "35_live-strategy/03_finance-buffer/README.md",
+    "35_live-strategy/Strategy MOC.md.tmp.4296.909bde008255",
+    "35_live-strategy/00_OVERVIEW.md.tmp.4296.5cb9ae4bdd51",
+    "35_live-strategy/04_obsidian-routines/README.md.tmp.4296.4f95bb659327",
+    "35_live-strategy/04_obsidian-routines/README.md.tmp.4296.f873065c5ca2",
+    "35_live-strategy/03_finance-buffer/README.md.tmp.4296.1886c7888260",
+    "35_live-strategy/02_english-c1/README.md.tmp.4296.68bbbc497222",
+    "35_live-strategy/01_devops-roadmap/README.md.tmp.4296.eb9f28485cf5",
     "20_Areas/DevOps/Lifecycle/Observability/Observability MOC.md",
-    "40_Vault_Maintenance/Templates/Base.md.tmp.94846.a0c392ad3b9d",
-    "20_Areas/Development/Development MOC.md.tmp.94846.2ecc6b0159d1",
-    "20_Areas/OS/OS MOC.md.tmp.94846.96fb003f66e7",
-    "20_Areas/OS/OS MOC.md.tmp.94846.6e8c116e1c0e",
-    "20_Areas/DevOps/DevOps MOC.md.tmp.94846.e6deaa6039b2",
-    "20_Areas/DevOps/DevOps MOC.md.tmp.94846.2450dd317325",
-    "20_Areas/DevOps/DevOps MOC.md.tmp.94846.08eda37af28e",
     "20_Areas/DevOps/DevOpsMentalmap.canvas",
     "20_Areas/Methodologies/Methodologies MOC.md",
     "20_Areas/Methodologies/Jira.md",
     "20_Areas/Methodologies/Agile.md",
-    "20_Areas/OS/OS MOC.md",
     "35_live-strategy/Live Strategy MOC.md",
-    "35_live-strategy/00_OVERVIEW.md",
-    "35_live-strategy/04_obsidian-routines/work-downtime-protocol.md.tmp.94846.1cb67a0ee6fa",
-    "20_Areas/OS/OS MOC.md.tmp.94846.a887e7f2551a",
-    "20_Areas/Development/Languages/Python/Auth Module.md.tmp.94846.a93b8cdf6ef9",
-    "35_live-strategy/01_devops-roadmap/README.md",
     "35_live-strategy/01_devops-roadmap/00_PLAN.md",
     "35_live-strategy/03_finance-buffer/00_PLAN.md",
     "35_live-strategy/04_obsidian-routines/00_PLAN.md",
     "35_live-strategy/02_english-c1/00_PLAN.md",
     "35_live-strategy/04_obsidian-routines/work-downtime-protocol.md",
     "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/Cluster/Kubernetes The Hard Way v2.md",
-    "20_Areas/DevOps/Lifecycle/Runtime/Kubernetes/K8s hard way/K8s Hard Way MOC.md",
-    "20_Areas/OS/NixOS.md",
-    "20_Areas/OS/Linux/Daily_Ops/Установка_ARCH_Linux_v2.md",
-    "ENG_PROMTP.md",
-    "35_live-strategy/04_obsidian-routines/README.md",
-    "35_live-strategy/02_english-c1/game-vocabulary.md",
-    "35_live-strategy/03_finance-buffer/README.md",
-    "35_live-strategy/02_english-c1/README.md",
-    "35_live-strategy/04_obsidian-routines/templates/weekly-review.md",
-    "35_live-strategy/04_obsidian-routines/templates/daily-evening-dump.md",
     "50_persona/Dashboard.canvas",
     "Pasted image 20260509170851.png",
     "40_Vault_Maintenance/IMG/Pasted image 20260419194206.png",

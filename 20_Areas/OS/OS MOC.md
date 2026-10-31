@@ -38,10 +38,12 @@ banner: "![[gruv-material-texture.png]]"
 ## ️ Virtualization & Automation
 > [!code] Vagrant
 > - [[База в кратце]], [[Под копотом]], [[Практика]], [[Сетевые режимы кратко]], [[Vagrantfile]], [[Шпора]]
+> - **Стенд на Vagrant + libvirt:** [[Outline ручная установка с LDAP и Keycloak]]
 
 ## ❄️ Declarative / Functional Linux
 > [!abstract] Nix-экосистема
-> - [[NixOS]]
+> - [[NixOS]] — теория
+> - [[Моя система NixOS]] — мой конфиг: dwl, команды, best practices
 
 ##  Troubleshooting
 > [!code] Решение популярных проблем

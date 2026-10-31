@@ -19,6 +19,16 @@ banner: "![[gruv-material-texture.png]]"
 > - **Docker:** [[Оркестрация]] | [[Docker MOC]] (вся база, Compose, Swarm, Hard Way — внутри)
 > - **Kubernetes (K3s):** [[Kubernetes MOC]] (K8s Hard Way, AdvKuberK3s, kubeadm, общие заметки — внутри)
 > - **Advanced (без своего MOC):** [[Кворум]], [[Tier III]], [[HA Proxy]], [[High Availability]], [[Kubernetes HA]], [[Сетевая архитектура Kubernetes]]
+> - **Proxy:** [[Proxy]]
+
+##  Storage
+> [!example] Объектное хранилище (S3)
+> - **RustFS:** [[RustFS]]
+
+##  Outline (стенд)
+> [!success] Self-hosted база знаний
+> - **Установка:** [[Outline ручная установка с LDAP и Keycloak]] (3 ВМ, nginx + свой CA, OpenLDAP → Keycloak → OIDC)
+> - **API:** [[Outline API загрузка Markdown и работа с документами]] (импорт .md, документы, коллекции, массовая загрузка)
 
 ##  Infrastructure as Code (IaC)
 > [!check] Инструменты автоматизации
@@ -42,6 +52,7 @@ banner: "![[gruv-material-texture.png]]"
 > [!warning] Мониторинг и логи
 > - **Мониторинг и логи:** [[Observability MOC]] (Grafana, Prometheus, troubleshooting-кейсы — внутри)
 > - **Secrets (без своего MOC):** [[Архитектура HashiCorp Vault|HashiCorp Vault Architecture]], [[Динамические движки секретов в HashiCorp Vault]], [[Интеграция HashiCorp Vault с Kubernetes]], [[Управление идентичностью в HashiCorp Vault]]
+> - **Identity / SSO (стенд):** [[Outline ручная установка с LDAP и Keycloak]] (OpenLDAP → Keycloak → OIDC, nginx + свой CA, Vagrant)
 
 ## ️ Version Control (Git and GitOps)
 > [!done] Гитизация
